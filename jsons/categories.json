@@ -3,21 +3,22 @@
   "header": "ES6",
   "description": "Ecmascript 6",
   "snacks_by_cat_json_filename": "es6.snacks.json",
-  "created_at": "2019-12-24T23:17:32.353Z",
-  "updated_at": "2019-12-25T10:28:08.711Z",
   "key": "es6",
-  "image": {
-    "id": 1,
-    "name": "ECMAScript-01.png",
-    "hash": "579878ae505d4670bd60f055124d9c3c",
+  "image_url": "http://codersnack.com/images/es6.png",
+  "created_at": "2019-12-30T19:00:08.620Z",
+  "updated_at": "2019-12-30T19:00:08.620Z",
+  "image_preview": {
+    "id": 2,
+    "name": "es6.png",
+    "hash": "fc475317b566444dbcb2605b9918cf87",
     "sha256": "HwqWhJDjM92fduJqKeNaJhM1z41h36J-K2-8YaHK_Dg",
     "ext": ".png",
     "mime": "image/png",
     "size": 2.08,
-    "url": "/uploads/579878ae505d4670bd60f055124d9c3c.png",
+    "url": "/uploads/fc475317b566444dbcb2605b9918cf87.png",
     "provider": "local",
     "provider_metadata": null,
-    "created_at": "2019-12-24T23:17:32.369Z",
-    "updated_at": "2019-12-24T23:17:32.369Z"
+    "created_at": "2019-12-30T19:00:08.639Z",
+    "updated_at": "2019-12-30T19:00:08.639Z"
   }
 }]

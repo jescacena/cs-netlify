@@ -1,50 +1,52 @@
 [{
   "id": 1,
-  "snack": {
+  "codersnack": {
     "id": 1,
     "header": "ES6 let and closures",
-    "explanation": "Functions can be nested inside other functions. Consider the next code:\n\n```\n(function autorun(){\n    let x = 1;\n    function log(){ \n       console.log(x); \n    }\n    log();\n})();\n```\n\n**log()** is a nested function inside the **autorun() **function. log() accesses the variable x from its outer function. The **log()** function is a closure.\n\n**Closures are inner functions**. Closures can be created by defining a function inside another function or inside a block.\n\n**Lexical scope** is the ability of the inner function to access the outer scope in which it is defined.\nConsider the next code:\n\n\n```\n(function autorun(){\n    let x = 1;\n    function log(){\n      console.log(x);\n    };\n    \n    function run(fn){\n      let x = 100;\n      fn();\n    }\n    \n    run(log);//1\n})();\n```\n\nThe **log** function is a closure. It refers the x variable from its parent function **autorun()**, not the one from the **run() **function.\n\n**The closure function has access to the scope in which it was created, not the scope in which it is executed**.\n\nThe local function scope of autorun() is the lexical scope of the log()function.\n\nClosures store references of outer variables, they don’t copy the actual values. \nThe for loop statement, with the let declaration, creates a new variable local to the block scope, for each iteration. The next loop creates five closures over five different i variables.\n\n```\n(function run(){\n  for(let i=0; i<5; i++){\n    setTimeout(function log(){\n      console.log(i); //0 1 2 3 4\n    }, 100);\n  }\n})();\n```\n\nWriting the same code with var will create five closures, over the same variable, so all closures will display the last value of i.\n\nThe** log()** function is a closure",
+    "created_at": "2019-12-30T18:56:27.814Z",
+    "updated_at": "2019-12-30T18:58:50.900Z",
+    "explanation": "Functions can be nested inside other functions. \nConsider the next code:\n\n```\n(function autorun(){\n    let x = 1;\n    function log(){ \n       console.log(x); \n    }\n    log();\n})();\n```\n",
     "references": "[[Medium] Discover the power of closures in javascript](https://medium.freecodecamp.org/discover-the-power-of-closures-in-javascript-5c472a7765d7)\n[[Medium] These are the features in es6 that you should know](https://medium.freecodecamp.org/these-are-the-features-in-es6-that-you-should-know-1411194c71cb)",
-    "created_at": "2019-12-24T23:35:56.259Z",
-    "updated_at": "2019-12-24T23:35:56.259Z",
-    "featured_image": {
-      "id": 2,
+    "featured_image_url": "http://codersnack.com/images/es6-let-closure.png",
+    "featured_image_preview": {
+      "id": 1,
       "name": "es6-let-closure.png",
-      "hash": "74f5f1caa949425e98a02a3ad6d92abb",
+      "hash": "fbc6a364da1748bea449d8b8c1f818bd",
       "sha256": "T_ihZTRaAcE59QoXy89nBis36SNKXYyNZ2x8-5yYvBw",
       "ext": ".png",
       "mime": "image/png",
       "size": 9.35,
-      "url": "/uploads/74f5f1caa949425e98a02a3ad6d92abb.png",
+      "url": "/uploads/fbc6a364da1748bea449d8b8c1f818bd.png",
       "provider": "local",
       "provider_metadata": null,
-      "created_at": "2019-12-24T23:35:56.287Z",
-      "updated_at": "2019-12-24T23:35:56.287Z"
+      "created_at": "2019-12-30T18:58:50.917Z",
+      "updated_at": "2019-12-30T18:58:50.917Z"
     }
   },
-  "codersnack_category": {
+  "codersnacks_category": {
     "id": 1,
     "header": "ES6",
     "description": "Ecmascript 6",
     "snacks_by_cat_json_filename": "es6.snacks.json",
-    "created_at": "2019-12-24T23:17:32.353Z",
-    "updated_at": "2019-12-25T10:28:08.711Z",
     "key": "es6",
-    "image": {
-      "id": 1,
-      "name": "ECMAScript-01.png",
-      "hash": "579878ae505d4670bd60f055124d9c3c",
+    "image_url": "http://codersnack.com/images/es6.png",
+    "created_at": "2019-12-30T19:00:08.620Z",
+    "updated_at": "2019-12-30T19:00:08.620Z",
+    "image_preview": {
+      "id": 2,
+      "name": "es6.png",
+      "hash": "fc475317b566444dbcb2605b9918cf87",
       "sha256": "HwqWhJDjM92fduJqKeNaJhM1z41h36J-K2-8YaHK_Dg",
       "ext": ".png",
       "mime": "image/png",
       "size": 2.08,
-      "url": "/uploads/579878ae505d4670bd60f055124d9c3c.png",
+      "url": "/uploads/fc475317b566444dbcb2605b9918cf87.png",
       "provider": "local",
       "provider_metadata": null,
-      "created_at": "2019-12-24T23:17:32.369Z",
-      "updated_at": "2019-12-24T23:17:32.369Z"
+      "created_at": "2019-12-30T19:00:08.639Z",
+      "updated_at": "2019-12-30T19:00:08.639Z"
     }
   },
-  "created_at": "2019-12-25T10:22:41.085Z",
-  "updated_at": "2019-12-25T10:22:41.091Z"
+  "created_at": "2019-12-30T19:00:22.032Z",
+  "updated_at": "2019-12-30T19:00:22.036Z"
 }]
