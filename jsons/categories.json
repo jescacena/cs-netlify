@@ -21,4 +21,73 @@
     "created_at": "2019-12-30T19:00:08.639Z",
     "updated_at": "2019-12-30T19:00:08.639Z"
   }
+}, {
+  "id": 2,
+  "header": "ReactJS",
+  "description": "ReactJS",
+  "snacks_by_cat_json_filename": "reactjs.snacks.json",
+  "key": "reactjs",
+  "image_url": "https://codersnack.com/images/logo-reactjs.png",
+  "created_at": "2019-12-31T19:51:23.456Z",
+  "updated_at": "2019-12-31T19:51:23.456Z",
+  "image_preview": {
+    "id": 4,
+    "name": "logo-reactjs.png",
+    "hash": "184e26e835dc4e16ad7789a8ca97d25d",
+    "sha256": "ek-ixAp6Ir6UtlIEoswH3vum83sE3lYiacTqgsQHpCI",
+    "ext": ".png",
+    "mime": "image/png",
+    "size": 10.75,
+    "url": "/uploads/184e26e835dc4e16ad7789a8ca97d25d.png",
+    "provider": "local",
+    "provider_metadata": null,
+    "created_at": "2019-12-31T19:51:23.474Z",
+    "updated_at": "2019-12-31T19:51:23.474Z"
+  }
+}, {
+  "id": 3,
+  "header": "Javascript design patterns",
+  "description": "Javascript design patterns",
+  "snacks_by_cat_json_filename": "javascript-design-patterns.snacks.json",
+  "key": "javascript-design-patterns",
+  "image_url": "https://codersnack.com/images/design-patterns.png",
+  "created_at": "2019-12-31T19:53:03.454Z",
+  "updated_at": "2019-12-31T19:53:03.454Z",
+  "image_preview": {
+    "id": 5,
+    "name": "design-patterns.jpg",
+    "hash": "da61a2c1b67445b99b18a96470e15d63",
+    "sha256": "VsHmj4Ik_4HvdSZoE8wLe3nE7RbkzGzaMehB3mO1T4A",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 23.12,
+    "url": "/uploads/da61a2c1b67445b99b18a96470e15d63.jpg",
+    "provider": "local",
+    "provider_metadata": null,
+    "created_at": "2019-12-31T19:53:03.466Z",
+    "updated_at": "2019-12-31T19:53:03.466Z"
+  }
+}, {
+  "id": 4,
+  "header": "Functional programming",
+  "description": "Functional programming",
+  "snacks_by_cat_json_filename": "functional-programming.snacks.json",
+  "key": "functional-programming",
+  "image_url": "https://codersnack.com/images/functional-programming.png",
+  "created_at": "2019-12-31T19:54:16.670Z",
+  "updated_at": "2019-12-31T19:54:16.670Z",
+  "image_preview": {
+    "id": 6,
+    "name": "functional-programming.png",
+    "hash": "7e7ea3aa34db4132bea6170855fb1b1b",
+    "sha256": "1fFlKySlujSnKGjQYTfpZMXAqdewwvZNh_wdn-wHkhc",
+    "ext": ".png",
+    "mime": "image/png",
+    "size": 10.27,
+    "url": "/uploads/7e7ea3aa34db4132bea6170855fb1b1b.png",
+    "provider": "local",
+    "provider_metadata": null,
+    "created_at": "2019-12-31T19:54:16.680Z",
+    "updated_at": "2019-12-31T19:54:16.680Z"
+  }
 }]
