@@ -21,11 +21,12 @@ function getTodayDate() {
     return yyyy + '-' + mm + '-' + dd;
 }
 
-function getMarkdownHeader(title, date) {
+function getMarkdownHeader(title, date, slug) {
     return `---
 layout: post
 title:  ${title}
 date:   ${date}
+permalink: /${slug}/
 categories: jekyll update
 ---`;
 }
@@ -51,7 +52,7 @@ fetch('http://localhost:1337/codersnacks')
 
             let slug = item.header.replaceAll(' ','-')
             slug = slug.replace('?','')
-            let contentHeader = getMarkdownHeader(item.header, item.updated_at)
+            let contentHeader = getMarkdownHeader(item.header, item.updated_at, item.slug)
 
             fs.writeFile('_posts/' + todayDate + '-' + slug + '.markdown', contentHeader + '\n' + content, err => {
                 if (err) throw err;

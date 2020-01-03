@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  Factory pattern
-date:   2019-12-31T20:04:49.657Z
+date:   2020-01-03T22:31:15.495Z
+permalink: /js-design-patterns-factory/
 categories: jekyll update
 ---
 Factory pattern is a *class-based creational pattern*. It provides a generic interface that delegates the responsibility of object instantiation to its subclasses.

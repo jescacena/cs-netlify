@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  What is React?
-date:   2019-12-31T20:04:40.879Z
+date:   2020-01-03T22:31:29.182Z
+permalink: /react-what-is/
 categories: jekyll update
 ---
 React is a free, unlicensed JS library focused in **UI management**.

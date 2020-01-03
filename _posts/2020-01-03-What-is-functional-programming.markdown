@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  What is functional programming?
-date:   2019-12-31T21:32:05.322Z
+date:   2020-01-03T22:31:56.190Z
+permalink: /functional-programming.what-is/
 categories: jekyll update
 ---
 Functional programming is a *programming paradigm* that expresses a computation directly as pure functional transformation of data.

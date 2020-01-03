@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  ES6 let and const
-date:   2019-12-31T16:36:40.302Z
+date:   2020-01-03T22:30:33.646Z
+permalink: /es6-let-const/
 categories: jekyll update
 ---
 There are two ways for declaring a variable (let and const) plus one that has become obsolete (var).

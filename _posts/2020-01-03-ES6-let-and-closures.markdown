@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  ES6 let and closures
-date:   2019-12-31T16:27:38.009Z
+date:   2020-01-03T22:30:07.721Z
+permalink: /es6-let-closures/
 categories: jekyll update
 ---
 Functions can be nested inside other functions. 
