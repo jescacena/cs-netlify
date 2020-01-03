@@ -1,0 +1,37 @@
+---
+layout: post
+title:  ES6 let and const
+date:   2019-12-31T16:36:40.302Z
+categories: jekyll update
+---
+There are two ways for declaring a variable (let and const) plus one that has become obsolete (var).
+
+## let
+
+**let declares and optionally initializes a variable in the current scope**. The current scope can be either a module, a function or a block. The value of a variable that is not initialized is undefined .
+Scope defines the lifetime and visibility of a variable. Variables are not visible outside the scope in which they are declared.
+Consider the next code that emphasizes let block scope:
+```
+let x = 1;
+{ 
+  let x = 2;
+}
+console.log(x); //1
+```
+In contrast, the var declaration had no block scope:
+```
+var x = 1;
+{ 
+  var x = 2;
+}
+console.log(x); //2
+```
+
+## const
+
+**const declares a variable that cannot be reassigned**. It becomes a constant only when the assigned value is immutable.
+An immutable value is a value that, once created, cannot be changed. Primitive values are immutable, objects are mutable.
+
+> const freezes the variable, Object.freeze() freezes the object.
+
+The initialization of the const variable is mandatory.
