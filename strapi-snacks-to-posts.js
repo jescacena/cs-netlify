@@ -43,7 +43,6 @@ fetch('http://localhost:1337/codersnacks')
         fsExtra.emptyDirSync('_posts');
 
         var todayDate = getTodayDate();
-
         
         data.forEach(function(item) {
             // console.log(item);
@@ -51,6 +50,7 @@ fetch('http://localhost:1337/codersnacks')
             let content = item.explanation;
 
             let slug = item.header.replaceAll(' ','-')
+            slug = slug.replace('?','')
             let contentHeader = getMarkdownHeader(item.header, item.updated_at)
 
             fs.writeFile('_posts/' + todayDate + '-' + slug + '.markdown', contentHeader + '\n' + content, err => {
