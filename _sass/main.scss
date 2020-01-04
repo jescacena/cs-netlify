@@ -2,44 +2,33 @@ body {
     font-family: SourceCodePro-Regular;
     background-color: $primary-color;
 }
-nav {
-    padding: 1em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 3em;
-    .left {
-      a {
-        &:first-child {
-          font-size: 1.5em;
-          text-decoration: none;
-        }
-        img {
-            width: 1.5em;
-            position: relative;
-            top: -.35em;
-            margin-right: 0.2em;
-        }
 
-        &:nth-child(2) {
-          margin-left: 2em;
-        }
-      }
-    }
+p {
+    font-size: 1em;
+    @include for-phone-only {    
+      font-size: 1.5rem;
+   }
+}
+
+main {
+    // margin-top:3em;
+    position: relative;
+    top: 5em;
 }
 
 section {
-  padding: 1em;
+    padding: 1em;
 }
 
 footer {
-  width: 100%;
-  font-size: 0.8em;
-  position: fixed;
-  bottom: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+    width: 100%;
+    font-size: 0.8em;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 1em;
 }
 .current {
     color: green;

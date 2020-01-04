@@ -3,11 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
     {% include navigation.html %}
-    {{ content }}
+    <main>
+      {{ content }}
+    </main>
+
     <footer><i>Copyright 2020 @ Javier Escacena</i></footer>
   </body>
 </html>
