@@ -5,19 +5,84 @@ body {
 
 p {
     font-size: 1em;
-    @include for-phone-only {    
-      font-size: 1.5rem;
-   }
+    @include for-phone-only {
+        font-size: 1.5rem;
+    }
 }
 
 main {
     // margin-top:3em;
     position: relative;
     top: 5em;
-}
 
-section {
-    padding: 1em;
+    section {
+        padding: 1em;
+    }
+
+    h3 {
+        font-size: 2em;
+        margin-bottom: 0.5em;
+    }
+
+    blockquote {
+        background-color: white;
+        padding: .2em 1em;
+        font-style: italic;
+        margin: 1em;
+        max-width: 50%;
+    }
+
+    // code blocks
+    .highlighter-rouge {
+        background-color: $darkBlueColor;
+        padding: 1em;
+        color: white;
+        font-family: SourceCodePro-ExtraLight;
+        line-height: 1.5em;
+        margin: 1em;
+    }
+
+    p {
+        margin: 1em;
+    }
+
+    section.main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .left {
+            margin-top: 1em;
+            max-width: 46em;
+            float: left;
+            p {
+                margin-bottom: 4em;
+            }
+            button {
+                background-color: $darkBlueColor;
+                color: white;
+                border-radius: 10px;
+                padding: 1em 2em;
+                border: 0;
+                font-family: SourceCodePro-Regular;
+            }
+        }
+
+        .right {
+            float: right;
+            margin: 1em;
+        }
+    }
+
+    section.latest {
+        .post-list {
+            margin: 0;
+            padding: 0;
+            li {
+                padding: 1em 2em;
+            }
+        }
+    }
 }
 
 footer {
@@ -28,7 +93,9 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    bottom: 1em;
+    padding: .5em 0;
+    background-color: $primary-color;
+    z-index: 11111;
 }
 .current {
     color: green;

@@ -1,11 +1,11 @@
 // Fonts
-@include font-face(SourceCodePro-Regular, fonts/SourceCodePro-Black);
-@include font-face(SourceCodePro-Regular, fonts/SourceCodePro-Bold);
-@include font-face(SourceCodePro-Regular, fonts/SourceCodePro-ExtraLight);
-@include font-face(SourceCodePro-Regular, fonts/SourceCodePro-Light);
-@include font-face(SourceCodePro-Regular, fonts/SourceCodePro-Medium);
+@include font-face(SourceCodePro-Black, fonts/SourceCodePro-Black);
+@include font-face(SourceCodePro-Bold, fonts/SourceCodePro-Bold);
+@include font-face(SourceCodePro-ExtraLight, fonts/SourceCodePro-ExtraLight);
+@include font-face(SourceCodePro-Light, fonts/SourceCodePro-Light);
+@include font-face(SourceCodePro-Medium, fonts/SourceCodePro-Medium);
 @include font-face(SourceCodePro-Regular, fonts/SourceCodePro-Regular);
-@include font-face(SourceCodePro-Regular, fonts/SourceCodePro-Semibold);
+@include font-face(SourceCodePro-Semibold, fonts/SourceCodePro-Semibold);
 
 // Colors
 $orangeColor: #ffc836;
