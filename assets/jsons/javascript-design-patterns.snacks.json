@@ -1,53 +1,56 @@
-[{
-  "id": 4,
-  "codersnack": {
-    "id": 3,
-    "header": "Factory pattern",
-    "created_at": "2019-12-31T19:59:11.102Z",
-    "updated_at": "2019-12-31T20:04:49.657Z",
-    "explanation": "Factory pattern is a *class-based creational pattern*. It provides a generic interface that delegates the responsibility of object instantiation to its subclasses.\n\nThis pattern is frequently used when we need to manage or **manipulate collections of objects that are different yet have many similar characteristics**.\n\nJavascript Example\n```\nclass BallFactory {\n  constructor() {\n    this.createBall = type => {\n      let ball;\n\n      if (type === \"soccer\" || type === \"football\") {\n        ball = new Football();\n      } else if (type === \"basketball\") {\n        ball = new Basketball();\n      }\n      ball.roll = () => {\n        console.log(`The ${type} is rolling`);\n      };\n\n      return ball;\n    };\n  }\n}\n\nclass Football {\n  constructor() {\n    this._type = \"football\";\n    this.kick = () => {\n      console.log(\"You kicked the football\");\n    };\n  }\n}\n\nclass Basketball {\n  constructor() {\n    this._type = \"basketball\";\n    this.bounce = () => {\n      console.log(\"You bounced the basketball\");\n    };\n  }\n}\n\n// creating objects\nconst factory = new BallFactory();\nconst myFootball = factory.createBall(\"football\");\nconst myBasketball = factory.createBall(\"basketball\");\n\nmyFootball.roll();\nmyBasketball.roll();\n\nmyFootball.kick();\n\nmyBasketball.bounce();\n```",
-    "references": "[Medium - Javascript design psatterns](https://medium.com/beginners-guide-to-mobile-web-development/javascript-design-patterns-25f0faaaa15)\n[Codepen example](https://codepen.io/jescacena/project/editor/ZyVyGn)\n[Essential JS design patterns book](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)",
-    "featured_image_url": "https://codersnack.com/images/design-patterns.jpg",
-    "featured_image_preview": {
-      "id": 7,
-      "name": "design-patterns.jpg",
-      "hash": "69291b42c54b4448af713c010abcaad6",
-      "sha256": "VsHmj4Ik_4HvdSZoE8wLe3nE7RbkzGzaMehB3mO1T4A",
-      "ext": ".jpg",
-      "mime": "image/jpeg",
-      "size": 23.12,
-      "url": "/uploads/69291b42c54b4448af713c010abcaad6.jpg",
-      "provider": "local",
-      "provider_metadata": null,
-      "created_at": "2019-12-31T19:59:11.112Z",
-      "updated_at": "2019-12-31T19:59:11.112Z"
+[
+    {
+        "id": 4,
+        "codersnack": {
+            "id": 3,
+            "header": "Factory pattern",
+            "created_at": "2019-12-31T19:59:11.102Z",
+            "updated_at": "2020-01-04T11:10:06.766Z",
+            "explanation": "Factory pattern is a *class-based creational pattern*. It provides a generic interface that delegates the responsibility of object instantiation to its subclasses.\n\nThis pattern is frequently used when we need to manage or **manipulate collections of objects that are different yet have many similar characteristics**.\n\nJavascript Example\n```\nclass BallFactory {\n  constructor() {\n    this.createBall = type => {\n      let ball;\n\n      if (type === \"soccer\" || type === \"football\") {\n        ball = new Football();\n      } else if (type === \"basketball\") {\n        ball = new Basketball();\n      }\n      ball.roll = () => {\n        console.log(`The ${type} is rolling`);\n      };\n\n      return ball;\n    };\n  }\n}\n\nclass Football {\n  constructor() {\n    this._type = \"football\";\n    this.kick = () => {\n      console.log(\"You kicked the football\");\n    };\n  }\n}\n\nclass Basketball {\n  constructor() {\n    this._type = \"basketball\";\n    this.bounce = () => {\n      console.log(\"You bounced the basketball\");\n    };\n  }\n}\n\n// creating objects\nconst factory = new BallFactory();\nconst myFootball = factory.createBall(\"football\");\nconst myBasketball = factory.createBall(\"basketball\");\n\nmyFootball.roll();\nmyBasketball.roll();\n\nmyFootball.kick();\n\nmyBasketball.bounce();\n```",
+            "references": "[Medium - Javascript design psatterns](https://medium.com/beginners-guide-to-mobile-web-development/javascript-design-patterns-25f0faaaa15)\n[Codepen example](https://codepen.io/jescacena/project/editor/ZyVyGn)\n[Essential JS design patterns book](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)",
+            "featured_image_url": "https://codersnack.com/assets/images/design-patterns.jpg",
+            "slug": "js-design-patterns-factory",
+            "featured_image_preview": {
+                "id": 7,
+                "name": "design-patterns.jpg",
+                "hash": "69291b42c54b4448af713c010abcaad6",
+                "sha256": "VsHmj4Ik_4HvdSZoE8wLe3nE7RbkzGzaMehB3mO1T4A",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 23.12,
+                "url": "/uploads/69291b42c54b4448af713c010abcaad6.jpg",
+                "provider": "local",
+                "provider_metadata": null,
+                "created_at": "2019-12-31T19:59:11.112Z",
+                "updated_at": "2019-12-31T19:59:11.112Z"
+            }
+        },
+        "codersnacks_category": {
+            "id": 3,
+            "header": "Javascript design patterns",
+            "description": "Javascript design patterns",
+            "snacks_by_cat_json_filename": "javascript-design-patterns.snacks.json",
+            "key": "javascript-design-patterns",
+            "image_url": "https://codersnack.com/assets/images/design-patterns.jpg",
+            "created_at": "2019-12-31T19:53:03.454Z",
+            "updated_at": "2020-01-04T11:09:18.108Z",
+            "image_preview": {
+                "id": 5,
+                "name": "design-patterns.jpg",
+                "hash": "da61a2c1b67445b99b18a96470e15d63",
+                "sha256": "VsHmj4Ik_4HvdSZoE8wLe3nE7RbkzGzaMehB3mO1T4A",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 23.12,
+                "url": "/uploads/da61a2c1b67445b99b18a96470e15d63.jpg",
+                "provider": "local",
+                "provider_metadata": null,
+                "created_at": "2019-12-31T19:53:03.466Z",
+                "updated_at": "2019-12-31T19:53:03.466Z"
+            }
+        },
+        "title": "js design patterns - factory",
+        "created_at": "2019-12-31T20:18:58.523Z",
+        "updated_at": "2019-12-31T20:19:21.840Z"
     }
-  },
-  "codersnacks_category": {
-    "id": 3,
-    "header": "Javascript design patterns",
-    "description": "Javascript design patterns",
-    "snacks_by_cat_json_filename": "javascript-design-patterns.snacks.json",
-    "key": "javascript-design-patterns",
-    "image_url": "https://codersnack.com/images/design-patterns.jpg",
-    "created_at": "2019-12-31T19:53:03.454Z",
-    "updated_at": "2019-12-31T19:53:03.454Z",
-    "image_preview": {
-      "id": 5,
-      "name": "design-patterns.jpg",
-      "hash": "da61a2c1b67445b99b18a96470e15d63",
-      "sha256": "VsHmj4Ik_4HvdSZoE8wLe3nE7RbkzGzaMehB3mO1T4A",
-      "ext": ".jpg",
-      "mime": "image/jpeg",
-      "size": 23.12,
-      "url": "/uploads/da61a2c1b67445b99b18a96470e15d63.jpg",
-      "provider": "local",
-      "provider_metadata": null,
-      "created_at": "2019-12-31T19:53:03.466Z",
-      "updated_at": "2019-12-31T19:53:03.466Z"
-    }
-  },
-  "title": "js design patterns - factory",
-  "created_at": "2019-12-31T20:18:58.523Z",
-  "updated_at": "2019-12-31T20:19:21.840Z"
-}]
+]

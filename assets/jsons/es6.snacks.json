@@ -1,2 +1,110 @@
-
-[{"id":1,"codersnack":{"id":1,"header":"ES6 let and closures","created_at":"2019-12-30T18:56:27.814Z","updated_at":"2019-12-31T16:27:38.009Z","explanation":"Functions can be nested inside other functions. \nConsider the next code:\n\n```\n(function autorun(){\n    let x = 1;\n    function log(){ \n       console.log(x); \n    }\n    log();\n})();\n```\n**log()** is a nested function inside the autorun() function. log() accesses the variable x from its outer function. The log() function is a closure.\n\n> **Closures** are inner functions. Closures can be created by defining a function inside another function or inside a block.\n> **Lexical scope** is the ability of the inner function to access the outer scope in which it is defined.\nConsider the next code:\n\n```\n(function autorun(){\n    let x = 1;\n    function log(){\n      console.log(x);\n    };\n    \n    function run(fn){\n      let x = 100;\n      fn();\n    }\n    \n    run(log);//1\n})();\n```\n\n**The log function is a closure**. It refers the x variable from its parent function autorun(), not the one from the run() function.\n> The closure function has access to the scope in which it was created, not the scope in which it is executed.\n\nThe local function scope of autorun() is the lexical scope of the log()function.\n\n> Closures store references of outer variables, they don’t copy the actual values. \n\nThe for loop statement, with the let declaration, creates a new variable local to the block scope, for each iteration. The next loop creates five closures over five different i variables.\n\n```\n(function run(){\n  for(let i=0; i<5; i++){\n    setTimeout(function log(){\n      console.log(i); //0 1 2 3 4\n    }, 100);\n  }\n})();\n```\nWriting the same code with var will create five closures, over the same variable, so all closures will display the last value of i. The *log()* function is a closure","references":"[[Medium] Discover the power of closures in javascript](https://medium.freecodecamp.org/discover-the-power-of-closures-in-javascript-5c472a7765d7)\n[[Medium] These are the features in es6 that you should know](https://medium.freecodecamp.org/these-are-the-features-in-es6-that-you-should-know-1411194c71cb)","featured_image_url":"http://codersnack.com/images/es6-let-closure.png","featured_image_preview":{"id":1,"name":"es6-let-closure.png","hash":"fbc6a364da1748bea449d8b8c1f818bd","sha256":"T_ihZTRaAcE59QoXy89nBis36SNKXYyNZ2x8-5yYvBw","ext":".png","mime":"image/png","size":9.35,"url":"/uploads/fbc6a364da1748bea449d8b8c1f818bd.png","provider":"local","provider_metadata":null,"created_at":"2019-12-30T18:58:50.917Z","updated_at":"2019-12-30T18:58:50.917Z"}},"codersnacks_category":{"id":1,"header":"ES6","description":"Ecmascript 6","snacks_by_cat_json_filename":"es6.snacks.json","key":"es6","image_url":"http://codersnack.com/images/es6.png","created_at":"2019-12-30T19:00:08.620Z","updated_at":"2019-12-30T19:00:08.620Z","image_preview":{"id":2,"name":"es6.png","hash":"fc475317b566444dbcb2605b9918cf87","sha256":"HwqWhJDjM92fduJqKeNaJhM1z41h36J-K2-8YaHK_Dg","ext":".png","mime":"image/png","size":2.08,"url":"/uploads/fc475317b566444dbcb2605b9918cf87.png","provider":"local","provider_metadata":null,"created_at":"2019-12-30T19:00:08.639Z","updated_at":"2019-12-30T19:00:08.639Z"}},"created_at":"2019-12-30T19:00:22.032Z","updated_at":"2019-12-30T19:00:22.036Z"},{"id":2,"codersnack":{"id":2,"header":"ES6 let and const","created_at":"2019-12-31T16:35:45.883Z","updated_at":"2019-12-31T16:36:40.302Z","explanation":"There are two ways for declaring a variable (let and const) plus one that has become obsolete (var).\n\n## let\n\n**let declares and optionally initializes a variable in the current scope**. The current scope can be either a module, a function or a block. The value of a variable that is not initialized is undefined .\nScope defines the lifetime and visibility of a variable. Variables are not visible outside the scope in which they are declared.\nConsider the next code that emphasizes let block scope:\n```\nlet x = 1;\n{ \n  let x = 2;\n}\nconsole.log(x); //1\n```\nIn contrast, the var declaration had no block scope:\n```\nvar x = 1;\n{ \n  var x = 2;\n}\nconsole.log(x); //2\n```\n\n## const\n\n**const declares a variable that cannot be reassigned**. It becomes a constant only when the assigned value is immutable.\nAn immutable value is a value that, once created, cannot be changed. Primitive values are immutable, objects are mutable.\n\n> const freezes the variable, Object.freeze() freezes the object.\n\nThe initialization of the const variable is mandatory.\n","references":"[Medium - These are the features in es6 that you should know](https://medium.freecodecamp.org/these-are-the-features-in-es6-that-you-should-know-1411194c71cb)\n[Medium - Discover the power of closures in javascript](https://medium.freecodecamp.org/discover-the-power-of-closures-in-javascript-5c472a7765d7)","featured_image_url":"https://codersnack.com/images/es6-let-const.png","featured_image_preview":{"id":3,"name":"es6-let-const.png","hash":"948e28b024e349818929b0c12c071613","sha256":"2zlsGi4zWiNhlovCU5Vj5PG7oZbokWm2d-9p_RNCB-g","ext":".png","mime":"image/png","size":36.12,"url":"/uploads/948e28b024e349818929b0c12c071613.png","provider":"local","provider_metadata":null,"created_at":"2019-12-31T16:35:45.896Z","updated_at":"2019-12-31T16:35:45.896Z"}},"codersnacks_category":{"id":1,"header":"ES6","description":"Ecmascript 6","snacks_by_cat_json_filename":"es6.snacks.json","key":"es6","image_url":"http://codersnack.com/images/es6.png","created_at":"2019-12-30T19:00:08.620Z","updated_at":"2019-12-30T19:00:08.620Z","image_preview":{"id":2,"name":"es6.png","hash":"fc475317b566444dbcb2605b9918cf87","sha256":"HwqWhJDjM92fduJqKeNaJhM1z41h36J-K2-8YaHK_Dg","ext":".png","mime":"image/png","size":2.08,"url":"/uploads/fc475317b566444dbcb2605b9918cf87.png","provider":"local","provider_metadata":null,"created_at":"2019-12-30T19:00:08.639Z","updated_at":"2019-12-30T19:00:08.639Z"}},"created_at":"2019-12-31T16:37:07.331Z","updated_at":"2019-12-31T16:37:07.336Z"}]
+[
+    {
+        "id": 1,
+        "codersnack": {
+            "id": 1,
+            "header": "ES6 let and closures",
+            "created_at": "2019-12-30T18:56:27.814Z",
+            "updated_at": "2020-01-04T11:09:51.851Z",
+            "explanation": "Functions can be nested inside other functions. \nConsider the next code:\n\n```\n(function autorun(){\n    let x = 1;\n    function log(){ \n       console.log(x); \n    }\n    log();\n})();\n```\n**log()** is a nested function inside the autorun() function. log() accesses the variable x from its outer function. The log() function is a closure.\n\n> **Closures** are inner functions. Closures can be created by defining a function inside another function or inside a block.\n> **Lexical scope** is the ability of the inner function to access the outer scope in which it is defined.\nConsider the next code:\n\n```\n(function autorun(){\n    let x = 1;\n    function log(){\n      console.log(x);\n    };\n    \n    function run(fn){\n      let x = 100;\n      fn();\n    }\n    \n    run(log);//1\n})();\n```\n\n**The log function is a closure**. It refers the x variable from its parent function autorun(), not the one from the run() function.\n> The closure function has access to the scope in which it was created, not the scope in which it is executed.\n\nThe local function scope of autorun() is the lexical scope of the log()function.\n\n> Closures store references of outer variables, they don’t copy the actual values. \n\nThe for loop statement, with the let declaration, creates a new variable local to the block scope, for each iteration. The next loop creates five closures over five different i variables.\n\n```\n(function run(){\n  for(let i=0; i<5; i++){\n    setTimeout(function log(){\n      console.log(i); //0 1 2 3 4\n    }, 100);\n  }\n})();\n```\nWriting the same code with var will create five closures, over the same variable, so all closures will display the last value of i. The *log()* function is a closure",
+            "references": "[[Medium] Discover the power of closures in javascript](https://medium.freecodecamp.org/discover-the-power-of-closures-in-javascript-5c472a7765d7)\n[[Medium] These are the features in es6 that you should know](https://medium.freecodecamp.org/these-are-the-features-in-es6-that-you-should-know-1411194c71cb)",
+            "featured_image_url": "http://codersnack.com/assets/images/es6-let-closure.png",
+            "slug": "es6-let-closures",
+            "featured_image_preview": {
+                "id": 1,
+                "name": "es6-let-closure.png",
+                "hash": "fbc6a364da1748bea449d8b8c1f818bd",
+                "sha256": "T_ihZTRaAcE59QoXy89nBis36SNKXYyNZ2x8-5yYvBw",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 9.35,
+                "url": "/uploads/fbc6a364da1748bea449d8b8c1f818bd.png",
+                "provider": "local",
+                "provider_metadata": null,
+                "created_at": "2019-12-30T18:58:50.917Z",
+                "updated_at": "2019-12-30T18:58:50.917Z"
+            }
+        },
+        "codersnacks_category": {
+            "id": 1,
+            "header": "ES6",
+            "description": "Ecmascript 6",
+            "snacks_by_cat_json_filename": "es6.snacks.json",
+            "key": "es6",
+            "image_url": "http://codersnack.com/assets/images/es6.png",
+            "created_at": "2019-12-30T19:00:08.620Z",
+            "updated_at": "2020-01-04T11:09:02.347Z",
+            "image_preview": {
+                "id": 2,
+                "name": "es6.png",
+                "hash": "fc475317b566444dbcb2605b9918cf87",
+                "sha256": "HwqWhJDjM92fduJqKeNaJhM1z41h36J-K2-8YaHK_Dg",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 2.08,
+                "url": "/uploads/fc475317b566444dbcb2605b9918cf87.png",
+                "provider": "local",
+                "provider_metadata": null,
+                "created_at": "2019-12-30T19:00:08.639Z",
+                "updated_at": "2019-12-30T19:00:08.639Z"
+            }
+        },
+        "title": "ES6-ES6 let and closures ",
+        "created_at": "2019-12-30T19:00:22.032Z",
+        "updated_at": "2019-12-31T20:12:05.206Z"
+    },
+    {
+        "id": 2,
+        "codersnack": {
+            "id": 2,
+            "header": "ES6 let and const",
+            "created_at": "2019-12-31T16:35:45.883Z",
+            "updated_at": "2020-01-04T11:09:59.105Z",
+            "explanation": "There are two ways for declaring a variable (let and const) plus one that has become obsolete (var).\n\n## let\n\n**let declares and optionally initializes a variable in the current scope**. The current scope can be either a module, a function or a block. The value of a variable that is not initialized is undefined .\nScope defines the lifetime and visibility of a variable. Variables are not visible outside the scope in which they are declared.\nConsider the next code that emphasizes let block scope:\n```\nlet x = 1;\n{ \n  let x = 2;\n}\nconsole.log(x); //1\n```\nIn contrast, the var declaration had no block scope:\n```\nvar x = 1;\n{ \n  var x = 2;\n}\nconsole.log(x); //2\n```\n\n## const\n\n**const declares a variable that cannot be reassigned**. It becomes a constant only when the assigned value is immutable.\nAn immutable value is a value that, once created, cannot be changed. Primitive values are immutable, objects are mutable.\n\n> const freezes the variable, Object.freeze() freezes the object.\n\nThe initialization of the const variable is mandatory.\n",
+            "references": "[Medium - These are the features in es6 that you should know](https://medium.freecodecamp.org/these-are-the-features-in-es6-that-you-should-know-1411194c71cb)\n[Medium - Discover the power of closures in javascript](https://medium.freecodecamp.org/discover-the-power-of-closures-in-javascript-5c472a7765d7)",
+            "featured_image_url": "https://codersnack.com/assets/images/es6-let-const.png",
+            "slug": "es6-let-const",
+            "featured_image_preview": {
+                "id": 3,
+                "name": "es6-let-const.png",
+                "hash": "948e28b024e349818929b0c12c071613",
+                "sha256": "2zlsGi4zWiNhlovCU5Vj5PG7oZbokWm2d-9p_RNCB-g",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 36.12,
+                "url": "/uploads/948e28b024e349818929b0c12c071613.png",
+                "provider": "local",
+                "provider_metadata": null,
+                "created_at": "2019-12-31T16:35:45.896Z",
+                "updated_at": "2019-12-31T16:35:45.896Z"
+            }
+        },
+        "codersnacks_category": {
+            "id": 1,
+            "header": "ES6",
+            "description": "Ecmascript 6",
+            "snacks_by_cat_json_filename": "es6.snacks.json",
+            "key": "es6",
+            "image_url": "http://codersnack.com/assets/images/es6.png",
+            "created_at": "2019-12-30T19:00:08.620Z",
+            "updated_at": "2020-01-04T11:09:02.347Z",
+            "image_preview": {
+                "id": 2,
+                "name": "es6.png",
+                "hash": "fc475317b566444dbcb2605b9918cf87",
+                "sha256": "HwqWhJDjM92fduJqKeNaJhM1z41h36J-K2-8YaHK_Dg",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 2.08,
+                "url": "/uploads/fc475317b566444dbcb2605b9918cf87.png",
+                "provider": "local",
+                "provider_metadata": null,
+                "created_at": "2019-12-30T19:00:08.639Z",
+                "updated_at": "2019-12-30T19:00:08.639Z"
+            }
+        },
+        "title": "ES6-ES6 let and const",
+        "created_at": "2019-12-31T16:37:07.331Z",
+        "updated_at": "2019-12-31T20:12:56.454Z"
+    }
+]

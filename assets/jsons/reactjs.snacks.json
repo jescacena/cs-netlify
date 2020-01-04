@@ -1,2 +1,56 @@
-
-[{"id":3,"codersnack":{"id":4,"header":"What is React?","created_at":"2019-12-31T20:04:40.879Z","updated_at":"2019-12-31T20:04:40.879Z","explanation":"React is a free, unlicensed JS library focused in **UI management**.\n\nCreated by *Facebook*, React was initially released in 2013.\n\nReact has some unique core concepts. It has a virtual DOM, JSX components, input properties, and props. Also, each React component has a state and a lifecycle.\n\n#### Virtual DOM\nInstead of constantly having to work with the real DOM, which is very expensive, everything is handled virtually until we absolutely need to update the DOM. \n\n#### JSX \nIt is officially an XML-like syntax that is close to HTML, but not quite HTML. It is actually JavaScript with HTML sprinkled in.\n\nExample\n\n```\nclass Welcome extends React.Component {\n  render() {\n    return <h1>Hello, {this.props.name}</h1>;\n  }\n}\n```\n","references":"[Fun with React - A quick overview](https://www.telerik.com/blogs/fun-with-react-a-quick-overview)","featured_image_url":"https://codersnack.com/images/logo-reactjs.png","featured_image_preview":{"id":8,"name":"logo-reactjs.png","hash":"51404cadac89402c960c70f6a9cc9b4a","sha256":"ek-ixAp6Ir6UtlIEoswH3vum83sE3lYiacTqgsQHpCI","ext":".png","mime":"image/png","size":10.75,"url":"/uploads/51404cadac89402c960c70f6a9cc9b4a.png","provider":"local","provider_metadata":null,"created_at":"2019-12-31T20:04:40.889Z","updated_at":"2019-12-31T20:04:40.889Z"}},"codersnacks_category":{"id":2,"header":"ReactJS","description":"ReactJS","snacks_by_cat_json_filename":"reactjs.snacks.json","key":"reactjs","image_url":"https://codersnack.com/images/logo-reactjs.png","created_at":"2019-12-31T19:51:23.456Z","updated_at":"2019-12-31T19:51:23.456Z","image_preview":{"id":4,"name":"logo-reactjs.png","hash":"184e26e835dc4e16ad7789a8ca97d25d","sha256":"ek-ixAp6Ir6UtlIEoswH3vum83sE3lYiacTqgsQHpCI","ext":".png","mime":"image/png","size":10.75,"url":"/uploads/184e26e835dc4e16ad7789a8ca97d25d.png","provider":"local","provider_metadata":null,"created_at":"2019-12-31T19:51:23.474Z","updated_at":"2019-12-31T19:51:23.474Z"}},"title":"ReactJS - What is ReactJS","created_at":"2019-12-31T20:14:05.872Z","updated_at":"2019-12-31T20:17:02.216Z"}]
+[
+    {
+        "id": 3,
+        "codersnack": {
+            "id": 4,
+            "header": "What is React?",
+            "created_at": "2019-12-31T20:04:40.879Z",
+            "updated_at": "2020-01-04T11:10:14.148Z",
+            "explanation": "React is a free, unlicensed JS library focused in **UI management**.\n\nCreated by *Facebook*, React was initially released in 2013.\n\nReact has some unique core concepts. It has a virtual DOM, JSX components, input properties, and props. Also, each React component has a state and a lifecycle.\n\n#### Virtual DOM\nInstead of constantly having to work with the real DOM, which is very expensive, everything is handled virtually until we absolutely need to update the DOM. \n\n#### JSX \nIt is officially an XML-like syntax that is close to HTML, but not quite HTML. It is actually JavaScript with HTML sprinkled in.\n\nExample\n\n```\nclass Welcome extends React.Component {\n  render() {\n    return <h1>Hello, {this.props.name}</h1>;\n  }\n}\n```\n",
+            "references": "[Fun with React - A quick overview](https://www.telerik.com/blogs/fun-with-react-a-quick-overview)",
+            "featured_image_url": "https://codersnack.com/assets/images/logo-reactjs.png",
+            "slug": "react-what-is",
+            "featured_image_preview": {
+                "id": 8,
+                "name": "logo-reactjs.png",
+                "hash": "51404cadac89402c960c70f6a9cc9b4a",
+                "sha256": "ek-ixAp6Ir6UtlIEoswH3vum83sE3lYiacTqgsQHpCI",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 10.75,
+                "url": "/uploads/51404cadac89402c960c70f6a9cc9b4a.png",
+                "provider": "local",
+                "provider_metadata": null,
+                "created_at": "2019-12-31T20:04:40.889Z",
+                "updated_at": "2019-12-31T20:04:40.889Z"
+            }
+        },
+        "codersnacks_category": {
+            "id": 2,
+            "header": "ReactJS",
+            "description": "ReactJS",
+            "snacks_by_cat_json_filename": "reactjs.snacks.json",
+            "key": "reactjs",
+            "image_url": "https://codersnack.com/assets/images/logo-reactjs.png",
+            "created_at": "2019-12-31T19:51:23.456Z",
+            "updated_at": "2020-01-04T11:09:32.516Z",
+            "image_preview": {
+                "id": 4,
+                "name": "logo-reactjs.png",
+                "hash": "184e26e835dc4e16ad7789a8ca97d25d",
+                "sha256": "ek-ixAp6Ir6UtlIEoswH3vum83sE3lYiacTqgsQHpCI",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 10.75,
+                "url": "/uploads/184e26e835dc4e16ad7789a8ca97d25d.png",
+                "provider": "local",
+                "provider_metadata": null,
+                "created_at": "2019-12-31T19:51:23.474Z",
+                "updated_at": "2019-12-31T19:51:23.474Z"
+            }
+        },
+        "title": "ReactJS - What is ReactJS",
+        "created_at": "2019-12-31T20:14:05.872Z",
+        "updated_at": "2019-12-31T20:17:02.216Z"
+    }
+]
