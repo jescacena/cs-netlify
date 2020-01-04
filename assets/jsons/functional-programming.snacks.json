@@ -5,11 +5,12 @@
             "id": 5,
             "header": "What is functional programming?",
             "created_at": "2019-12-31T20:10:18.316Z",
-            "updated_at": "2020-01-04T11:10:21.891Z",
+            "updated_at": "2020-01-04T21:15:54.433Z",
             "explanation": "Functional programming is a *programming paradigm* that expresses a computation directly as pure functional transformation of data.\n\n A functional program can be viewed as a declarative program where computations are specified as *pure functions*.\n\n> Pure functions is a function that returns always the same value for the same input and has no side effects.\n\nIn constrast to imperative programming (which describe how to does something) , functional programming **describe what to to instead of how to do it**.\n\nJavascript example using Imperative approach\n\n```\nfunction getFileMapById(files) {\n  const fileMap = {};\n  for (let i = 0; i < files.length; i++) {\n    const file = files[i];\n    fileMap[file.id] = file;\n  }\n  return fileMap\n}\n```\n\nSame example using Declarative/Functional approach\n\n```\nfunction getFileMapById(files) {\n  return lodash.keyBy(files, \"id\")\n}\n```\n",
             "references": "[Why functional programming](https://sookocheff.com/post/fp/why-functional-programming/)\n[Functional Programming Fundamentals](https://www.matthewgerstman.com/tech/functional-programming-fundamentals/)",
             "featured_image_url": "https://codersnack.com/assets/images/fp_lisp.png",
             "slug": "functional-programming.what-is",
+            "weblink": "https://codersnack.com/functional-programming.what-is/",
             "featured_image_preview": {
                 "id": 9,
                 "name": "fp_lisp.png",
