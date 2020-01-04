@@ -22,6 +22,11 @@ main {
     h3 {
         font-size: 2em;
         margin-bottom: 0.5em;
+        @include for-phone-only {
+            margin-bottom: 1.5em;
+            text-align: left;
+            margin-left: 1em;
+        }
     }
 
     blockquote {
@@ -55,8 +60,19 @@ main {
             margin-top: 1em;
             max-width: 46em;
             float: left;
+            text-align: left;
+
+            @include for-phone-only {
+                float: none;
+                text-align: center;
+            }
             p {
                 margin-bottom: 4em;
+                @include for-phone-only {
+                    font-size: 1em;
+                    text-align: left;
+                    margin-left: 2em;
+                }
             }
             button {
                 background-color: $darkBlueColor;
@@ -71,6 +87,9 @@ main {
         .right {
             float: right;
             margin: 1em;
+            @include for-phone-only {
+                display: none;
+            }
         }
     }
 
@@ -80,6 +99,14 @@ main {
             padding: 0;
             li {
                 padding: 1em 2em;
+                h2 {
+                    font-size: 1.3em;
+                }
+
+                p {
+                    font-size: 1em;
+                }
+
             }
         }
     }
