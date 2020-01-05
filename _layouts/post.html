@@ -4,7 +4,9 @@ layout: default
 
 <section class="post-content">
     <h3>{{ page.title }}</h3>
-    <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
-
+    
     {{ content }}
+
+    <p>---</p>
+    <p class="date">Last update on {{ page.date | date_to_string }}</p>
 </section>
