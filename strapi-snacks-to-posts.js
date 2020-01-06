@@ -50,10 +50,12 @@ fetch('http://localhost:1337/codersnacks')
             // let content = JSON.stringify(item.explanation, null, 2).replaceAll('\\n','\n');
             let content = item.explanation;
 
-            let slug = item.header.replaceAll(' ','-')
-            slug = slug.replace('?','')
-            slug = slug.replace(':','')
-            let contentHeader = getMarkdownHeader(item.header, item.updated_at, item.slug)
+            let slug = item.header.replaceAll(' ','-');
+            slug = slug.replace('?','');
+            slug = slug.replace(':','');
+
+            let title = item.header.replace(':','');
+            let contentHeader = getMarkdownHeader(title, item.updated_at, item.slug)
 
             fs.writeFile('_posts/' + todayDate + '-' + slug + '.markdown', contentHeader + '\n' + content, err => {
                 if (err) throw err;
