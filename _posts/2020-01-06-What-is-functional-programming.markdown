@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  What is functional programming?
-date:   2020-01-03T22:31:56.190Z
+date:   2020-01-04T21:15:54.433Z
 permalink: /functional-programming.what-is/
 categories: jekyll update
 ---

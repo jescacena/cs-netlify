@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  What is React?
-date:   2020-01-03T22:31:29.182Z
+date:   2020-01-04T21:15:36.703Z
 permalink: /react-what-is/
 categories: jekyll update
 ---

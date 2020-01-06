@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ES6 let and const
-date:   2020-01-03T22:30:33.646Z
+date:   2020-01-04T21:15:00.442Z
 permalink: /es6-let-const/
 categories: jekyll update
 ---

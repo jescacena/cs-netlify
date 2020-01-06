@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Factory pattern
-date:   2020-01-03T22:31:15.495Z
+date:   2020-01-04T21:15:18.716Z
 permalink: /js-design-patterns-factory/
 categories: jekyll update
 ---
