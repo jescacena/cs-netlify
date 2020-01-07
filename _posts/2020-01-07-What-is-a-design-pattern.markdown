@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  What is a design pattern?
-date:   2020-01-06T18:13:33.420Z
+date:   2020-01-07T05:57:11.345Z
 permalink: /design-pattern-what-is/
 categories: jekyll update
 ---

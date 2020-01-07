@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Functional programming Side Effects
-date:   2020-01-06T18:55:47.401Z
+title:  Functional programming - Side Effects
+date:   2020-01-07T05:57:38.181Z
 permalink: /functional-programming-side-effects/
 categories: jekyll update
 ---
