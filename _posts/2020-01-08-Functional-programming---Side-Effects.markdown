@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Functional programming - Side Effects
-date:   2020-01-07T05:57:38.181Z
+date:   2020-01-08T21:42:51.101Z
 permalink: /functional-programming-side-effects/
 categories: jekyll update
 ---
@@ -13,7 +13,8 @@ Now side-effects aren't inherently bad, but you should isolate them to parts of 
 
 Let's take a look a some examples of side effects.
 
-#### Mutation
+
+#### Mutation
 Modifying the argument that’s passed in.
 ```
 // Mutates the given array
@@ -27,6 +28,7 @@ console.log(arr); // [2, 3, 4];
 ```
 
 In this example above, we're changing the value of *arr* at the reference it lives at. As a result, we can't predict what this function will return at any point. What happens when *arr* runs out of values?
+
 
 #### Shared State
 Using some form of global state.
@@ -46,6 +48,7 @@ In this example, we can't predict what these functions will return because they 
 
 Furthermore what happens if someone else changes the value of *i*? Do you feel like googling what *string++* is?
 
+
 #### Asynchronous Code
 Code that doesn't execute immediately.
 ```
@@ -63,6 +66,7 @@ console.log(i); // 1
 This one deserves an extra mention because its a necessity. We have to do some things asynchronously. We have to hit APIs; we have to fetch data.
 
 This brings me back to my earlier point. Side effects aren't inherently bad, but they should be properly isolated to make your code more predictable.
+
 
 #### Example Time
 ```

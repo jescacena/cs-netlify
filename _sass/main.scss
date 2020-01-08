@@ -96,13 +96,14 @@ main {
                     margin-left: 2em;
                 }
             }
-            button {
+            .cta-button {
                 background-color: $darkBlueColor;
                 color: white;
                 border-radius: 10px;
                 padding: 1em 2em;
                 border: 0;
                 font-family: SourceCodePro-Regular;
+                text-decoration: none;
             }
         }
 
@@ -135,6 +136,7 @@ main {
 
                 p {
                     font-size: 1em;
+                    line-height: 1.4;
                 }
             }
         }
@@ -160,9 +162,26 @@ main {
 
     section.post-content {
         padding: 0.5em;
+        h2 {
+            margin-top: 2em;
+            margin-left: 0.6em;
+            font-size: 1.6em;
+            @include for-phone-only {
+                margin-left: 0.3em;
+            }
+        }
         h3 {
+            margin-top: 2em;
             margin-left: 0.6em;
             font-size: 1.5em;
+            @include for-phone-only {
+                margin-left: 0.3em;
+            }
+        }
+        h4 {
+            margin-top: 2em;
+            margin-left: 0.6em;
+            font-size: 1.3em;
             @include for-phone-only {
                 margin-left: 0.3em;
             }
@@ -171,6 +190,7 @@ main {
             font-size: 1em;
             max-width: 80%;
             margin-bottom: 1em;
+            line-height: 1.4;
             @include for-phone-only {
                 max-width: 100%;
                 line-height: 1.2;
