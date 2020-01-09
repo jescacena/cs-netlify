@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Factory pattern
-date:   2020-01-04T21:15:18.716Z
+date:   2020-01-09T11:22:59.461Z
 permalink: /js-design-patterns-factory/
 categories: jekyll update
 ---
@@ -60,10 +60,9 @@ myFootball.kick();
 
 myBasketball.bounce();
 ```
----
 
-### References
+### - References -
 
-[Medium - Javascript design psatterns](https://medium.com/beginners-guide-to-mobile-web-development/javascript-design-patterns-25f0faaaa15)
-[Codepen example](https://codepen.io/jescacena/project/editor/ZyVyGn)
-[Essential JS design patterns book](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+- [Medium - Javascript design psatterns](https://medium.com/beginners-guide-to-mobile-web-development/javascript-design-patterns-25f0faaaa15)
+- [Codepen example](https://codepen.io/jescacena/project/editor/ZyVyGn)
+- [Essential JS design patterns book](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)

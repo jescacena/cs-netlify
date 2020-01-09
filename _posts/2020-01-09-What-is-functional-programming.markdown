@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  What is functional programming?
-date:   2020-01-04T21:15:54.433Z
+date:   2020-01-09T11:30:27.794Z
 permalink: /functional-programming.what-is/
 categories: jekyll update
 ---
@@ -34,9 +34,8 @@ function getFileMapById(files) {
 }
 ```
 
----
 
-### References
+### - References -
 
-[Why functional programming](https://sookocheff.com/post/fp/why-functional-programming/)
-[Functional Programming Fundamentals](https://www.matthewgerstman.com/tech/functional-programming-fundamentals/)
+- [Why functional programming](https://sookocheff.com/post/fp/why-functional-programming/)
+- [Functional Programming Fundamentals](https://www.matthewgerstman.com/tech/functional-programming-fundamentals/)

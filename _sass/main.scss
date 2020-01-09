@@ -200,6 +200,16 @@ main {
                 font-style: italic;
                 font-size: 0.8em;
                 padding-bottom: 1em;
+                text-align: center;
+                max-width: 100%;
+            }
+        }
+
+        #--references-- + ul {
+            margin-left: 1em;
+            li {
+                list-style: none;
+                margin-bottom: 1em;
             }
         }
     }

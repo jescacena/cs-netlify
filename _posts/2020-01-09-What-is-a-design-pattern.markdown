@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  What is a design pattern?
-date:   2020-01-07T05:57:11.345Z
+date:   2020-01-09T11:30:17.460Z
 permalink: /design-pattern-what-is/
 categories: jekyll update
 ---
@@ -30,9 +30,8 @@ Includes: *Adapter Pattern*, *Composite Pattern*, *Decorator Pattern,* *Façade 
 These patterns are concerned with **improving communication between dissimilar objects**.
 Includes: *Chain of Responsibility Pattern*, *Command Pattern*, *Iterator Pattern*, *Mediator Pattern*, *Observer Pattern*, *State Pattern*, S*trategy Pattern*, and *Template Pattern*.
 
----
 
-### References
+### - References -
 
-[Medium - javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15?)
-[Wikipedia - Desgin Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
+- [Medium - javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15?)
+- [Wikipedia - Desgin Patterns](https://en.wikipedia.org/wiki/Design_Patterns)

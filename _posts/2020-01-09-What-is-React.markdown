@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  What is React?
-date:   2020-01-04T21:15:36.703Z
+date:   2020-01-09T11:23:21.173Z
 permalink: /react-what-is/
 categories: jekyll update
 ---
@@ -27,8 +27,7 @@ class Welcome extends React.Component {
 }
 ```
 
----
 
-### References
+### - References -
 
-[Fun with React - A quick overview](https://www.telerik.com/blogs/fun-with-react-a-quick-overview)
+- [Fun with React - A quick overview](https://www.telerik.com/blogs/fun-with-react-a-quick-overview)

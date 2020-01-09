@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Functional programming - Side Effects
-date:   2020-01-08T21:42:51.101Z
+date:   2020-01-09T11:23:09.392Z
 permalink: /functional-programming-side-effects/
 categories: jekyll update
 ---
@@ -122,8 +122,7 @@ Well the first function, *clone* is a pure function and works as expected. It pr
 As a result *a* is pointing to the original reference, *b* and *c* are pointing to the cloned copy (with dead parents and a scar), and *d* is pointing to nothing.
 
 
----
 
-### References
+### - References -
 
-[Functional programming fundamentals](https://www.matthewgerstman.com/tech/functional-programming-fundamentals/?utm_campaign=React%2BNewsletter&utm_medium=email&utm_source=React_Newsletter_147)
+- [Functional programming fundamentals](https://www.matthewgerstman.com/tech/functional-programming-fundamentals/?utm_campaign=React%2BNewsletter&utm_medium=email&utm_source=React_Newsletter_147)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ES6 let and closures
-date:   2020-01-08T21:44:26.642Z
+date:   2020-01-09T11:22:29.608Z
 permalink: /es6-let-closures/
 categories: jekyll update
 ---
@@ -59,9 +59,8 @@ The for loop statement, with the let declaration, creates a new variable loc
 })();
 ```
 Writing the same code with var will create five closures, over the same variable, so all closures will display the last value of i. The *log()* function is a closure
----
 
-### References
+### - References -
 
-[[Medium] Discover the power of closures in javascript](https://medium.freecodecamp.org/discover-the-power-of-closures-in-javascript-5c472a7765d7)
-[[Medium] These are the features in es6 that you should know](https://medium.freecodecamp.org/these-are-the-features-in-es6-that-you-should-know-1411194c71cb)
+- [[Medium] Discover the power of closures in javascript](https://medium.freecodecamp.org/discover-the-power-of-closures-in-javascript-5c472a7765d7)
+- [[Medium] These are the features in es6 that you should know](https://medium.freecodecamp.org/these-are-the-features-in-es6-that-you-should-know-1411194c71cb)

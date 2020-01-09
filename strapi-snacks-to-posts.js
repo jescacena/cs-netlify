@@ -32,9 +32,8 @@ categories: jekyll update
 }
 
 function getMarkdownForReferences(referencesMarkdownContent) {
-    return `---
-
-### References
+    return `
+### - References -
 
 ${referencesMarkdownContent}
 `;
