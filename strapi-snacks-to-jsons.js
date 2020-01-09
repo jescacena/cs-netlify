@@ -13,6 +13,11 @@ const jsonUrlMap = [
         urlPath: '/codersnacks-categories'
     },
     {
+        filename: 'css.snacks.json',
+        urlPath:
+            '/codersnacks-asoc-snack-categories?codersnacks_category.key=css'
+    },
+    {
         filename: 'es6.snacks.json',
         urlPath:
             '/codersnacks-asoc-snack-categories?codersnacks_category.key=es6'
