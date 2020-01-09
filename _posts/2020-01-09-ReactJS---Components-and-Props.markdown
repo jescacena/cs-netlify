@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ReactJS - Components and Props
-date:   2020-01-09T20:24:47.496Z
+date:   2020-01-09T20:49:23.360Z
 permalink: /reactjs-components-and-props/
 categories: jekyll update
 ---
@@ -56,4 +56,4 @@ Of course, *application UIs are dynamic and change over time*. In the next secti
 
 ### - References -
 
-null
+- [ReactJS - Components and props](https://reactjs.org/docs/components-and-props.html)

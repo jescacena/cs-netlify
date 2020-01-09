@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ReactJS - Introducing JSX
-date:   2020-01-09T20:01:42.321Z
+date:   2020-01-09T20:49:11.528Z
 permalink: /reactjs-introducing-jsx/
 categories: jekyll update
 ---
@@ -61,5 +61,5 @@ const element = {
 
 ### - References -
 
-[Reactjs.org - Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
-[Why Jsx talk](https://www.youtube.com/watch?v=x7cQ3mrcKaY)
+- [Reactjs.org - Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
+- [Why Jsx talk](https://www.youtube.com/watch?v=x7cQ3mrcKaY)
