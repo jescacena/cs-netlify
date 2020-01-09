@@ -28,3 +28,8 @@ import UserStore from "./UserStore";
 const todoStore = TodoStore();
 const userStore = UserStore();
 ```
+---
+
+### References
+
+[These are the features in es6 that you should know](https://www.freecodecamp.org/news/these-are-the-features-in-es6-that-you-should-know-1411194c71cb/)

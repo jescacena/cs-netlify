@@ -36,3 +36,10 @@ An immutable value is a value that, once created, cannot be changed. Primitive v
 > const freezes the variable, Object.freeze() freezes the object.
 
 The initialization of the const variable is mandatory.
+
+---
+
+### References
+
+[Medium - These are the features in es6 that you should know](https://medium.freecodecamp.org/these-are-the-features-in-es6-that-you-should-know-1411194c71cb)
+[Medium - Discover the power of closures in javascript](https://medium.freecodecamp.org/discover-the-power-of-closures-in-javascript-5c472a7765d7)

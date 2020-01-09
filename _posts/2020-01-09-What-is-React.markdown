@@ -26,3 +26,9 @@ class Welcome extends React.Component {
   }
 }
 ```
+
+---
+
+### References
+
+[Fun with React - A quick overview](https://www.telerik.com/blogs/fun-with-react-a-quick-overview)

@@ -31,6 +31,15 @@ categories: jekyll update
 ---`;
 }
 
+function getMarkdownForReferences(referencesMarkdownContent) {
+    return `---
+
+### References
+
+${referencesMarkdownContent}
+`;
+}
+
 String.prototype.replaceAll = function(search, replacement) {
     var target = this;
     return target.replace(new RegExp(search, 'g'), replacement);
@@ -56,8 +65,9 @@ fetch('http://localhost:1337/codersnacks')
 
             let title = item.header.replace(':','');
             let contentHeader = getMarkdownHeader(title, item.updated_at, item.slug)
+            let contentReferences = getMarkdownForReferences(item.references)
 
-            fs.writeFile('_posts/' + todayDate + '-' + slug + '.markdown', contentHeader + '\n' + content, err => {
+            fs.writeFile('_posts/' + todayDate + '-' + slug + '.markdown', contentHeader + '\n' + content + '\n' + contentReferences, err => {
                 if (err) throw err;
                 console.log('Data written to file for ' + item.header);
             });

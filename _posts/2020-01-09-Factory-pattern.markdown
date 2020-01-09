@@ -60,3 +60,10 @@ myFootball.kick();
 
 myBasketball.bounce();
 ```
+---
+
+### References
+
+[Medium - Javascript design psatterns](https://medium.com/beginners-guide-to-mobile-web-development/javascript-design-patterns-25f0faaaa15)
+[Codepen example](https://codepen.io/jescacena/project/editor/ZyVyGn)
+[Essential JS design patterns book](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)

@@ -29,3 +29,10 @@ Includes: *Adapter Pattern*, *Composite Pattern*, *Decorator Pattern,* *Façade 
 #### Behavioral Design Patterns
 These patterns are concerned with **improving communication between dissimilar objects**.
 Includes: *Chain of Responsibility Pattern*, *Command Pattern*, *Iterator Pattern*, *Mediator Pattern*, *Observer Pattern*, *State Pattern*, S*trategy Pattern*, and *Template Pattern*.
+
+---
+
+### References
+
+[Medium - javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15?)
+[Wikipedia - Desgin Patterns](https://en.wikipedia.org/wiki/Design_Patterns)

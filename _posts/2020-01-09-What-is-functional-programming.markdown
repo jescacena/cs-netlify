@@ -33,3 +33,10 @@ function getFileMapById(files) {
   return lodash.keyBy(files, "id")
 }
 ```
+
+---
+
+### References
+
+[Why functional programming](https://sookocheff.com/post/fp/why-functional-programming/)
+[Functional Programming Fundamentals](https://www.matthewgerstman.com/tech/functional-programming-fundamentals/)

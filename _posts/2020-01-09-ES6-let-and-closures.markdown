@@ -59,3 +59,9 @@ The for loop statement, with the let declaration, creates a new variable loc
 })();
 ```
 Writing the same code with var will create five closures, over the same variable, so all closures will display the last value of i. The *log()* function is a closure
+---
+
+### References
+
+[[Medium] Discover the power of closures in javascript](https://medium.freecodecamp.org/discover-the-power-of-closures-in-javascript-5c472a7765d7)
+[[Medium] These are the features in es6 that you should know](https://medium.freecodecamp.org/these-are-the-features-in-es6-that-you-should-know-1411194c71cb)
