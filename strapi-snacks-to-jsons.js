@@ -18,6 +18,10 @@ const jsonUrlMap = [
             '/codersnacks-asoc-snack-categories?codersnacks_category.key=css'
     },
     {
+        filename: 'css.quizzes.json',
+        urlPath: '/codersnacks-asoc-snack-quizs?codersnacks_category.key=css'
+    },
+    {
         filename: 'es6.snacks.json',
         urlPath:
             '/codersnacks-asoc-snack-categories?codersnacks_category.key=es6'
