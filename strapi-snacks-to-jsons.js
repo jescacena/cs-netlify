@@ -89,7 +89,7 @@ Promise.all(
 
         fs.writeFile('assets/jsons/' + item.filename, content, err => {
             if (err) throw err;
-            console.log('Data written to file for ' + item.filename);
+            console.log('JSON written to file for ' + item.filename);
         });
     });
 });

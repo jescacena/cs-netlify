@@ -68,7 +68,7 @@ fetch('http://localhost:1337/codersnacks')
 
             fs.writeFile('_posts/' + todayDate + '-' + slug + '.markdown', contentHeader + '\n' + content + '\n' + contentReferences, err => {
                 if (err) throw err;
-                console.log('Data written to file for ' + item.header);
+                console.log('Markdown Post written to file for ' + item.header);
             });
         });
     })
