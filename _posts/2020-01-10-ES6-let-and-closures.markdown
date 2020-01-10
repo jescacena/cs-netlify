@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ES6 let and closures
-date:   2020-01-10T12:16:15.987Z
+date:   2020-01-10T12:18:44.283Z
 permalink: /es6-let-closures/
 categories: jekyll update
 ---
@@ -17,7 +17,7 @@ Consider the next code:
     log();
 })();
 ```
-```log()``` is a nested function inside the ```autorun()``` function. ```log()``` accesses the variable *x* from its outer function. The ```log()``` function is a closure.
+log() is a nested function inside the autorun() function. log() accesses the variable x from its outer function. The log() function is a closure.
 
 
 ### - References -
