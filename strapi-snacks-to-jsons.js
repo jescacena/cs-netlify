@@ -81,7 +81,7 @@ Promise.all(
     )
 ).then(data => {
     // do something with the data
-    console.log('JES data', data[0].jsonResponse);
+    // console.log('JES data', data[0].jsonResponse);
     fsExtra.emptyDirSync('assets/jsons');
 
     data.forEach(function(item) {
