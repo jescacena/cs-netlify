@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Introducing CSS
-date:   2020-01-09T22:34:40.431Z
+date:   2020-01-10T11:53:22.811Z
 permalink: /introducing-css/
 categories: jekyll update
 ---
@@ -10,10 +10,12 @@ categories: jekyll update
 - CSS describes **how HTML elements are to be displayed** on screen, paper, or in other media
 - CSS saves a lot of work. It can **control the layout of multiple web pages all at once**
 - External stylesheets are stored in **CSS files**
-
+  
+```  ```
 #### Why Use CSS?
 **CSS is used to define styles for your web pages**, including the design, layout and variations in display for different devices and screen sizes. 
-
+  
+```  ```
 #### CSS Solved a Big Problem
 HTML was NEVER intended to contain tags for formatting a web page!
 
@@ -30,7 +32,8 @@ HTML was created to describe the content of a web page, like:
 To solve this problem, the **World Wide Web Consortium (W3C) created CSS**.
 
 CSS removed the style formatting from the HTML page!
-
+  
+```  ```
 #### CSS Saves a Lot of Work!
 *The style definitions are normally saved in external .css files*.
 
