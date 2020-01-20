@@ -35,6 +35,7 @@ main {
 
     blockquote {
         background-color: white;
+        border-radius: 10px;
         padding: 0.5em 0.8em;
         font-style: italic;
         margin: 1em;
@@ -42,10 +43,25 @@ main {
         p {
             margin: 0.2em !important;
             max-width: initial !important;
+            padding-left: 1rem;
+            position: relative;
+            top: -0.5rem;
         }
         @include for-phone-only {
             max-width: 100%;
             padding: 0.05em 0em;
+        }
+        &::before {
+            content: "";
+            width: 20px;
+            height: 20px;
+            background: url("../images/pin-icon.png") no-repeat;
+            background-size: cover;
+            top: -1px;
+            right: 5px;
+            position: relative;
+            display: inline-block;
+            
         }
     }
 
@@ -202,6 +218,14 @@ main {
                 padding-bottom: 1em;
                 text-align: center;
                 max-width: 100%;
+            }
+        }
+
+        ul {
+            margin-left: 3rem;
+            li {
+                list-style-type: disc;
+                margin-bottom: 1rem;
             }
         }
 
