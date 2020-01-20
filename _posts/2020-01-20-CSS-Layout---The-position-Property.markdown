@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  CSS Layout - The position Property
-date:   2020-01-20T20:50:33.274Z
+date:   2020-01-20T20:51:36.796Z
 permalink: /css-layout-the-position-property/
 categories: jekyll update
 ---
@@ -67,6 +67,9 @@ div.fixed {
   border: 3px solid #73AD21;
 }
 ```
+       
+
+#### position absolute
 
 An element with position: absolute; is **positioned relative to the nearest positioned ancestor** (instead of positioned relative to the viewport, like fixed).
 
