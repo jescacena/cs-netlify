@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  CSS Layout - The position Property
-date:   2020-01-20T20:05:57.620Z
+date:   2020-01-20T20:07:23.218Z
 permalink: /css-layout-the-position-property/
 categories: jekyll update
 ---
@@ -17,9 +17,7 @@ There are five different position values:
 
 **Elements are then positioned using the top, bottom, left, and right properties**. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
 
-``` ``` 
-
-####position static
+#### position static
 > HTML elements are positioned static by default.
 
 **Static positioned elements are not affected by the top, bottom, left, and right properties**.
