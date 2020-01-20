@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ReactJS - States
-date:   2020-01-09T21:11:21.628Z
+date:   2020-01-20T15:06:43.073Z
 permalink: /reactjs-states/
 categories: jekyll update
 ---
@@ -60,7 +60,7 @@ ReactDOM.render(
 );
 ```
 
-To implement this, *we need to add “state” to the Clock component*.
+To implement this, *we need to add "state" to the Clock component*.
 
 **State is similar to props, but it is private and fully controlled by the component.**
 
