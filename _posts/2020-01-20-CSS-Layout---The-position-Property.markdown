@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  CSS Layout - The position Property
-date:   2020-01-20T15:23:48.198Z
+date:   2020-01-20T19:58:35.767Z
 permalink: /css-layout-the-position-property/
 categories: jekyll update
 ---
@@ -18,7 +18,7 @@ There are five different position values:
 **Elements are then positioned using the top, bottom, left, and right properties**. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
 
 ```  ```
-#### position: static;
+#### position static
 > HTML elements are positioned static by default.
 
 **Static positioned elements are not affected by the top, bottom, left, and right properties**.
@@ -37,9 +37,8 @@ div.static {
 ``` 
 
 
-
 ```  ```
-#### position: relative;
+#### position relative
 An element with position: relative; is positioned **relative to its normal position**.
 
 Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. *Other content will not be adjusted to fit into any gap left by the element*.
