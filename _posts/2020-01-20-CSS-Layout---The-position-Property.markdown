@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  CSS Layout - The position Property
-date:   2020-01-10T14:13:11.088Z
+date:   2020-01-20T15:23:48.198Z
 permalink: /css-layout-the-position-property/
 categories: jekyll update
 ---
@@ -58,7 +58,7 @@ div.relative {
 
 ```  ```
 #### position: fixed;
-An element with position: fixed; is** positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled**. The top, right, bottom, and left properties are used to position the element.
+An element with *position: fixed;* is **positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled**. The top, right, bottom, and left properties are used to position the element.
 
 > A fixed element does not leave a gap in the page where it would normally have been located.
 
@@ -130,7 +130,7 @@ div.sticky {
 #### Overlapping Elements
 When elements are positioned, they can overlap other elements.
 
-The **z-index** property **specifies the stack order of an element **(which element should be placed in front of, or behind, the others).
+The **z-index** property **specifies the stack order of an element** (which element should be placed in front of, or behind, the others).
 
 An element can have a *positive or negative stack order*:
 

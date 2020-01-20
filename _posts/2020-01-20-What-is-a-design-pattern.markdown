@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  What is a design pattern?
-date:   2020-01-09T11:30:17.460Z
+date:   2020-01-20T15:21:15.669Z
 permalink: /design-pattern-what-is/
 categories: jekyll update
 ---
@@ -9,7 +9,7 @@ We write code to solve problems. These problems usually have many similarities, 
 
 > A design pattern is a term used in software engineering for a general, reusable solution to a commonly occurring problem in software design.
 
-*Design patterns are by no means finished solutions*. They only provide us with **approaches or schemes to solve a problem**. The underlying concept of design patterns has been around in the software engineering industry since the very beginning, but they weren’t really so formalised. 
+*Design patterns are by no means finished solutions*. They only provide us with **approaches or schemes to solve a problem**. The underlying concept of design patterns has been around in the software engineering industry since the very beginning, but they weren't really so formalised. 
 
 Design patterns are beneficial for various reasons. They are proven solutions that industry veterans have tried and tested. They are solid approaches that solve issues in a widely accepted way and reflect the experience and insights of the industry-leading developers that helped define them. Patterns also **make your code more reusable and readable while speeding up the development process vastly**.
 
