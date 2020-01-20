@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ES6 let and closures
-date:   2020-01-10T12:24:56.616Z
+date:   2020-01-20T15:09:38.771Z
 permalink: /es6-let-closures/
 categories: jekyll update
 ---
@@ -17,7 +17,7 @@ Consider the next code:
     log();
 })();
 ```
-log() is a nested function inside the autorun() function. log() accesses the variable x from its outer function. The log() function is a closure.
+log() is a nested function inside the autorun() function.log() accesses the variable x from its outer function. The log() function is a closure.
 
 > **Closures** are inner functions. Closures can be created by defining a function inside another function or inside a block.
 > **Lexical scope** is the ability of the inner function to access the outer scope in which it is defined.
