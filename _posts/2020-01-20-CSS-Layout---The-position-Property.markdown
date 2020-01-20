@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  CSS Layout - The position Property
-date:   2020-01-20T20:03:11.028Z
+date:   2020-01-20T20:04:35.938Z
 permalink: /css-layout-the-position-property/
 categories: jekyll update
 ---
@@ -16,9 +16,6 @@ There are five different position values:
 - sticky
 
 **Elements are then positioned using the top, bottom, left, and right properties**. However, these properties will not work unless the position property is set first. They also work differently depending on the position value.
-
-```  ```
-```  ```
 
 ####position static
 > HTML elements are positioned static by default.
@@ -37,10 +34,6 @@ div.static {
   border: 3px solid #73AD21;
 }
 ``` 
-
-
-```  ```
-```  ```
 #### position relative
 An element with position: relative; is positioned **relative to its normal position**.
 
@@ -57,9 +50,6 @@ div.relative {
   border: 3px solid #73AD21;
 }
 ``` 
-
-```  ```
-```  ```
 #### position fixed
 An element with *position fixed* is **positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled**. The top, right, bottom, and left properties are used to position the element.
 
@@ -77,10 +67,7 @@ div.fixed {
   border: 3px solid #73AD21;
 }
 ```
- 
-```  ```
-```  ```
-#### position absolute
+ #### position absolute
 An element with position: absolute; is **positioned relative to the nearest positioned ancestor** (instead of positioned relative to the viewport, like fixed).
 
 However; **if an absolute positioned element has no positioned ancestors, it uses the document body**, and moves along with page scrolling.
@@ -107,9 +94,6 @@ div.absolute {
   border: 3px solid #73AD21;
 }
 ``` 
-
-```  ```
-```  ```
 #### position sticky
 An element with position: sticky; is **positioned based on the user's scroll position**.
 
@@ -130,9 +114,6 @@ div.sticky {
   border: 2px solid #4CAF50;
 }
 ``` 
-
-```  ```
-```  ```
 #### Overlapping Elements
 When elements are positioned, they can overlap other elements.
 
