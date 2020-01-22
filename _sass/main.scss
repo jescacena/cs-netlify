@@ -120,6 +120,7 @@ main {
             @include for-phone-only {
                 float: none;
                 text-align: center;
+                padding-bottom:3rem;
             }
             p {
                 margin-bottom: 4em;
@@ -138,8 +139,9 @@ main {
                 font-family: SourceCodePro-Regular;
                 text-decoration: none;
                 @include for-phone-only {
-                    margin: 0;
-                    padding: 1em 1em;
+                    margin: 0 0 3em 0;
+                    padding: 1em 1em 1em 1em;
+
                     // font-size: 1em;
                 }
             }

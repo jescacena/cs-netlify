@@ -36,7 +36,6 @@ section.about {
             background-size: contain;
             background-repeat: no-repeat;
             height: 15rem;
-
         }
 
         h1 {
@@ -45,6 +44,11 @@ section.about {
             bottom: 2.5rem;
             right: .5rem;
             color: lightgrey;
+            @include for-phone-only {
+                bottom:auto;
+                top:1rem;
+                font-size: 0.7rem;
+            }
         }
     }
 
@@ -146,9 +150,8 @@ section.about {
 section.about-kofi {
     @include for-phone-only {
         margin-top:4rem;
+        margin-bottom:3rem;
         text-align: center;
-        // position: absolute;
-        // bottom:1rem;
     }
 }   
 
