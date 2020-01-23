@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  CSS Flexbox Properties for the parent (flex container) 1
-date:   2020-01-23T21:34:50.879Z
+date:   2020-01-23T21:43:43.981Z
 permalink: /css-flexbox-properties-parent-1/
 categories: jekyll update
 ---
@@ -16,9 +16,8 @@ This defines a flex container inline or block depending on the given value. It e
 
 Note that CSS columns have no effect on a flex container.
 
-``` ``` 
+``` ```
 ### flex-direction
-
 ![css flex direction](https://codersnack.com/assets/images/css-flex-direction.png)
 
 This **establishes the main-axis**, thus defining the direction flex items are placed in the flex container. Flexbox is (aside from optional wrapping) a single-direction layout concept. Think of flex items as primarily laying out either in horizontal rows or vertical columns.
@@ -34,9 +33,8 @@ This **establishes the main-axis**, thus defining the direction flex items are p
 - column: same as row but top to bottom
 - column-reverse: same as row-reverse but bottom to top
 
-``` ``` 
+``` ```
 ### flex-wrap
-
 ![css flex wrap](https://codersnack.com/assets/images/css-flex-wrap.png)
 
 By default, flex items will all try to fit onto one line. You can change that and allow the items to wrap as needed with this property.
