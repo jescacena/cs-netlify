@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  CSS - Introducing Flexbox Layout
-date:   2020-01-23T20:25:20.853Z
+date:   2020-01-23T20:45:47.489Z
 permalink: /css-introducing-flex-box/
 categories: jekyll update
 ---
@@ -23,7 +23,7 @@ Since flexbox is a whole module and not a single property, **it involves a lot o
 
 If "regular" layout is based on both block and inline flow directions, the flex layout is based on "flex-flow directions". Please have a look at this figure from the specification, explaining the main idea behind the flex layout.
 
-![Css flex box - basic terminology](https://css-tricks.com/wp-content/uploads/2018/11/00-basic-terminology.svg)
+![Css flex box - basic terminology](https://codersnack.com/assets/images/css-flex-box-basics.png)
 
 
 
