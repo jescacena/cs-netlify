@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  [CSS Flexbox] Properties for the parent (flex container) 1
-date:   2020-01-23T21:24:29.409Z
+title:  CSS Flexbox Properties for the parent (flex container) 1
+date:   2020-01-23T21:34:50.879Z
 permalink: /css-flexbox-properties-parent-1/
 categories: jekyll update
 ---
@@ -18,7 +18,6 @@ Note that CSS columns have no effect on a flex container.
 
 ``` ``` 
 ### flex-direction
-the four possible values of flex-direction being shown: top to bottom, bottom to top, right to left, and left to right
 
 ![css flex direction](https://codersnack.com/assets/images/css-flex-direction.png)
 
@@ -37,7 +36,6 @@ This **establishes the main-axis**, thus defining the direction flex items are p
 
 ``` ``` 
 ### flex-wrap
-two rows of boxes, the first wrapping down onto the second
 
 ![css flex wrap](https://codersnack.com/assets/images/css-flex-wrap.png)
 
