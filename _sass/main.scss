@@ -264,6 +264,13 @@ main {
                 text-align: center;
                 max-width: 100%;
             }
+            img {
+                width: 30rem;
+                @include for-phone-only {
+                    width: 90%;
+                }
+
+            }
         }
 
         ul {
