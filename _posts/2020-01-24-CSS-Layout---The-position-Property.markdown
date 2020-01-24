@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  CSS Layout - The position Property
-date:   2020-01-24T09:45:00.385Z
+date:   2020-01-24T11:15:34.201Z
 permalink: /css-layout-the-position-property/
 categories: jekyll update
 ---
@@ -22,10 +22,7 @@ There are five different position values:
 
 **Static positioned elements are not affected by the top, bottom, left, and right properties**.
 
-An element with *position static* is not positioned in any special way; it is always **positioned according to the normal flow of the page**:
-
-This *<div>*  element has position: static;
-Here is the CSS that is used:
+An element with *position static* is not positioned in any special way, it is always **positioned according to the normal flow of the page**. This `<div>` element has position: static:
 
 Example
 ``` 
@@ -41,10 +38,8 @@ An element with position: relative; is positioned **relative to its normal posit
 
 Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. *Other content will not be adjusted to fit into any gap left by the element*.
 
-This *<div>*  element has **position relative**
-Here is the CSS that is used:
+This `<div>`   element has **position relative**:
 
-Example
 ``` 
 div.relative {
   position: relative;
@@ -59,9 +54,8 @@ An element with *position fixed* is **positioned relative to the viewport, which
 
 > A fixed element does not leave a gap in the page where it would normally have been located.
 
-Notice the fixed element in the lower-right corner of the page. Here is the CSS that is used:
+Notice the fixed element in the lower-right corner of the page:
 
-Example
 ```  
 div.fixed {
   position: fixed;
@@ -70,14 +64,11 @@ div.fixed {
   width: 300px;
   border: 3px solid #73AD21;
 }
-```
-![text](https://codersnack.com/assets/images/css-position-fixed.png)
-
-       
+```       
 
 #### position absolute
 
-An element with position: absolute; is **positioned relative to the nearest positioned ancestor** (instead of positioned relative to the viewport, like fixed).
+An element with position: absolute  is **positioned relative to the nearest positioned ancestor** (instead of positioned relative to the viewport, like fixed).
 
 However , **if an absolute positioned element has no positioned ancestors, it uses the document body**, and moves along with page scrolling.
 
@@ -85,7 +76,6 @@ Note: A "positioned" element is one whose position is anything except static.
 
 Here is a simple example:
 
-Example
 ``` 
 div.relative {
   position: relative;
@@ -106,7 +96,7 @@ div.absolute {
 ![text](https://codersnack.com/assets/images/css-position-absolute.png)
 
 #### position sticky
-An element with position: sticky; is **positioned based on the user's scroll position**.
+An element with position: sticky  is **positioned based on the user's scroll position**.
 
 A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
 
@@ -115,7 +105,7 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
 
 In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.
 
-Example
+**Example**
 ``` 
 div.sticky {
   position: -webkit-sticky; /* Safari */
@@ -135,7 +125,7 @@ The **z-index** property **specifies the stack order of an element** (which elem
 An element can have a *positive or negative stack order*:
 
 Im this example because the image has a z-index of -1, it will be placed behind the text.
-Example
+**Example**
 ``` 
 img {
   position: absolute;
@@ -143,7 +133,9 @@ img {
   top: 0px;
   z-index: -1;
 }
-``` 
+```
+![text](https://codersnack.com/assets/images/css-zindex.png)
+
 **An element with greater stack order is always in front of an element with a lower stack order**.
 
 > Note: If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top.
