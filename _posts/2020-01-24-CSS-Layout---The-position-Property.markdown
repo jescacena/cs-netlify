@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  CSS Layout - The position Property
-date:   2020-01-20T20:51:36.796Z
+date:   2020-01-24T09:45:00.385Z
 permalink: /css-layout-the-position-property/
 categories: jekyll update
 ---
@@ -34,6 +34,8 @@ div.static {
   border: 3px solid #73AD21;
 }
 ``` 
+![text](https://codersnack.com/assets/images/css-position-static.png)
+
 #### position relative
 An element with position: relative; is positioned **relative to its normal position**.
 
@@ -49,7 +51,9 @@ div.relative {
   left: 30px;
   border: 3px solid #73AD21;
 }
-``` 
+```
+![text](https://codersnack.com/assets/images/css-position-relative.png)
+
 #### position fixed
 An element with *position fixed* is **positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled**. The top, right, bottom, and left properties are used to position the element.
 
@@ -67,6 +71,8 @@ div.fixed {
   border: 3px solid #73AD21;
 }
 ```
+![text](https://codersnack.com/assets/images/css-position-fixed.png)
+
        
 
 #### position absolute
@@ -96,7 +102,9 @@ div.absolute {
   height: 100px;
   border: 3px solid #73AD21;
 }
-``` 
+```
+![text](https://codersnack.com/assets/images/css-position-absolute.png)
+
 #### position sticky
 An element with position: sticky; is **positioned based on the user's scroll position**.
 
@@ -116,7 +124,9 @@ div.sticky {
   background-color: green;
   border: 2px solid #4CAF50;
 }
-``` 
+```
+![text](https://codersnack.com/assets/images/css-position-sticky.png)
+
 #### Overlapping Elements
 When elements are positioned, they can overlap other elements.
 
@@ -143,3 +153,4 @@ img {
 ### - References -
 
 - [W3C - CSS positioning](https://www.w3schools.com/css/css_positioning.asp)
+- [W3C - position fixed example](https://www.w3schools.com/css/tryit.asp?filename=trycss_position_fixed)

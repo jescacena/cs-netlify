@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  How To Add CSS and Cascading Order
-date:   2020-01-10T12:42:42.143Z
+date:   2020-01-24T09:37:40.691Z
 permalink: /how-to-add-css-and-cascading-order/
 categories: jekyll update
 ---
 When a browser reads a style sheet, it will format the HTML document according to the information in the style sheet.
 
-```  ```
+
 #### Three Ways to Insert CSS
 There are three ways of inserting a style sheet:
 
@@ -15,11 +15,10 @@ There are three ways of inserting a style sheet:
 - Internal CSS
 - Inline CSS
 
-```  ```
+
 ### External CSS
 With an external style sheet, you can change the look of an entire website by changing just one file!
-
-Each HTML page must include a reference to the external style sheet file inside the ``<link>`` element, inside the head section.
+Each HTML page must include a reference to the external style sheet file inside the `<link> element, inside the head section.
 
 ```
 <!DOCTYPE html>
@@ -40,6 +39,7 @@ An external style sheet can be written in any text editor, and must be saved wit
 The external .css file should not contain any HTML tags.
 
 Here is how the "mystyle.css" file looks like:
+
 ```
 body {
   background-color: lightblue;
@@ -52,14 +52,14 @@ h1 {
 ```
 > Note: Do not add a space between the property value and the unit (such as margin-left: 20 px;). The correct way is: margin-left: 20px;
 
-```  ```
+
 #### Internal CSS
+
 An internal style sheet may be used if one single HTML page has a unique style.
+Internal styles are defined within the `<style>` element, inside the `<head>`  section of an HTML page:
 
-The internal style is defined inside the <style> element, inside the head section.
+**Example**
 
-Example
-Internal styles are defined within the <style> element, inside the <head> section of an HTML page:
 ```
 <!DOCTYPE html>
 <html>
@@ -84,14 +84,15 @@ h1 {
 </html>
 ```
 
-``` ```
+
 #### Inline CSS
 An inline style may be used to apply a unique style for a single element.
 
 To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
 
-Example
+**Example**
 Inline styles are defined within the "style" attribute of the relevant element:
+
 ```
 <!DOCTYPE html>
 <html>
@@ -105,18 +106,19 @@ Inline styles are defined within the "style" attribute of the relevant element:
 ```
 > Tip: An inline style loses many of the advantages of a style sheet (by mixing content with presentation). Use this method sparingly.
 
-``` ``
+
 #### Multiple Style Sheets
 If some properties have been defined for the same selector (element) in different style sheets, **the value from the last read style sheet will be used**. 
 
-Assume that an external style sheet has the following style for the <h1> element:
+Assume that an external style sheet has the following style for the `<h1>`  element:
+
 ```
 h1 {
   color: navy;
 }
 ```
 
-Then, assume that an internal style sheet also has the following style for the <h1> element:
+Then, assume that an internal style sheet also has the following style for the `<h1>`  element:
 
 ```
 h1 {
@@ -124,8 +126,8 @@ h1 {
 }
 ```
 
-Example
-If the internal style is defined after the link to the external style sheet, the <h1> elements will be "orange":
+**Example**
+If the internal style is defined after the link to the external style sheet, the `<h1>` elements will be "orange":
 
 ```
 <head>
@@ -138,8 +140,8 @@ h1 {
 </head>
 ```
 
-Example
-However, if the internal style is defined before the link to the external style sheet, the <h1> elements will be "navy": 
+**Example**
+However, if the internal style is defined before the link to the external style sheet, the `<h1>` elements will be "navy": 
 
 ```
 <head>
@@ -151,8 +153,6 @@ h1 {
 <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 ```
-
-```  ```
 
 #### Cascading Order
 What style will be used when there is more than one style specified for an HTML element?

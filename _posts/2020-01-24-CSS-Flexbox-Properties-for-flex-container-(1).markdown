@@ -1,10 +1,12 @@
 ---
 layout: post
-title:  CSS Flexbox Properties for the parent (flex container) 1
-date:   2020-01-23T21:46:09.702Z
+title:  CSS Flexbox Properties for flex container (1)
+date:   2020-01-24T09:27:45.798Z
 permalink: /css-flexbox-properties-parent-1/
 categories: jekyll update
 ---
+In this snack we will introduce display, flex-direction and flex-wrap.
+ 
 ### display
 This defines a flex container inline or block depending on the given value. It enables a **flex context for all its direct children**.
 
