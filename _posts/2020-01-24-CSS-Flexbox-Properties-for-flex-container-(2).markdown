@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  CSS Flexbox Properties for flex container (2)
-date:   2020-01-24T12:53:06.262Z
+date:   2020-01-24T12:55:55.999Z
 permalink: /css-flexbox-properties-parent-2/
 categories: jekyll update
 ---
@@ -88,4 +88,4 @@ The safe and unsafe modifier keywords can be used in conjunction with all the re
 
 ### - References -
 
-null
+- [[CSS trick] A guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
