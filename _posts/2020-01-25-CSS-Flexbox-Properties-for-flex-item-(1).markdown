@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  CSS Flexbox Properties for flex item (1)
-date:   2020-01-24T13:05:38.262Z
+date:   2020-01-25T12:13:06.958Z
 permalink: /css-flexbox-properties-children/
 categories: jekyll update
 ---
@@ -79,4 +79,4 @@ Note that float, clear and vertical-align have no effect on a flex item.
 
 ### - References -
 
-null
+- [[CSS trick] A guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
