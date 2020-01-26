@@ -102,6 +102,20 @@ main {
         }
     }
 
+    em {
+        .highlighter-rouge {
+            font-family: SourceCodePro-Semibold;
+            background-color: transparent;
+            color:$deepPurple;
+            // font-style: italic;
+            font-weight: 800;
+            font-size: 0.8rem;
+            margin: 0;
+            padding: 0;
+
+        }
+    }
+
     p {
         margin: 1em;
     }

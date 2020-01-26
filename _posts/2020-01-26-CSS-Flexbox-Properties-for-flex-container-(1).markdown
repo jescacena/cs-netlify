@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  CSS Flexbox Properties for flex container (1)
-date:   2020-01-24T09:27:45.798Z
+date:   2020-01-26T11:40:27.822Z
 permalink: /css-flexbox-properties-parent-1/
 categories: jekyll update
 ---
@@ -30,13 +30,6 @@ This **establishes the main-axis**, thus defining the direction flex items are p
 }
 ```
 
-- row (default): left to right in ltr; right to left in rtl
-- row-reverse: right to left in ltr; left to right in rtl
-- column: same as row but top to bottom
-- column-reverse: same as row-reverse but bottom to top
-
-
-
 ### flex-wrap
 ![css flex wrap](https://codersnack.com/assets/images/css-flex-wrap.png)
 
@@ -47,9 +40,7 @@ By default, flex items will all try to fit onto one line. You can change that an
   flex-wrap: nowrap | wrap | wrap-reverse;
 }
 ```
-- nowrap (default): all flex items will be on one line
-- wrap: flex items will wrap onto multiple lines, from top to bottom.
-- wrap-reverse: flex items will wrap onto multiple lines from bottom to top.
+
 
 
 ### - References -
