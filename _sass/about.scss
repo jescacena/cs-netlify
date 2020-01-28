@@ -22,9 +22,10 @@ section.about {
 
     .avatar {
         float: left;
-        width: 30rem;
+        width: 20rem;
         background-image: url(../images/supermoco2020-3.jpg);
-        background-size: cover;
+        background-size: 20rem 20rem;
+        background-position: 0;
         height: 20rem;
         vertical-align: bottom;
         position: relative;
@@ -41,7 +42,7 @@ section.about {
         h1 {
             vertical-align: bottom;
             position: absolute;
-            bottom: 2.5rem;
+            bottom: 1rem;
             right: .5rem;
             color: lightgrey;
             @include for-phone-only {
