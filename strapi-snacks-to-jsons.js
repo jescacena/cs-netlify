@@ -59,6 +59,16 @@ const jsonUrlMap = [
         filename: 'reactjs.quizzes.json',
         urlPath:
             '/codersnacks-asoc-snack-quizs?codersnacks_category.key=reactjs'
+    },
+    {
+        filename: 'flutter.snacks.json',
+        urlPath:
+            '/codersnacks-asoc-snack-categories?codersnacks_category.key=flutter'
+    },
+    {
+        filename: 'flutter.quizzes.json',
+        urlPath:
+            '/codersnacks-asoc-snack-quizs?codersnacks_category.key=flutter'
     }
 ];
 
