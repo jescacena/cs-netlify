@@ -69,6 +69,16 @@ const jsonUrlMap = [
         filename: 'flutter.quizzes.json',
         urlPath:
             '/codersnacks-asoc-snack-quizs?codersnacks_category.key=flutter'
+    },
+    {
+        filename: 'vuejs.snacks.json',
+        urlPath:
+            '/codersnacks-asoc-snack-categories?codersnacks_category.key=vuejs'
+    },
+    {
+        filename: 'vuejs.quizzes.json',
+        urlPath:
+            '/codersnacks-asoc-snack-quizs?codersnacks_category.key=vuejs'
     }
 ];
 

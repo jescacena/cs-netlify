@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Introduction to Flutter
-date:   2020-01-28T11:52:00.968Z
+date:   2020-01-28T11:55:30.836Z
 permalink: /flutter-introduction/
 categories: jekyll update
 ---
@@ -29,4 +29,4 @@ Flutter is now **one of the top 20 active software repositories** on GitHub (16t
 ### - References -
 
 - [TheDroidsOnRoids - Flutter vs React Native](https://www.thedroidsonroids.com/blog/flutter-vs-react-native-what-to-choose-in-2020#whatisflutter)
-- [official Flutter website](https://flutter.dev/)
+- [Official Flutter website](https://flutter.dev/)
