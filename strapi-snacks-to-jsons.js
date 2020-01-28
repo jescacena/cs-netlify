@@ -79,6 +79,16 @@ const jsonUrlMap = [
         filename: 'vuejs.quizzes.json',
         urlPath:
             '/codersnacks-asoc-snack-quizs?codersnacks_category.key=vuejs'
+    },
+    {
+        filename: 'js-unit-testing.snacks.json',
+        urlPath:
+            '/codersnacks-asoc-snack-categories?codersnacks_category.key=js-unit-testing'
+    },
+    {
+        filename: 'js-unit-testing.quizzes.json',
+        urlPath:
+            '/codersnacks-asoc-snack-quizs?codersnacks_category.key=js-unit-testing'
     }
 ];
 
