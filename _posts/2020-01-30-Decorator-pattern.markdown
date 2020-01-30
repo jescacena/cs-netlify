@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Decorator pattern
-date:   2020-01-28T09:33:50.266Z
+date:   2020-01-30T22:48:40.720Z
 permalink: /js-design-patterns-decorator/
 categories: jekyll update
 ---
@@ -9,7 +9,7 @@ This is also a *structural design pattern* that **focuses on the ability to add 
 
 The decorator type behaviour is very easy to implement in JavaScript because **JavaScript allows us to add methods and properties to object dynamically**. The simplest approach would be to just add a property to an object, but it will not be efficiently reusable.
 
-In this **example**, we create a *Book* class. We further create two decorator functions that accept a book object and return a "decorated" book object — *giftWrap* that adds one new attribute and one new function and *hardbindBook* that adds one new attribute and edits the value of one existing attribute.
+In this **example**, we create a *Book* class. We further create two decorator functions that accept a book object and return a "decorated" book object, *giftWrap* that adds one new attribute and one new function and *hardbindBook* that adds one new attribute and edits the value of one existing attribute.
 
 ```
 class Book {

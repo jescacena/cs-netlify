@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  Constructor pattern
-date:   2020-01-25T22:08:15.158Z
+date:   2020-01-30T22:45:56.106Z
 permalink: /js-design-patterns-constructor/
 categories: jekyll update
 ---
 This is a *class-based creational design pattern*. **Constructors are special functions that can be used to instantiate new objects** with methods and properties defined by that function.
 
-It is not one of the classic design patterns. In fact, **it is more of a basic language construct than a pattern** in most object-oriented languages. But in JavaScript, objects can be created on the fly without any constructor functions or “class” definition. Therefore, I think it is important to lay down the foundation for other patterns to come with this simple one.
+It is not one of the classic design patterns. In fact, **it is more of a basic language construct than a pattern** in most object-oriented languages. But in JavaScript, objects can be created on the fly without any constructor functions or "class" definition. Therefore, I think it is important to lay down the foundation for other patterns to come with this simple one.
 
 In this example, we define a *Hero* class with attributes like *name* and *specialAbility* and methods like *getDetails*. Then, we instantiate an object *IronMan* by **invoking the constructor method with the new keyword** passing in the values for the respective attributes as arguments.
 

@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  ReactJS - Lifecycle methods
-date:   2020-01-28T15:59:20.239Z
+date:   2020-01-30T22:56:43.257Z
 permalink: /reactjs-lifecycle-methods/
 categories: jekyll update
 ---
 Lifecycle methods are **custom functionality that gets executed during the different phases of a component**. There are methods available when the component gets created and inserted into the DOM (mounting), when the component updates, and when the component gets unmounted or removed from the DOM.
 
 #### Adding Lifecycle Methods to a Class
-In applications with many components, **it’s very important to free up resources taken by the components when they are destroyed**. We want to set up a timer whenever the Clock is rendered to the DOM for the first time. This is called "mounting" in React.We also want to clear that timer whenever the DOM produced by the Clock is removed. This is called "unmounting" in React.We can declare special methods on the component class to run some code when a component mounts and unmounts:
+In applications with many components, **it's very important to free up resources taken by the components when they are destroyed**. We want to set up a timer whenever the Clock is rendered to the DOM for the first time. This is called "mounting" in React.We also want to clear that timer whenever the DOM produced by the Clock is removed. This is called "unmounting" in React.We can declare special methods on the component class to run some code when a component mounts and unmounts:
 
 ```
 class Clock extends React.Component {
@@ -105,7 +105,7 @@ Let’s quickly recap what’s going on and the order in which the methods are c
 
 - When `<Clock />` is passed to *ReactDOM.render()*, React calls the constructor of the *Clock* component. Since *Clock* needs to display the current time, it initializes *this.state* with an object including the current time. We will later update this state.
 
-- React then **calls the *Clock* component’s *render()* method**. This is how React learns what should be displayed on the screen. React then *updates the DOM* to match the Clock’s render output.
+- React then **calls the *Clock* component's *render()* method**. This is how React learns what should be displayed on the screen. React then *updates the DOM* to match the Clock’s render output.
 
 - When the *Clock* output is inserted in the DOM, React **calls the *componentDidMount()* lifecycle method**. Inside it, the *Clock* component asks the browser to set up a timer to call the component’s *tick()* method once a second.
 

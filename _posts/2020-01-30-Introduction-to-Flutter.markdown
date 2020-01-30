@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  Introduction to Flutter
-date:   2020-01-28T11:55:30.836Z
+date:   2020-01-30T22:23:08.839Z
 permalink: /flutter-introduction/
 categories: jekyll update
 ---
 #### What is Flutter?
 Flutter is a Google's portable UI toolkit. In other words, it’s a **comprehensive app Software Development Kit (SDK)**, complete with widgets and tools.
 
-#### What’s Flutter for?
+#### What's Flutter for?
 Flutter **enables cross-platform app development**. It gives developers an easy way to build and deploy visually attractive, natively-compiled applications for mobile (iOS, Android), web, and desktop – all using a single codebase (source: official Flutter website).
 
 #### Who created Flutter?
@@ -18,12 +18,12 @@ A **team at Google** built Flutter. But as an open-source project, both Google a
 
 Flutter is now **one of the top 20 active software repositories** on GitHub (16th place as of December 11, 2019), which proves the developer community uses it and continues to contribute to its improvement.
 
-#### A little more about Flutter…
+#### A little more about Flutter
 
-- It’s **free** and **open source**
-- It’s based on **Dart** – a fast, object-oriented programming language (Google released Dart 2.3 with new support for UI-as-code features – note that Dart is now in its 2.6 version). Dart is relatively new, and is easy to learn – especially for experienced developers more familiar with Java and C#
+- It's **free** and **open source**
+- It's based on **Dart** , a fast, object-oriented programming language (Google released Dart 2.3 with new support for UI-as-code features , note that Dart is now in its 2.6 version). Dart is relatively new, and is easy to learn , especially for experienced developers more familiar with Java and C#
 - The architecture is based on the very popular **reactive programming** (it follows the same style as React)
-- It provides its **own widgets, drawn from its own high-performance rendering engine** – these are fast, attractive and customizable
+- It provides its **own widgets, drawn from its own high-performance rendering engine** , these are fast, attractive and customizable
 - Thanks to the widget experience,**Flutter apps have a great look and feel** (while you can still create your own custom app design using readily-available UI elements that follow specific platform guidelines)
 
 ### - References -

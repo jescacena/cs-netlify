@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ReactJS - Typechecking with PropTypes
-date:   2020-01-28T15:04:52.787Z
+date:   2020-01-30T22:55:07.171Z
 permalink: /reactjs-typechecking-proptypes/
 categories: jekyll update
 ---
@@ -26,7 +26,7 @@ Greeting.propTypes = {
 
 >Note: React.PropTypes has moved into a different package since React v15.5. Please use the prop-types library instead.
 
-**PropTypes exports a range of validators that can be used to make sure the data you receive is valid**. In this example, we’re using *PropTypes.string*. When an invalid value is provided for a prop, a **warning will be shown in the JavaScript console**. For performance reasons, *propTypes is only checked in development mode*.
+**PropTypes exports a range of validators that can be used to make sure the data you receive is valid**. In this example, we're using *PropTypes.string*. When an invalid value is provided for a prop, a **warning will be shown in the JavaScript console**. For performance reasons, *propTypes is only checked in development mode*.
 
 #### PropTypes
 Here is an example documenting the different validators provided:
