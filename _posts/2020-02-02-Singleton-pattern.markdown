@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Singleton pattern
-date:   2020-02-02T06:07:03.969Z
+date:   2020-02-02T07:13:04.247Z
 permalink: /js-design-patterns-singleton/
 categories: jekyll update
 ---
@@ -43,4 +43,4 @@ console.log(mysql.getData()); // mongo
 
 ### - References -
 
-null
+- [Medium - Javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
