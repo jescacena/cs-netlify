@@ -99,6 +99,16 @@ const jsonUrlMap = [
         filename: 'redux.quizzes.json',
         urlPath:
             '/codersnacks-asoc-snack-quizs?codersnacks_category.key=redux'
+    },
+    {
+        filename: 'typescript.snacks.json',
+        urlPath:
+            '/codersnacks-asoc-snack-categories?codersnacks_category.key=typescript'
+    },
+    {
+        filename: 'typescript.quizzes.json',
+        urlPath:
+            '/codersnacks-asoc-snack-quizs?codersnacks_category.key=typescript'
     }
 ];
 
