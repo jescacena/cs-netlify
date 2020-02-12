@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  Typescript Basic Types
-date:   2020-02-12T17:35:24.449Z
+date:   2020-02-12T20:29:42.269Z
 permalink: /typescript-basic-types/
 categories: jekyll update
 ---
-#### Introduction
 For programs to be useful, we need to be able to work with some of the simplest units of data: numbers, strings, structures, boolean values, and the like. In TypeScript, we **support much the same types as you would expect in JavaScript,** with a convenient enumeration type thrown in to help things along.
 
 #### Boolean
