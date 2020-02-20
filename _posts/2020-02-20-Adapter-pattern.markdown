@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Adapter pattern
-date:   2020-02-20T21:56:14.292Z
+date:   2020-02-20T22:03:57.444Z
 permalink: /js-design-patterns-adapter/
 categories: jekyll update
 ---
@@ -77,5 +77,4 @@ console.log(adaptedCalc.operations(10, 5, 'add')); // 15;
 
 ### - References -
 
-- [Medium - Javascript design patterns by Soumyajit Pathak
-](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
+- [Medium - Javascript design patterns by Soumyajit Pathak](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
