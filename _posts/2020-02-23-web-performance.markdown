@@ -8,3 +8,4 @@ icon: https://codersnack.com/assets/images/web-performance.png
 exclude: true
 ---
  * [How the browser renders a web page? (I)](https://codersnack.com/web-performance-how-browser-renders/) 
+ * [How the browser renders a web page? (II)](https://codersnack.com/web-performance-how-browser-renders-2/) 
