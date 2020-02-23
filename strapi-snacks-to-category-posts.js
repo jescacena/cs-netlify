@@ -83,7 +83,7 @@ title:  ${category.header}
 date:   ${category.updated_at}
 permalink: /${category.key}/
 categories: [catpost]
-icon: ${category.image_url}
+icon: ${category.image_url.replace('http:','https:')}
 exclude: true
 ---`;
 }
