@@ -57,6 +57,11 @@ const categoryUrlMap = [
         categorySlug: "typescript",
         urlPath:
             "/codersnacks-asoc-snack-categories?codersnacks_category.key=typescript"
+    },
+    {
+        categorySlug: "web-performance",
+        urlPath:
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=web-performance"
     }
 ];
 
