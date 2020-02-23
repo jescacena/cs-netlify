@@ -27,7 +27,7 @@ layout: post
 title:  ${title}
 date:   ${date}
 permalink: /${slug}/
-categories: jekyll update
+categories: [snackpost]
 ---`;
 }
 

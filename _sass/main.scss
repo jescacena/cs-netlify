@@ -70,10 +70,10 @@ main {
             padding: 0.05em 0em;
         }
         &::before {
-            content: '';
+            content: "";
             width: 20px;
             height: 20px;
-            background: url('../images/pin-icon.png') no-repeat;
+            background: url("../images/pin-icon.png") no-repeat;
             background-size: cover;
             top: -1px;
             right: 5px;
@@ -106,13 +106,12 @@ main {
         .highlighter-rouge {
             font-family: SourceCodePro-Semibold;
             background-color: transparent;
-            color:$deepPurple;
+            color: $deepPurple;
             // font-style: italic;
             font-weight: 800;
             font-size: 0.8rem;
             margin: 0;
             padding: 0;
-
         }
     }
 
@@ -134,7 +133,7 @@ main {
             @include for-phone-only {
                 float: none;
                 text-align: center;
-                padding-bottom:3rem;
+                padding-bottom: 3rem;
             }
             p {
                 margin-bottom: 4em;
@@ -186,6 +185,38 @@ main {
         }
     }
 
+    section.latest-topics {
+        // width: 60%;
+        padding-left: 3rem;
+        box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+
+        @include for-phone-only {
+            padding-left: 1rem;
+
+            width: 100%;
+            h4 {
+                margin-bottom: 1em;
+            }
+        }
+
+        ul {
+            display: inline-block;
+            li {
+                float: left;
+                margin: .5rem;
+                border-radius: 10px;
+                background-color: $darkBlueColor;
+                padding: .7rem 1rem;
+                font-size: .7rem;
+
+                a {
+                    text-decoration: none;
+                    color:white;
+                }
+            }
+        }
+    }
+
     section.latest {
         width: 60%;
         padding-left: 3rem;
@@ -200,8 +231,12 @@ main {
         .post-list {
             margin: 0;
             padding: 0;
-            h1,h2,h3,h4,h5 {
-                font-size:1rem;
+            h1,
+            h2,
+            h3,
+            h4,
+            h5 {
+                font-size: 1rem;
             }
             li {
                 padding: 1em 2em;
@@ -240,6 +275,7 @@ main {
 
     section.post-content {
         padding: 0.5em;
+
         h2 {
             margin-top: 2em;
             margin-left: 0.6em;
@@ -286,7 +322,6 @@ main {
                 @include for-phone-only {
                     width: 90%;
                 }
-
             }
         }
 
@@ -303,6 +338,35 @@ main {
             li {
                 list-style: none;
                 margin-bottom: 1em;
+            }
+        }
+
+        &.category {
+            .header {
+                margin-left: 1rem;
+                @include for-phone-only {
+                    margin: 0;
+                }
+            }
+            img {
+                width: 2rem;
+                display: inline-block;
+            }
+            h3 {
+                display: inline-block;
+                margin-bottom: 2rem;
+                position: relative;
+                top: .2rem;
+            }
+            .main {
+                clear: both;
+                float: none;
+                ul {
+                    list-style-type: none;
+                }
+                li {
+                    list-style: none;
+                }
             }
         }
     }
