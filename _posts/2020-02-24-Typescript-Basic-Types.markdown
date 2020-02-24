@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Typescript Basic Types
-date:   2020-02-12T20:29:42.269Z
+date:   2020-02-24T09:05:43.745Z
 permalink: /typescript-basic-types/
 categories: [snackpost]
 ---
@@ -53,7 +53,7 @@ The second way uses a generic array type, *Array<elemType>*:
 let list: Array<number> = [1, 2, 3];
 ```
 #### Tuple
-Tuple types allow you to** express an array with a fixed number of elements whose types are known**, but need not be the same. For example, you may want to represent a value as a pair of a string and a number:
+Tuple types allow you to **express an array with a fixed number of elements whose types are known**, but need not be the same. For example, you may want to represent a value as a pair of a string and a number:
 
 ```
 // Declare a tuple type

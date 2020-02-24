@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  What is a design pattern?
-date:   2020-01-20T15:21:15.669Z
-permalink: /design-pattern-what-is/
+date:   2020-02-24T09:04:38.214Z
+permalink: /what-is-a-design-pattern/
 categories: [snackpost]
 ---
 We write code to solve problems. These problems usually have many similarities, and, when trying to solve them, we notice several common patterns. This is where design patterns come in.

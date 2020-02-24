@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Typescript Generics
-date:   2020-02-12T22:00:24.934Z
+date:   2020-02-24T09:06:31.653Z
 permalink: /typescript-generics/
 categories: [snackpost]
 ---
@@ -34,7 +34,7 @@ function identity<T>(arg: T): T {
     return arg;
 }
 ```
-We’ve now added *a type variable T *to the identity function. **This T allows us to capture the type the user provides** (e.g. number), **so that we can use that information later**. Here, we use T again as the return type. On inspection, we can now see the same type is used for the argument and the return type. This allows us to traffic that type information in one side of the function and out the other.
+We’ve now added a **type variable T** to the identity function. **This T allows us to capture the type the user provides** (e.g. number), **so that we can use that information later**. Here, we use T again as the return type. On inspection, we can now see the same type is used for the argument and the return type. This allows us to traffic that type information in one side of the function and out the other.
 
 We say that this version of the *identity* function is generic, as it works over a range of types. Unlike using *any*, it's also just as precise (ie, it doesn't lose any information) as the first *identity* function that used numbers for the argument and return type.
 
