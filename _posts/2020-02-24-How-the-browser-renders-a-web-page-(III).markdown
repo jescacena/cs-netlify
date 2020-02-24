@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  How the browser renders a web page? (III)
-date:   2020-02-24T22:01:25.862Z
+date:   2020-02-24T22:10:39.462Z
 permalink: /web-performance-how-browser-renders-3/
 categories: [snackpost]
 ---
@@ -43,13 +43,13 @@ We can **visualize this in *Chrome DevTools console***. Going forward, let’s t
     </body>
 </html>
 ```
-![text](https://codersnack.com/assets/images/web-performance-browser-renders-doncontentloaded-0.png)
+![text](https://codersnack.com/assets/images/web-performance-browser-renders-domcontentloaded-0.png)
 
 From the above screenshot, we can tell that *DOMContentLoaded* the event was fired after 6.5s which is labelled with DCL while *window.onload* event was fired after 10s which is labelled with L.
 
 Let’s see the network panel and see how the browser is treating each resource individually. We are also logging DCL and L events.
 
-![text](https://codersnack.com/assets/images/web-performance-browser-renders-doncontentloaded.gif)
+![text](https://codersnack.com/assets/images/web-performance-browser-renders-domcontentloaded.gif)
 
 As you can see from the above screen recording, since the first external resource encountered while parsing DOM is an external CSS, hence request to fetch it was sent browser started loading it asynchronously. As CSS was loading in the background, normal DOM parsing continued and another external resource encountered which was a JavaScript file.
 
