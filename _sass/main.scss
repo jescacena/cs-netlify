@@ -324,7 +324,7 @@ main {
                 max-width: 100%;
             }
             img {
-                width: 30rem;
+                width: 65%;
                 @include for-phone-only {
                     width: 90%;
                 }
