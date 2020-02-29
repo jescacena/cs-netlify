@@ -62,6 +62,11 @@ const categoryUrlMap = [
         categorySlug: "web-performance",
         urlPath:
             "/codersnacks-asoc-snack-categories?codersnacks_category.key=web-performance"
+    },
+    {
+        categorySlug: "web-components",
+        urlPath:
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=web-components"
     }
 ];
 

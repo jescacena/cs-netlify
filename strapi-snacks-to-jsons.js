@@ -119,6 +119,16 @@ const jsonUrlMap = [
         filename: 'web-performance.quizzes.json',
         urlPath:
             '/codersnacks-asoc-snack-quizs?codersnacks_category.key=web-performance'
+    },
+    {
+        filename: 'web-components.snacks.json',
+        urlPath:
+            '/codersnacks-asoc-snack-categories?codersnacks_category.key=web-components'
+    },
+    {
+        filename: 'web-components.quizzes.json',
+        urlPath:
+            '/codersnacks-asoc-snack-quizs?codersnacks_category.key=web-components'
     }
 ];
 
