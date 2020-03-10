@@ -51,42 +51,12 @@ main {
         }
     }
 
-    blockquote {
-        background-color: white;
-        border-radius: 10px;
-        padding: 0.5em 0.8em;
-        font-style: italic;
-        margin: 1em;
-        max-width: 50%;
-        p {
-            margin: 0.2em !important;
-            max-width: initial !important;
-            padding-left: 1rem;
-            position: relative;
-            top: -0.5rem;
-        }
-        @include for-phone-only {
-            max-width: 100%;
-            padding: 0.05em 0em;
-        }
-        &::before {
-            content: "";
-            width: 20px;
-            height: 20px;
-            background: url("../images/pin-icon.png") no-repeat;
-            background-size: cover;
-            top: -1px;
-            right: 5px;
-            position: relative;
-            display: inline-block;
-        }
-    }
+
 
     // code blocks
-    .highlighter-rouge {
+    div.highlighter-rouge {
         background-color: $darkBlueColor; 
-        padding: .1em .2em;
-        border-radius: 10px;
+        padding: 0.5em;
         color: white;
         font-family: SourceCodePro-ExtraLight;
         line-height: 1.5em;
@@ -101,6 +71,16 @@ main {
             overflow: auto;
             font-size: 0.8em;
         }
+    }
+
+    code.highlighter-rouge {
+        border-radius: 5px;
+        padding: .1rem .2rem;
+        font-style: italic;
+        background-color: $darkBlueColor;
+        font-family: SourceCodePro-ExtraLight;
+        color: white;
+        font-size:0.7rem;
     }
 
     em {
@@ -281,6 +261,12 @@ main {
 
     section.post-content {
         padding: 0.5em;
+        margin-left: 12rem;
+        margin-right: 11rem;
+
+        @include for-phone-only {
+            margin: 0;
+        }
 
         h2 {
             margin-top: 2em;
@@ -374,6 +360,38 @@ main {
                     list-style: none;
                 }
             }
+        }
+    }
+
+    blockquote {
+        background-color: white;
+        border-radius: 10px;
+        padding: 0.5em 0.8em;
+        font-style: italic;
+        margin: 1em;
+        max-width: 70%;
+        > p {
+            margin: 0.2em !important;
+            max-width: initial !important;
+            padding-left: 1rem;
+            position: relative;
+            top: -0.5rem;
+            font-size: 0.9rem !important;
+        }
+        @include for-phone-only {
+            max-width: 100%;
+            padding: 0.05em 0em;
+        }
+        &::before {
+            content: "";
+            width: 20px;
+            height: 20px;
+            background: url("../images/pin-icon.png") no-repeat;
+            background-size: cover;
+            top: -1px;
+            right: 5px;
+            position: relative;
+            display: inline-block;
         }
     }
 }
