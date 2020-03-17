@@ -129,6 +129,16 @@ const jsonUrlMap = [
         filename: 'web-components.quizzes.json',
         urlPath:
             '/codersnacks-asoc-snack-quizs?codersnacks_category.key=web-components'
+    },
+    {
+        filename: 'webpack.snacks.json',
+        urlPath:
+            '/codersnacks-asoc-snack-categories?codersnacks_category.key=webpack'
+    },
+    {
+        filename: 'webpack.quizzes.json',
+        urlPath:
+            '/codersnacks-asoc-snack-quizs?codersnacks_category.key=webpack'
     }
 ];
 

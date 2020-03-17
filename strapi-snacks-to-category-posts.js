@@ -67,6 +67,11 @@ const categoryUrlMap = [
         categorySlug: "web-components",
         urlPath:
             "/codersnacks-asoc-snack-categories?codersnacks_category.key=web-components"
+    },
+    {
+        categorySlug: "webpack",
+        urlPath:
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=webpack"
     }
 ];
 
