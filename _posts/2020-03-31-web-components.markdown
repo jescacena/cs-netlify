@@ -9,3 +9,4 @@ exclude: true
 ---
  * [Introduction to Web Components](https://codersnack.com/web-components-introduction/) 
  * [LitElement and lit-html Introduction](https://codersnack.com/lit-element-lit-html-introduction/) 
+ * [LitElement Templates I](https://codersnack.com/webcomponents-litelement-templates/) 
