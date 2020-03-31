@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  LitElement Properties 2
-date:   2020-03-31T17:51:34.865Z
+date:   2020-03-31T18:16:25.581Z
 permalink: /webcomponents-litelement-properties-2/
 categories: [snackpost]
 ---
@@ -387,6 +387,135 @@ class MyElement extends LitElement {
       console.log(`${propName} changed. oldValue: ${oldValue}`);
     });
   }
+}
+customElements.define('my-element', MyElement);
+```
+
+An observed attribute can be used to provide an initial value for a property via markup. See Initialize properties with attributes in markup.
+
+### Configure reflected attributes
+**You can configure a property so that whenever it changes, its value is reflected to its observed attribute**. For example:
+
+```
+// Value of property "myProp" will reflect to attribute "myprop"
+myProp: { reflect: true }
+```
+
+When the property changes, LitElement uses the toAttribute function in the property's converter to set the attribute value from the new property value.
+
+- If toAttribute returns null, the attribute is removed.
+
+- If toAttribute returns undefined, the attribute is not changed.
+
+- If toAttribute itself is undefined, the property value is set to the attribute value without conversion.
+
+LitElement tracks reflection state during updates. LitElement keeps track of state information to avoid creating an infinite loop of changes between a property and an observed, reflected attribute.
+
+**Example**: Configure reflected attributes
+
+```
+import { LitElement, html } from 'lit-element';
+
+class MyElement extends LitElement {
+  static get properties() { return {
+    myProp: { reflect: true }
+  };}
+
+  constructor() {
+    super();
+    this.myProp='myProp';
+  }
+
+  attributeChangedCallback(name, oldval, newval) {
+    console.log('attribute change: ', newval);
+    super.attributeChangedCallback(name, oldval, newval);
+  }
+
+  render() {
+    return html`
+      <p>${this.myProp}</p>
+
+      <button @click="${this.changeProperty}">change property</button>
+    `;
+  }
+
+  changeProperty() {
+    let randomString = Math.floor(Math.random()*100).toString();
+    this.myProp='myProp ' + randomString;
+  }
+
+}
+customElements.define('my-element', MyElement);
+```
+
+### Configure property changes
+All declared properties have a function, **hasChanged**, which is **called whenever the property is set.**
+
+hasChanged compares the property's old and new values, and evaluates whether or not the property has changed. If hasChanged returns true, **LitElement starts an element update if one is not already scheduled**. See the Element update lifecycle documentation for more information on how updates work.
+
+By default:
+
+- hasChanged returns true if newVal !== oldVal.
+- hasChanged returns false if both the new and old values are NaN.
+
+To customize **hasChanged** for a property, specify it as a property option:
+
+```
+myProp: { hasChanged(newVal, oldVal) {
+  // compare newVal and oldVal
+  // return `true` if an update should proceed
+}}
+```
+**Example**: Configure property changes
+
+```
+import { LitElement, html } from 'lit-element';
+
+class MyElement extends LitElement {
+  static get properties(){ return {
+    myProp: {
+      type: Number,
+
+      /**
+       * Compare myProp's new value with its old value.
+       *
+       * Only consider myProp to have changed if newVal is larger than
+       * oldVal.
+       */
+      hasChanged(newVal, oldVal) {
+        if (newVal > oldVal) {
+          console.log(`${newVal} > ${oldVal}. hasChanged: true.`);
+          return true;
+        }
+        else {
+          console.log(`${newVal} <= ${oldVal}. hasChanged: false.`);
+          return false;
+        }
+      }
+    }};
+  }
+
+  constructor(){
+    super();
+    this.myProp = 1;
+  }
+
+  render(){
+    return html`
+      <p>${this.myProp}</p>
+      <button @click="${this.getNewVal}">get new value</button>
+    `;
+  }
+
+  updated(){
+    console.log('updated');
+  }
+
+  getNewVal(){
+    let newVal = Math.floor(Math.random()*10);
+    this.myProp = newVal;
+  }
+
 }
 customElements.define('my-element', MyElement);
 ```

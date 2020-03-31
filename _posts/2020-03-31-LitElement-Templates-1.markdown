@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  LitElement Templates I
-date:   2020-03-31T08:59:29.566Z
+title:  LitElement Templates 1
+date:   2020-03-31T18:19:00.931Z
 permalink: /webcomponents-litelement-templates/
 categories: [snackpost]
 ---
