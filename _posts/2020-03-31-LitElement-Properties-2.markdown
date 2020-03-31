@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  LitElement Properties 2
-date:   2020-03-31T15:56:12.994Z
-permalink: /webcomponents-litelement-properties-1/
+date:   2020-03-31T17:51:34.865Z
+permalink: /webcomponents-litelement-properties-2/
 categories: [snackpost]
 ---
 ### Properties vs Attributes
