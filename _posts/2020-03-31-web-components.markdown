@@ -12,3 +12,5 @@ exclude: true
  * [LitElement Templates I](https://codersnack.com/webcomponents-litelement-templates/) 
  * [LitElement Templates 2](https://codersnack.com/webcomponents-litelement-templates-2/) 
  * [LitElement Templates III](https://codersnack.com/webcomponents-litelement-templates-3/) 
+ * [LitElement Properties 1](https://codersnack.com/webcomponents-litelement-properties-1/) 
+ * [LitElement Properties 2](https://codersnack.com/webcomponents-litelement-properties-1/) 
