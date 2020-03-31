@@ -60,7 +60,7 @@ main {
         color: white;
         font-family: SourceCodePro-ExtraLight;
         line-height: 1.5em;
-        margin: 0;
+        margin: 1em;
         overflow: auto;
         max-width: 80%;
         @include for-phone-only {
