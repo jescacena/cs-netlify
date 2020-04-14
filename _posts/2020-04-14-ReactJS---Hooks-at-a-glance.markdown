@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ReactJS - Hooks at a glance
-date:   2020-04-14T17:03:45.208Z
+date:   2020-04-14T17:16:40.543Z
 permalink: /reactjs-hooks-introduction/
 icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
@@ -187,7 +187,7 @@ function FriendListItem(props) {
   const isOnline = useFriendStatus(props.friend.id);
 
   return (
-    <li style={{ color: isOnline ? "green" : "black" }}>
+    <li>
       {props.friend.name}
     </li>
   );

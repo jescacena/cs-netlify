@@ -1,7 +1,7 @@
 section.about-header {
     p {
         font-size: 1rem;
-        margin:0;
+        margin: 0;
     }
 }
 section.about {
@@ -22,32 +22,32 @@ section.about {
 
     .avatar {
         float: left;
-        width: 20rem;
-        background-image: url(../images/supermoco2020-3.jpg);
-        background-size: 20rem 20rem;
+        width: 18rem;
+        background-image: url(../images/mifoto_menos_pelo.jpg);
+        background-size: 18rem 15rem;
         background-position: 0;
-        height: 20rem;
+        height: 15rem;
         vertical-align: bottom;
         position: relative;
         margin-right: 1rem;
         @include for-phone-only {
             margin-right: 0;
             width: 90%;
-            float:none;
+            float: none;
             background-size: contain;
             background-repeat: no-repeat;
-            height: 15rem;
+            height: 16rem;
         }
 
         h1 {
             vertical-align: bottom;
             position: absolute;
             bottom: 1rem;
-            right: .5rem;
+            right: 0.5rem;
             color: lightgrey;
             @include for-phone-only {
-                bottom:auto;
-                top:1rem;
+                bottom: auto;
+                top: 1rem;
                 font-size: 0.7rem;
             }
         }
@@ -60,11 +60,10 @@ section.about {
         margin-right: 3rem;
 
         @include for-phone-only {
-            float:none;
+            float: none;
             display: inline-block;
-            width:100%;
+            width: 100%;
             text-align: center;
-
         }
 
         .social-links {
@@ -73,11 +72,11 @@ section.about {
             }
             li {
                 @include for-phone-only {
-                    float:left;
+                    float: left;
                     margin-right: 1rem;
                 }
                 img {
-                    width: 3rem;
+                    width: 2rem;
                     @include for-phone-only {
                         width: 2rem;
                     }
@@ -99,11 +98,10 @@ section.about {
     .skills {
         float: left;
         @include for-phone-only {
-            float:none;
+            float: none;
             display: inline-block;
             width: 100%;
-            margin-top:2rem;
-
+            margin-top: 2rem;
         }
         li {
             position: relative;
@@ -111,7 +109,7 @@ section.about {
 
             margin-bottom: 1rem;
             &::before {
-                content: '\003e';
+                content: "\003e";
                 font-size: 1.5rem;
                 display: inline-block;
                 color: red;
@@ -120,7 +118,7 @@ section.about {
                 top: 3px;
             }
             &::after {
-                content: '';
+                content: "";
                 position: absolute;
                 top: 20px;
                 right: -12px;
@@ -150,11 +148,11 @@ section.about {
 
 section.about-kofi {
     @include for-phone-only {
-        margin-top:4rem;
-        margin-bottom:3rem;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
         text-align: center;
     }
-}   
+}
 
 @-webkit-keyframes blink {
     0% {
