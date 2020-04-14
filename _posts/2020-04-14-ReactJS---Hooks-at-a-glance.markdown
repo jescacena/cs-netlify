@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ReactJS - Hooks at a glance
-date:   2020-04-14T17:18:56.963Z
+date:   2020-04-14T17:20:03.506Z
 permalink: /reactjs-hooks-introduction/
 icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
@@ -194,7 +194,7 @@ function FriendListItem(props) {
   );
 }
 ```
-> Fix: ```<li style={{ color: isOnline ? "green" : "black" }}```
+> Fix: ```<li style=\{\{ color\: isOnline \? \"green\" \: \"black\" \}\}```
 
 **The state of these components is completely independent**. Hooks are a way to reuse stateful logic, not state itself. In fact, each call to a Hook has a completely isolated state — so you can even use the same custom Hook twice in one component.
 
