@@ -272,35 +272,42 @@ main {
             margin: 0;
         }
 
-        h2 {
-            margin-top: 2em;
+        img {
+            width: 2rem;
+            display: inline-block;
+        }
+
+        h2,
+        h3,
+        h4 {
+            display: inline-block;
+            position: relative;
+            top: 0.2rem;
             margin-left: 0.6em;
-            font-size: 1.6em;
+            margin-bottom: 0em;
+            &.main-header {
+                margin-bottom: 1.5em;
+            }
             @include for-phone-only {
                 margin-left: 0.3em;
             }
         }
+
+        h2 {
+            font-size: 1.6em;
+        }
+
         h3 {
-            margin-top: 2em;
-            margin-left: 0.6em;
             font-size: 1.5em;
-            @include for-phone-only {
-                margin-left: 0.3em;
-            }
         }
         h4 {
-            margin-top: 2em;
-            margin-left: 0.6em;
             font-size: 1.3em;
-            @include for-phone-only {
-                margin-left: 0.3em;
-            }
         }
         p {
             font-size: 1em;
             max-width: 80%;
             margin-bottom: 1em;
-            line-height: 1.8;
+            line-height: 1.6;
             @include for-phone-only {
                 max-width: 100%;
                 line-height: 1.4;
@@ -314,7 +321,7 @@ main {
                 max-width: 100%;
             }
             img {
-                width: 65%;
+                width: 100%;
                 @include for-phone-only {
                     width: 90%;
                 }
@@ -323,10 +330,16 @@ main {
 
         ul {
             margin-left: 3rem;
+            max-width: 80%;
             li {
                 list-style-type: disc;
                 margin-bottom: 1rem;
+                line-height: 1.6;
             }
+        }
+
+        #--references-- {
+            margin: 2rem 0;
         }
 
         #--references-- + ul {
