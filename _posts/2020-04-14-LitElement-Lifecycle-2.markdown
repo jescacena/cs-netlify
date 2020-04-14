@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  LitElement Lifecycle 2
-date:   2020-03-31T19:51:01.653Z
+date:   2020-04-14T15:06:42.160Z
 permalink: /webcomponents-litelement-lifecycle-2/
 categories: [snackpost]
 ---

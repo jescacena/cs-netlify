@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  LitElement Properties 2
-date:   2020-03-31T18:16:25.581Z
+date:   2020-04-14T15:07:15.496Z
 permalink: /webcomponents-litelement-properties-2/
 categories: [snackpost]
 ---

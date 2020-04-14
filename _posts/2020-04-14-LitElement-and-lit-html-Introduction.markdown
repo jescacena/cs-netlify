@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  LitElement and lit-html Introduction
-date:   2020-03-30T14:04:17.504Z
+date:   2020-04-14T15:08:28.972Z
 permalink: /lit-element-lit-html-introduction/
 categories: [snackpost]
 ---

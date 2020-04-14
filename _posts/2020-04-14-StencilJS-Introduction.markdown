@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  StencilJS Introduction
-date:   2020-04-14T14:38:00.617Z
+date:   2020-04-14T15:04:06.843Z
 permalink: /stenciljs-introduction/
 categories: [snackpost]
 ---
