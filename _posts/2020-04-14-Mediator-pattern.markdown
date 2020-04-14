@@ -3,6 +3,7 @@ layout: post
 title:  Mediator pattern
 date:   2020-02-03T16:42:11.460Z
 permalink: /js-design-patterns-mediator/
+icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 It is a *behavioural design pattern* that encapsulates how a set of objects interact with each other. It **provides the central authority over a group of objects by promoting loose coupling, keeping objects from referring to each other explicitly**.

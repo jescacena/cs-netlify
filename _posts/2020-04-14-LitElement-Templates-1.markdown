@@ -3,6 +3,7 @@ layout: post
 title:  LitElement Templates 1
 date:   2020-04-14T15:08:15.088Z
 permalink: /webcomponents-litelement-templates/
+icon: https://codersnack.com/assets/images/litelement-icon.png
 categories: [snackpost]
 ---
 Add a template to your component to define internal DOM to implement your component.

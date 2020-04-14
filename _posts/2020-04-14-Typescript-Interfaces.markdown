@@ -3,6 +3,7 @@ layout: post
 title:  Typescript Interfaces
 date:   2020-02-12T20:47:11.498Z
 permalink: /typescript-interfaces/
+icon: https://codersnack.com/assets/images/typescript-icon.png
 categories: [snackpost]
 ---
 

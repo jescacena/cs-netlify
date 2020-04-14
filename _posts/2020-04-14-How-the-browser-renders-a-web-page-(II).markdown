@@ -3,6 +3,7 @@ layout: post
 title:  How the browser renders a web page? (II)
 date:   2020-02-23T21:37:29.712Z
 permalink: /web-performance-how-browser-renders-2/
+icon: https://codersnack.com/assets/images/web-performance.png
 categories: [snackpost]
 ---
 ### Render Tree

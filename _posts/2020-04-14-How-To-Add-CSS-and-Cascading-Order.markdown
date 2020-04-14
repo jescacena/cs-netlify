@@ -3,6 +3,7 @@ layout: post
 title:  How To Add CSS and Cascading Order
 date:   2020-01-24T09:37:40.691Z
 permalink: /how-to-add-css-and-cascading-order/
+icon: https://codersnack.com/assets/images/logo-css.jpg
 categories: [snackpost]
 ---
 When a browser reads a style sheet, it will format the HTML document according to the information in the style sheet.

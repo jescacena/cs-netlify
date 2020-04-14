@@ -3,6 +3,7 @@ layout: post
 title:  Strategy Pattern
 date:   2020-02-04T11:10:29.214Z
 permalink: /js-design-patterns-strategy/
+icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 It is a *behavioural design pattern* that **allows encapsulation of alternative algorithms for a particular task**. It **defines a family of algorithms and encapsulates them in such a way that they are interchangeable at runtime without client interference or knowledge**.

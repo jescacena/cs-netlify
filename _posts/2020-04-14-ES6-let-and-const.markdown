@@ -3,6 +3,7 @@ layout: post
 title:  ES6 let and const
 date:   2020-01-20T15:11:26.273Z
 permalink: /es6-let-const/
+icon: https://codersnack.com/assets/images/es6-let-const.png
 categories: [snackpost]
 ---
 There are two ways for declaring a variable (let and const) plus one that has become obsolete (var).

@@ -3,6 +3,7 @@ layout: post
 title:  CSS Layout - The position Property
 date:   2020-01-24T11:15:34.201Z
 permalink: /css-layout-the-position-property/
+icon: https://codersnack.com/assets/images/logo-css.jpg
 categories: [snackpost]
 ---
 The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).

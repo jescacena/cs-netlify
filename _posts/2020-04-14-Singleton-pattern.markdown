@@ -3,6 +3,7 @@ layout: post
 title:  Singleton pattern
 date:   2020-02-02T07:13:04.247Z
 permalink: /js-design-patterns-singleton/
+icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 Singleton is a special *creational design pattern* in which **only one instance of a class can exist**. It works like this: **if no instance of the singleton class exists then a new instance is created and returned, but if an instance already exists, then the reference to the existing instance is returned.**

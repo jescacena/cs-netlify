@@ -3,6 +3,7 @@ layout: post
 title:  ReactJS - Hooks at a glance
 date:   2020-03-16T19:47:28.799Z
 permalink: /reactjs-hooks-introduction/
+icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 

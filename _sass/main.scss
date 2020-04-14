@@ -45,7 +45,8 @@ main {
         margin-left: 1em;
     }
 
-    h4,h5 {
+    h4,
+    h5 {
         &:nth-child(2) {
             margin-bottom: 2em;
         }
@@ -56,11 +57,9 @@ main {
         }
     }
 
-
-
     // code blocks
     div.highlighter-rouge {
-        background-color: $darkBlueColor; 
+        background-color: $darkBlueColor;
         padding: 0.5em;
         color: white;
         font-family: SourceCodePro-ExtraLight;
@@ -80,12 +79,12 @@ main {
 
     code.highlighter-rouge {
         border-radius: 5px;
-        padding: .1rem .2rem;
+        padding: 0.1rem 0.2rem;
         font-style: italic;
         background-color: $darkBlueColor;
         font-family: SourceCodePro-ExtraLight;
         color: white;
-        font-size:0.7rem;
+        font-size: 0.7rem;
     }
 
     em {
@@ -189,18 +188,18 @@ main {
             display: inline-block;
             li {
                 float: left;
-                margin: .5rem;
+                margin: 0.5rem;
                 border-radius: 10px;
                 background-color: $darkBlueColor;
-                padding: .7rem 1rem;
-                font-size: .7rem;
+                padding: 0.7rem 1rem;
+                font-size: 0.7rem;
 
                 a {
                     text-decoration: none;
-                    color:white;
+                    color: white;
 
                     img {
-                        width:2em;
+                        width: 2em;
                         height: 2em;
                     }
                 }
@@ -301,10 +300,10 @@ main {
             font-size: 1em;
             max-width: 80%;
             margin-bottom: 1em;
-            line-height: 1.4;
+            line-height: 1.8;
             @include for-phone-only {
                 max-width: 100%;
-                line-height: 1.2;
+                line-height: 1.4;
             }
 
             &.date {
@@ -353,7 +352,7 @@ main {
                 display: inline-block;
                 margin-bottom: 2rem;
                 position: relative;
-                top: .2rem;
+                top: 0.2rem;
             }
             .main {
                 clear: both;

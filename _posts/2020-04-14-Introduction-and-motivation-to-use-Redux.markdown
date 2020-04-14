@@ -3,6 +3,7 @@ layout: post
 title:  Introduction and motivation to use Redux
 date:   2020-02-02T19:57:54.704Z
 permalink: /redux-introduction/
+icon: https://codersnack.com/assets/images/redux-icon.png
 categories: [snackpost]
 ---
 Redux is a **predictable state container for JavaScript apps**.

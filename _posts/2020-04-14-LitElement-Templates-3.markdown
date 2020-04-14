@@ -3,6 +3,7 @@ layout: post
 title:  LitElement Templates 3
 date:   2020-04-14T15:07:30.838Z
 permalink: /webcomponents-litelement-templates-3/
+icon: https://codersnack.com/assets/images/litelement-icon.png
 categories: [snackpost]
 ---
 ### Compose a template from other templates

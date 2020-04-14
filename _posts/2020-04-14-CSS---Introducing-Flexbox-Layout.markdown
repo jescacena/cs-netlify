@@ -3,6 +3,7 @@ layout: post
 title:  CSS - Introducing Flexbox Layout
 date:   2020-01-23T21:01:40.026Z
 permalink: /css-introducing-flex-box/
+icon: https://codersnack.com/assets/images/css-flex-box-basics.png
 categories: [snackpost]
 ---
 ``` ``` 

@@ -3,6 +3,7 @@ layout: post
 title:  Flyweight Pattern
 date:   2020-02-20T22:07:23.310Z
 permalink: /js-design-patterns-flyweight/
+icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 This is a *structural design pattern* focused on **efficient data sharing through fine-grained objects**. It is used for efficiency and **memory conservation purposes**.

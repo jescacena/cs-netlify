@@ -3,6 +3,7 @@ layout: post
 title:  LitElement Properties 1
 date:   2020-04-14T15:07:45.096Z
 permalink: /webcomponents-litelement-properties-1/
+icon: https://codersnack.com/assets/images/litelement-icon.png
 categories: [snackpost]
 ---
 ### Overview

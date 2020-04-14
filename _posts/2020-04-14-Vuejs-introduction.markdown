@@ -3,6 +3,7 @@ layout: post
 title:  Vuejs introduction
 date:   2020-01-28T13:23:32.496Z
 permalink: /vuejs-introduction/
+icon: https://codersnack.com/assets/images/vuejs-icon.png
 categories: [snackpost]
 ---
 Vue.js is an **open-source Model–view–viewmodel JavaScript framework** for building user interfaces and single-page applications.

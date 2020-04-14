@@ -3,6 +3,7 @@ layout: post
 title:  How the browser renders a web page? (I)
 date:   2020-02-23T16:58:43.010Z
 permalink: /web-performance-how-browser-renders/
+icon: https://codersnack.com/assets/images/web-performance.png
 categories: [snackpost]
 ---
 ### Document Object Model (DOM)

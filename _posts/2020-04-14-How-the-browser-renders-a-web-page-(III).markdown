@@ -3,6 +3,7 @@ layout: post
 title:  How the browser renders a web page? (III)
 date:   2020-02-24T22:10:39.462Z
 permalink: /web-performance-how-browser-renders-3/
+icon: https://codersnack.com/assets/images/web-performance.png
 categories: [snackpost]
 ---
 ### Render blocking CSS & DOMContentLoaded

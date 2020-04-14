@@ -3,6 +3,7 @@ layout: post
 title:  Introduction to Web Components
 date:   2020-02-29T21:31:43.928Z
 permalink: /web-components-introduction/
+icon: https://codersnack.com/assets/images/web-components.png
 categories: [snackpost]
 ---
 ### What are Web Components, anyway?

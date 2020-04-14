@@ -3,6 +3,7 @@ layout: post
 title:  CSS Flexbox Properties for flex container (2)
 date:   2020-01-26T11:39:59.167Z
 permalink: /css-flexbox-properties-parent-2/
+icon: https://codersnack.com/assets/images/css-flex-align-items.png
 categories: [snackpost]
 ---
 These snacks will core these flex properties: flex-flow, justify-content and align-items

@@ -3,6 +3,7 @@ layout: post
 title:  ReactJS Forms
 date:   2020-01-28T17:06:57.842Z
 permalink: /reactjs-forms/
+icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 *HTML form elements work a little bit differently from other DOM elements in React,* because **form elements naturally keep some internal state**. For example, this form in plain HTML accepts a single name:

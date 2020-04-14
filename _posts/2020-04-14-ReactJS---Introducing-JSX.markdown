@@ -3,6 +3,7 @@ layout: post
 title:  ReactJS - Introducing JSX
 date:   2020-01-20T15:04:09.637Z
 permalink: /reactjs-introducing-jsx/
+icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 Consider this variable declaration:

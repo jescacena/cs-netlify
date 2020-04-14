@@ -3,6 +3,7 @@ layout: post
 title:  What is functional programming?
 date:   2020-01-09T11:30:27.794Z
 permalink: /functional-programming.what-is/
+icon: https://codersnack.com/assets/images/fp_lisp.png
 categories: [snackpost]
 ---
 Functional programming is a *programming paradigm* that expresses a computation directly as pure functional transformation of data.

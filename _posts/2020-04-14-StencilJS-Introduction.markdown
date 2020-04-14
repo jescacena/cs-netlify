@@ -3,6 +3,7 @@ layout: post
 title:  StencilJS Introduction
 date:   2020-04-14T15:04:06.843Z
 permalink: /stenciljs-introduction/
+icon: https://codersnack.com/assets/images/stenciljs-icon.png
 categories: [snackpost]
 ---
 **Stencil is a compiler that generates Web Components** (more specifically, Custom Elements). Stencil combines the best concepts of the most popular frameworks into a simple build-time tool.

@@ -3,6 +3,7 @@ layout: post
 title:  CSS Grid Introduction
 date:   2020-01-25T12:31:58.737Z
 permalink: /css-grid-introduction/
+icon: https://codersnack.com/assets/images/css-grid.png
 categories: [snackpost]
 ---
 CSS Grid Layout is the most powerful layout system available in CSS. 

@@ -3,6 +3,7 @@ layout: post
 title:  Proxy pattern
 date:   2020-02-04T10:12:00.319Z
 permalink: /js-design-patterns-proxy/
+icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 This is a *structural design pattern* that behaves exactly as its name suggests. It **acts as a surrogate or placeholder for another object to control access to it**.

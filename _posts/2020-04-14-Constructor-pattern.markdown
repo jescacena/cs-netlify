@@ -3,6 +3,7 @@ layout: post
 title:  Constructor pattern
 date:   2020-02-20T22:06:32.746Z
 permalink: /js-design-patterns-constructor/
+icon: https://codersnack.com/assets/images/design-pattern.jpg
 categories: [snackpost]
 ---
 This is a *class-based creational design pattern*. **Constructors are special functions that can be used to instantiate new objects** with methods and properties defined by that function.

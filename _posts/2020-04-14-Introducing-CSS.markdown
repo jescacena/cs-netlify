@@ -3,6 +3,7 @@ layout: post
 title:  Introducing CSS
 date:   2020-02-23T17:13:42.161Z
 permalink: /introducing-css/
+icon: https://codersnack.com/assets/images/logo-css.jpg
 categories: [snackpost]
 ---
 #### What is CSS?

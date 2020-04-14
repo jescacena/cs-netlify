@@ -3,6 +3,7 @@ layout: post
 title:  Webpack Concepts
 date:   2020-03-17T10:52:14.133Z
 permalink: /webpack-concepts/
+icon: https://codersnack.com/assets/images/webpack-icon.png
 categories: [snackpost]
 ---
 At its core, **webpack is a static module bundler** for modern JavaScript applications. When webpack processes your application, it **internally builds a ```dependency graph``` which maps every module your project needs and generates one or more bundles**.

@@ -3,6 +3,7 @@ layout: post
 title:  ES6 let and closures
 date:   2020-01-20T15:09:38.771Z
 permalink: /es6-let-closures/
+icon: http://codersnack.com/assets/images/es6-let-closure.png
 categories: [snackpost]
 ---
 Functions can be nested inside other functions. 

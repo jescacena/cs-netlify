@@ -3,6 +3,7 @@ layout: post
 title:  Template pattern
 date:   2020-02-04T11:17:13.865Z
 permalink: /js-design-patterns-template/
+icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 This is a *behavioural design pattern* based on **defining the skeleton of the algorithm or implementation of an operation, but deferring some steps to subclasses**. It lets subclasses redefine certain steps of an algorithm without changing the algorithm’s outward structure.

@@ -3,6 +3,7 @@ layout: post
 title:  CSS Flexbox Properties for flex item (1)
 date:   2020-01-25T12:13:06.958Z
 permalink: /css-flexbox-properties-children/
+icon: https://codersnack.com/assets/images/css-flex-grow.png
 categories: [snackpost]
 ---
 These snack covers these flex items properties: order, flex-grow, flex-shrink, flex-basis , flex and align-itself

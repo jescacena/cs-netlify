@@ -3,6 +3,7 @@ layout: post
 title:  LitElement Lifecycle 1
 date:   2020-04-14T15:07:00.130Z
 permalink: /webcomponents-litelement-lifecycle/
+icon: https://codersnack.com/assets/images/litelement-icon.png
 categories: [snackpost]
 ---
 ### Overview

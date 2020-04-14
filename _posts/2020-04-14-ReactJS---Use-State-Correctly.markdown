@@ -3,6 +3,7 @@ layout: post
 title:  ReactJS - Use State Correctly
 date:   2020-03-16T15:36:26.199Z
 permalink: /reactjs-use-state-correctly/
+icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 There are three things you should know about setState().

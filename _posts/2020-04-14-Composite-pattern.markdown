@@ -3,6 +3,7 @@ layout: post
 title:  Composite pattern
 date:   2020-02-20T22:06:23.966Z
 permalink: /js-design-patterns-composite/
+icon: https://codersnack.com/assets/images/design-pattern.jpg
 categories: [snackpost]
 ---
 This is a *structural design pattern* that **composes objects into tree-like structures to represent whole-part hierarchies**. In this pattern, each node in the tree-like structure can be either an individual object or a composed collection of objects. Regardless, each node is treated uniformly.

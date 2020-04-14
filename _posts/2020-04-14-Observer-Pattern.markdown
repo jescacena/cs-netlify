@@ -3,6 +3,7 @@ layout: post
 title:  Observer Pattern
 date:   2020-02-04T10:26:42.213Z
 permalink: /js-design-patterns-observer/
+icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 It is a crucial *behavioural design pattern* that **defines one-to-many dependencies between objects so that when one object (publisher) changes its state, all the other dependent objects (subscribers) are notified and updated automatically.** This is also called **PubSub (publisher/subscribers) or event dispatcher/listeners pattern**. The publisher is sometimes called the **subject**, and the subscribers are sometimes called **observers**.

@@ -3,6 +3,7 @@ layout: post
 title:  ReactJS - States
 date:   2020-01-20T15:06:43.073Z
 permalink: /reactjs-states/
+icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 > State is similar to props, but it is private and fully controlled by the component.

@@ -3,6 +3,7 @@ layout: post
 title:  LitElement Properties 2
 date:   2020-04-14T15:07:15.496Z
 permalink: /webcomponents-litelement-properties-2/
+icon: https://codersnack.com/assets/images/litelement-icon.png
 categories: [snackpost]
 ---
 ### Properties vs Attributes

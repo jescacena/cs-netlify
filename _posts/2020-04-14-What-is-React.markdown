@@ -3,6 +3,7 @@ layout: post
 title:  What is React?
 date:   2020-01-20T15:00:42.381Z
 permalink: /react-what-is/
+icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 React is a free, unlicensed JS library focused in **UI management**.

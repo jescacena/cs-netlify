@@ -3,6 +3,7 @@ layout: post
 title:  Adapter pattern
 date:   2020-02-20T22:03:57.444Z
 permalink: /js-design-patterns-adapter/
+icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 This is a *structural pattern* where **the interface of one class is translated into another**. 

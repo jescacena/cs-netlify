@@ -3,6 +3,7 @@ layout: post
 title:  Chain of responsibility pattern
 date:   2020-02-20T22:06:05.787Z
 permalink: /js-design-patterns-chain-of-responsibility/
+icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 This is a *behavioural design pattern* that **provides a chain of loosely coupled objects. Each of these objects can choose to act on or handle the request of the client.**

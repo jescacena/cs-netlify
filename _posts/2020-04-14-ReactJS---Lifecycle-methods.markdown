@@ -3,6 +3,7 @@ layout: post
 title:  ReactJS - Lifecycle methods
 date:   2020-01-30T22:56:43.257Z
 permalink: /reactjs-lifecycle-methods/
+icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 Lifecycle methods are **custom functionality that gets executed during the different phases of a component**. There are methods available when the component gets created and inserted into the DOM (mounting), when the component updates, and when the component gets unmounted or removed from the DOM.

@@ -3,6 +3,7 @@ layout: post
 title:  Prototype pattern
 date:   2020-01-30T22:49:30.366Z
 permalink: /js-design-patterns-prototype/
+icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 This pattern is an *object-based creational design pattern*. In this, **we use a sort of a "skeleton" of an existing object to create or instantiate new objects**.

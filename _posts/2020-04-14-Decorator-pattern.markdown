@@ -3,6 +3,7 @@ layout: post
 title:  Decorator pattern
 date:   2020-02-20T22:06:43.486Z
 permalink: /js-design-patterns-decorator/
+icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 This is also a *structural design pattern* that **focuses on the ability to add behaviour or functionalities to existing classes dynamically**. It is another viable alternative to sub-classing.

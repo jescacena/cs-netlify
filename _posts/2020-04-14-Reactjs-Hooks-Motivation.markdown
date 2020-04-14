@@ -3,6 +3,7 @@ layout: post
 title:  Reactjs Hooks Motivation
 date:   2020-03-10T21:09:33.161Z
 permalink: /reactjs-hooks-overview/
+icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 ### Motivation

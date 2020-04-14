@@ -3,6 +3,7 @@ layout: post
 title:  Factory pattern
 date:   2020-02-20T22:07:14.858Z
 permalink: /js-design-patterns-factory/
+icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 Factory pattern is a *class-based creational pattern*. It provides a generic interface that delegates the responsibility of object instantiation to its subclasses.

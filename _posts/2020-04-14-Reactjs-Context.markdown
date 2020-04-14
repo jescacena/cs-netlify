@@ -3,6 +3,7 @@ layout: post
 title:  Reactjs Context
 date:   2020-02-02T21:39:23.524Z
 permalink: /reactjs-context/
+icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 **Context provides a way to pass data through the component tree without having to pass props down manually at every level**.

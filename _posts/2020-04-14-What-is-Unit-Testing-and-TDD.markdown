@@ -3,6 +3,7 @@ layout: post
 title:  What is Unit Testing and TDD?
 date:   2020-01-28T19:17:01.851Z
 permalink: /js-unit-testing-whatis-tdd/
+icon: https://codersnack.com/assets/images/js-unit-testing-icon.png
 categories: [snackpost]
 ---
 **A unit test runs some code over a segment of your program checking the input and output**. These tests allow developers to check individual areas of a program **to see where (and why) errors occur**.

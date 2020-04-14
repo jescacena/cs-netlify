@@ -3,6 +3,7 @@ layout: post
 title:  Iterator pattern
 date:   2020-02-20T22:07:32.750Z
 permalink: /js-design-patterns-iterator/
+icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 It is a *behavioural design pattern* that **provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.**

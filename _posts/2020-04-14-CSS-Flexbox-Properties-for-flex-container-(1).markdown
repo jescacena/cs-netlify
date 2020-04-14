@@ -3,6 +3,7 @@ layout: post
 title:  CSS Flexbox Properties for flex container (1)
 date:   2020-01-26T11:40:27.822Z
 permalink: /css-flexbox-properties-parent-1/
+icon: https://codersnack.com/assets/images/css-flex-direction.png
 categories: [snackpost]
 ---
 In this snack we will introduce display, flex-direction and flex-wrap.

@@ -3,6 +3,7 @@ layout: post
 title:  ReactJS - Typechecking with PropTypes
 date:   2020-01-30T22:55:07.171Z
 permalink: /reactjs-typechecking-proptypes/
+icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 As your app grows, you can catch a lot of bugs with typechecking. For some applications, you can use JavaScript extensions like Flow or TypeScript to typecheck your whole application. But even if you don’t use those, React has some built-in typechecking abilities. To run typechecking on the props for a component, you can assign the special propTypes property:

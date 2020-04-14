@@ -3,6 +3,7 @@ layout: post
 title:  Typescript Generics
 date:   2020-02-24T09:06:31.653Z
 permalink: /typescript-generics/
+icon: https://codersnack.com/assets/images/typescript-icon.png
 categories: [snackpost]
 ---
 A major part of software engineering is building components that not only have well-defined and consistent APIs, but are also reusable. **Components that are capable of working on the data of today as well as the data of tomorrow** will give you the most flexible capabilities for building up large software systems.

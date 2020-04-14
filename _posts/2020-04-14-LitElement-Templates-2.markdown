@@ -3,6 +3,7 @@ layout: post
 title:  LitElement Templates 2
 date:   2020-04-14T15:08:01.179Z
 permalink: /webcomponents-litelement-templates-2/
+icon: https://codersnack.com/assets/images/litelement-icon.png
 categories: [snackpost]
 ---
 ### Bind properties to templated elements

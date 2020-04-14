@@ -3,6 +3,7 @@ layout: post
 title:  Command pattern
 date:   2020-02-20T22:06:14.852Z
 permalink: /js-design-patterns-command/
+icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 This is a *behavioural design pattern* that **aims to encapsulate actions or operations as objects**. This pattern allows *loose coupling of systems and classes* by separating the objects that request an operation or invoke a method from the ones that execute or process the actual implementation.

@@ -3,6 +3,7 @@ layout: post
 title:  ReactJS - Higher Order Components
 date:   2020-01-31T14:22:05.280Z
 permalink: /reactjs-hocs/
+icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 **A higher-order component (HOC) is an advanced technique in React for reusing component logic.** HOCs are not part of the React API, per se. They are a pattern that emerges from React's compositional nature.

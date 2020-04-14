@@ -3,6 +3,7 @@ layout: post
 title:  ReactJS - Components and Props
 date:   2020-01-20T14:58:00.472Z
 permalink: /reactjs-components-and-props/
+icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 > Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. 

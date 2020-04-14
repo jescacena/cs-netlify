@@ -3,6 +3,7 @@ layout: post
 title:  ES6 modules
 date:   2020-02-23T00:27:01.866Z
 permalink: /es6-modules/
+icon: https://codersnack.com/assets/images/es6.png
 categories: [snackpost]
 ---
 Before modules, a variable declared outside any function was a global variable.

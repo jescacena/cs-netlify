@@ -3,6 +3,7 @@ layout: post
 title:  Introduction to Flutter
 date:   2020-01-30T22:23:08.839Z
 permalink: /flutter-introduction/
+icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
 ---
 #### What is Flutter?

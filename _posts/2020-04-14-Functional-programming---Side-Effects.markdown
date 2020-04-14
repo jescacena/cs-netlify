@@ -3,6 +3,7 @@ layout: post
 title:  Functional programming - Side Effects
 date:   2020-01-09T11:23:09.392Z
 permalink: /functional-programming-side-effects/
+icon: https://codersnack.com/assets/images/functional-programming.png
 categories: [snackpost]
 ---
 ### Side Effects
