@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ES6 let and const
-date:   2020-01-20T15:11:26.273Z
+date:   2020-04-20T19:03:20.605Z
 permalink: /es6-let-const/
 icon: https://codersnack.com/assets/images/es6-let-const.png
 categories: [snackpost]
@@ -32,11 +32,13 @@ console.log(x); //2
 ## const
 
 **const declares a variable that cannot be reassigned**. It becomes a constant only when the assigned value is immutable.
-An immutable value is a value that, once created, cannot be changed. Primitive values are immutable, objects are mutable.
+An immutable value is a value that, once created, cannot be changed. 
 
-> const freezes the variable, Object.freeze() freezes the object.
+> Primitive values are immutable, objects are mutable.
 
-The initialization of the const variable is mandatory.
+**```const``` freezes the variable, ```Object.freeze()```  freezes the object.**
+
+**The initialization of the ```const``` variable is mandatory.**
 
 
 ### - References -
