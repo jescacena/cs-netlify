@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Introduction to Flutter
-date:   2020-04-20T19:12:15.278Z
+date:   2020-04-20T19:19:06.669Z
 permalink: /flutter-introduction/
 icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
@@ -10,11 +10,11 @@ categories: [snackpost]
 Flutter is a Google's portable UI toolkit. In other words, it’s a **comprehensive app Software Development Kit (SDK)**, complete with widgets and tools.
 
 #### What's Flutter for?
-Flutter **enables cross-platform app development**. It gives developers an easy way to build and deploy visually attractive, natively-compiled applications for mobile (iOS, Android), web, and desktop `–` all using a single codebase.
+Flutter **enables cross-platform app development**. It gives developers an easy way to build and deploy visually attractive, natively-compiled applications for mobile (iOS, Android), web, and desktop , all using a single codebase.
 
 #### Who created Flutter?
 A **team at Google built Flutter**. But as an **open-source** project, both Google and the Flutter community contribute to its development. A brief history:
-- February 2018, Mobile World Congress `–` First beta release of Flutter
+- February 2018, Mobile World Congress .First beta release of Flutter
 - September 2019, Flutter 1.9 release
 
 Flutter is now **one of the top 20 active software repositories** on GitHub (16th place as of December 11, 2019), which proves the developer community uses it and continues to contribute to its improvement.
