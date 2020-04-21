@@ -1,19 +1,20 @@
 ---
 layout: post
 title:  Write your first app II
-date:   2020-04-21T21:13:07.477Z
+date:   2020-04-21T21:26:03.475Z
 permalink: /flutter-write-your-first-app-2/
 icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
 ---
-## Step 3: Add a Stateful widget
+### Step 3: Add a Stateful widget
+
 **Stateless widgets are immutable**, meaning that their properties can’t change: all values are final.
 
 **Stateful widgets maintain state** that might change during the lifetime of the widget. Implementing a stateful widget requires at least two classes:  a **StatefulWidget** class that creates an instance of a **State** class. The **StatefulWidget** class is, itself, immutable, but the **State class persists over the lifetime of the widget**.
 
 In this step, you’ll add a stateful widget, **RandomWords**, which creates its **State** class, **RandomWordsState**. You’ll then use **RandomWords** as a child inside the existing **MyApp** stateless widget.
 
-1. Create a minimal state class. Add the following to the bottom of main.dart:
+Create a minimal state class. Add the following to the bottom of main.dart:
 
 **lib/main.dart (RandomWordsState)**
 
@@ -26,7 +27,7 @@ Notice the declaration ```State<RandomWords>```. This indicates that we’re usi
 
 **RandomWordsState** depends on the **RandomWords** class. You’ll add that next.
 
-2.Add the stateful **RandomWords** widget to **main.dart.** The **RandomWords** widget does little else beside creating its **State** class:
+Add the stateful **RandomWords** widget to **main.dart.** The **RandomWords** widget does little else beside creating its **State** class:
 
 **lib/main.dart (RandomWords)**
 
