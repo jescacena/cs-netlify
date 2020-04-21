@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Write your first app II
-date:   2020-04-21T21:41:32.887Z
+date:   2020-04-21T21:45:14.341Z
 permalink: /flutter-write-your-first-app-2/
 icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
@@ -157,6 +157,7 @@ Widget build(BuildContext context) {
 
 **{step3_stateful_widget → step4_infinite_list}/lib/main.dart**
 
+```
 	  class MyApp extends StatelessWidget {
 	    @override
 	    Widget build(BuildContext context) {
@@ -174,6 +175,7 @@ Widget build(BuildContext context) {
 	-       ),
 	      );
 	    }
+```
 Restart the app. You should see a list of word pairings no matter how far you scroll.
 
 
