@@ -3,12 +3,14 @@ layout: default
 ---
 
 <section class="post-content">
-    <img src="{{page.icon}}" alt="{{page.title}}" />
+    <img src="{{page.icon}}" class="featured-img" alt="{{page.title}}" />
     <h3 class="main-header">{{ page.title }}</h3>
+    <br/>
+    <br/>
 
     {{ content }}
 
-    <p style="max-width: 100%; text-align: center;padding:2em 0 0 0;">---</p>
-    <p class="date">Last update on {{ page.date | date_to_string }}</p>
-    <p style="max-width: 100%; text-align: center;padding:0 0 2em 0;">---</p>
+    <p style="max-width: 100%; text-align: center;margin:0 0 0 0;">------------------------------------------------------------------------</p>
+    <p class="date" style="margin:0">Last update on {{ page.date | date_to_string }}</p>
+    <p style="max-width: 100%; text-align: center;margin:0 0 0 0;">---</p>
 </section>

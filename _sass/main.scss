@@ -286,6 +286,9 @@ main {
         img {
             width: 2rem;
             display: inline-block;
+            &.featured-img {
+                width:4rem;
+            }
         }
 
         h2,
@@ -300,6 +303,7 @@ main {
             margin-bottom: 0em;
             &.main-header {
                 margin-bottom: 1.5em;
+                font-size: 2.5rem;
             }
             @include for-phone-only {
                 margin-left: 0.3em;
@@ -345,7 +349,11 @@ main {
 
         ul {
             margin-left: 3rem;
+            margin-top: 1rem;
             max-width: 80%;
+            font-family: TimesNewRoman-Regular;
+            font-size: 1.2rem;
+
             li {
                 list-style-type: disc;
                 margin-bottom: 1rem;
