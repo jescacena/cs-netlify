@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Write your first app II
-date:   2020-04-21T21:26:03.475Z
+date:   2020-04-21T21:41:32.887Z
 permalink: /flutter-write-your-first-app-2/
 icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
@@ -186,6 +186,9 @@ If your app is not running correctly, look for typos. If you want to try some of
 > So far you’ve been running your app in debug mode. Debug mode trades performance for useful developer  features such as hot reload and step debugging. It’s not unexpected to see slow performance and janky  animations in debug mode. Once you are ready to analyze performance or release your app, you’ll want to use Flutter’s “profile” or “release” build modes. For more details, see Flutter’s build modes.
 
  > Important: If you’re concerned about the package size of your app, see Measuring your app’s size.
+
+![startup namer part 2](https://codersnack.com/assets/images/flutter-first-app-list-android.png)
+
 
 ### - References -
 
