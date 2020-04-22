@@ -10,3 +10,4 @@ exclude: true
  * [Introduction to Flutter](https://codersnack.com/flutter-introduction/) 
  * [Write your first flutter app I](https://codersnack.com/flutter-write-first-app-1/) 
  * [Write your first app II](https://codersnack.com/flutter-write-your-first-app-2/) 
+ * [Flutter - Introduction to declarative UI](https://codersnack.com/flutter-declarative-ui/) 
