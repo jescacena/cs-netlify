@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Flutter - Introduction to declarative UI
-date:   2020-04-22T19:40:02.285Z
+date:   2020-04-23T21:28:01.181Z
 permalink: /flutter-declarative-ui/
 icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
@@ -18,7 +18,7 @@ This, however, requires a slight shift in thinking for how to manipulate UI.
 ### How to change UI in a declarative framework
 Consider a simplified example below:
 
-![flutter-declarative-ui-changes](https://codersnack.com/assets/images/flutter-declarative-ui-changes)
+![flutter-declarative-ui-changes](https://codersnack.com/assets/images/flutter-declarative-ui-changes.png)
 
 *View B (contained by view A) morphs from containing two views, c1 and c2, to containing only view c3*
 
@@ -34,7 +34,7 @@ b.add(c3)
 
 You might also need to replicate this configuration in the constructor of ViewB since the source of truth for the UI might outlive instance b itself.
 
-In the **declarative style**, **view configurations (such as Flutter’s Widgets) are immutable** and are only lightweight “blueprints”. **To change the UI, a widget triggers a rebuild on itself (most commonly by calling setState() on StatefulWidgets in Flutter) and constructs a new Widget subtree**.
+In the **declarative style**, **view configurations (such as Flutter’s Widgets) are immutable** and are only lightweight "blueprints". **To change the UI, a widget triggers a rebuild on itself (most commonly by calling setState() on StatefulWidgets in Flutter) and constructs a new Widget subtree**.
 
 ```
 // Declarative style
