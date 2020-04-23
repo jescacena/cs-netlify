@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  Vuejs introduction
-date:   2020-01-28T13:23:32.496Z
+date:   2020-04-23T21:30:15.694Z
 permalink: /vuejs-introduction/
 icon: https://codersnack.com/assets/images/vuejs-icon.png
 categories: [snackpost]
 ---
-Vue.js is an **open-source Model–view–viewmodel JavaScript framework** for building user interfaces and single-page applications.
+Vue.js is an **open-source Model```–```view```–```viewmodel JavaScript framework** for building user interfaces and single-page applications.
 
 It was created by **Evan You**, and is maintained by him and the rest of the active core team members coming from various companies such as Netlify and Netguru.
 
