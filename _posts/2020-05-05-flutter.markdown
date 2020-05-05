@@ -13,3 +13,4 @@ exclude: true
  * [Flutter - Introduction to declarative UI](https://codersnack.com/flutter-declarative-ui/) 
  * [Dart Language Overview By Example I](https://codersnack.com/dart-language-overview-1/) 
  * [Dart Language Overview By Example II](https://codersnack.com/dart-language-overview-2/) 
+ * [Flutter - Introduction to widgets](https://codersnack.com/flutter-widget-introduction/) 
