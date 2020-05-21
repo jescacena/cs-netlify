@@ -11,3 +11,4 @@ exclude: true
  * [Typescript Basic Types](https://codersnack.com/typescript-basic-types/) 
  * [Typescript Interfaces](https://codersnack.com/typescript-interfaces/) 
  * [Typescript Generics](https://codersnack.com/typescript-generics/) 
+ * [Typescript Declaration Modules: Library Structure](https://codersnack.com/typescript-declaration-files-library-structure/) 
