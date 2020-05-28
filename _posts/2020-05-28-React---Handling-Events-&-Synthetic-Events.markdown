@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  React - Handling Events & Synthetic Events
-date:   2020-05-28T12:29:49.832Z
+date:   2020-05-28T12:42:41.850Z
 permalink: /reactjs-handling-events/
 icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
@@ -132,7 +132,7 @@ This reference guide documents the **SyntheticEvent** wrapper that forms part of
 #### Overview
 **Your event handlers will be passed instances of SyntheticEvent, a cross-browser wrapper around the browser’s native event.** It has the **same interface** as the browser’s native event, including stopPropagation() and preventDefault(), except the events **work identically across all browsers**.
 
-> If you find that you need the underlying browser event for some reason, simply use the nativeEvent attribute to get it. Every *SyntheticEvent* object has the following attributes:
+If you find that you need the underlying browser event for some reason, simply use the nativeEvent attribute to get it. Every *SyntheticEvent* object has the following attributes:
 
 - boolean bubbles
 - boolean cancelable
@@ -152,6 +152,7 @@ This reference guide documents the **SyntheticEvent** wrapper that forms part of
 Note:
 
 > As of v0.14, returning false from an event handler will no longer stop event propagation. Instead, e.stopPropagation() or e.preventDefault() should be triggered manually, as appropriate.
+
 
 #### Event Pooling
 The **SyntheticEvent is pooled**. This means that the **SyntheticEvent object will be reused and all properties will be nullified after the event callback has been invoked**. This is for *performance* reasons. As such, *you cannot access the event in an asynchronous way.*
@@ -200,7 +201,9 @@ The event handlers below are triggered by an event in the bubbling phase. To **r
 - Transition Events
 - Other Events
 
-### Event bubbling 
+
+### Event bubbling
+
 Event bubbling is a type of event propagation where the event first triggers on the innermost target element, and then successively triggers on the ancestors (parents) of the target element in the same nesting hierarchy till it reaches the outermost DOM element or document object (Provided the handler is initialized). 
 
 ![Event bubling](https://codersnack.com/assets/images/event_bubling.jpg)
