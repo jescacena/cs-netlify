@@ -19,3 +19,4 @@ exclude: true
  * [Reactjs Hooks Motivation](https://codersnack.com/reactjs-hooks-overview) 
  * [ReactJS - Use State Correctly](https://codersnack.com/reactjs-use-state-correctly) 
  * [ReactJS - Hooks at a glance](https://codersnack.com/reactjs-hooks-introduction) 
+ * [React - Handling Events](https://codersnack.com/reactjs-handling-events) 
