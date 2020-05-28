@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  React - Handling Events & Synthetic Events
-date:   2020-05-28T12:42:41.850Z
+date:   2020-05-28T12:52:02.448Z
 permalink: /reactjs-handling-events/
 icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
@@ -204,9 +204,9 @@ The event handlers below are triggered by an event in the bubbling phase. To **r
 
 ### Event bubbling
 
-Event bubbling is a type of event propagation where the event first triggers on the innermost target element, and then successively triggers on the ancestors (parents) of the target element in the same nesting hierarchy till it reaches the outermost DOM element or document object (Provided the handler is initialized). 
+Event bubbling is a **type of event propagation** where the event **first triggers on the innermost target element**, and then **successively triggers on the ancestors (parents)** of the target element in the same nesting hierarchy till it reaches the outermost DOM element or document object (Provided the handler is initialized). 
 
-![Event bubling](https://codersnack.com/assets/images/event_bubling.jpg)
+![Event bubling](https://codersnack.com/assets/images/event_bubbling.jpg)
 
 It is one **way that events are handled in the browser**.
 
