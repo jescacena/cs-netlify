@@ -1,7 +1,7 @@
 body {
     // font-family: TimesNewRoman-Regular;
     font-family: SourceCodePro-Regular;
-    background-color: $primary-color;
+    // background-color: $primary-color;
 }
 
 p {
@@ -15,6 +15,7 @@ main {
     // margin-top:3em;
     position: relative;
     top: 5em;
+    background: white;
 
     section {
         padding: 1em;
@@ -442,6 +443,7 @@ footer {
     width: 100%;
     font-size: 0.8em;
     position: fixed;
+    clear:both;
     bottom: 0;
     display: flex;
     flex-direction: row;
@@ -449,6 +451,9 @@ footer {
     padding: 0.5em 0;
     background-color: $primary-color;
     z-index: 11111;
+    background: white;
+    border-top: 1px solid;
+
 }
 .current {
     color: green;
