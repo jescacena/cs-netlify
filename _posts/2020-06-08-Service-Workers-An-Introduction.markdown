@@ -1,15 +1,14 @@
 ---
 layout: post
 title:  Service Workers An Introduction
-date:   2020-06-08T19:22:53.955Z
+date:   2020-06-08T19:32:56.585Z
 permalink: /pwa-service-workers-introduction/
 icon: https://codersnack.com/assets/images/pwa-icon.png
 categories: [snackpost]
 ---
 **Rich offline experiences, periodic background syncs, push notifications**—functionality that would normally require a native application—are coming to the web. **Service workers provide the technical foundation that all these features rely on**.
 
-## What is a service worker
-
+## What is a service worker
 **A service worker is a script that your browser runs in the background, separate from a web page**, opening the door to **features that don't need a web page or user interaction**. Today, they already include features like **push notifications** and **background sync**. In the future, service workers might support other things like *periodic sync* or *geofencing*. The core feature discussed in this tutorial is the ability to **intercept and handle network requests, including programmatically managing a cache of responses**.
 
 The reason this is such an exciting API is that it allows you to support offline experiences, giving developers complete control over the experience.
