@@ -15,6 +15,11 @@
     fonts/TimesNewRoman-Gras-Italique-700
 );
 
+
+@include font-face(Lato-Regular, fonts/Lato-Regular);
+@include font-face(Lato-Bold, fonts/Lato-Bold);
+@include font-face(Lato-BoldItalic, fonts/Lato-BoldItalic);
+
 // Colors
 $orangeColor: #ffc836;
 $lightBlueColor: #4f9da6;
