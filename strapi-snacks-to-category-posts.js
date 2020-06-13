@@ -77,6 +77,11 @@ const categoryUrlMap = [
         categorySlug: "pwa",
         urlPath:
             "/codersnacks-asoc-snack-categories?codersnacks_category.key=pwa"
+    },
+    {
+        categorySlug: "react-native",
+        urlPath:
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=react-native"
     }
 ];
 
