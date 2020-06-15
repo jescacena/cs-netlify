@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  Composite pattern
-date:   2020-02-20T22:06:23.966Z
+date:   2020-06-15T10:17:20.491Z
 permalink: /js-design-patterns-composite/
-icon: https://codersnack.com/assets/images/design-pattern.jpg
+icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 
