@@ -1,0 +1,36 @@
+
+### - References -
+
+- [These are the features in es6 that you should know](https://www.freecodecamp.org/news/these-are-the-features-in-es6-that-you-should-know-1411194c71cb/)
+
+---
+layout: post
+title:  ES6 modules
+date:   2020-02-23T00:27:01.866Z
+permalink: /es6-modules/
+icon: https://codersnack.com/assets/images/es6.png
+categories: [snackpost]
+---
+Before modules, a variable declared outside any function was a global variable.
+
+**With modules, a variable declared outside any function is hidden and not available to other modules unless it is explicitly exported**.
+
+*Exporting makes a function or object available to other modules*. In the next example, I export functions from different modules:
+
+```
+//module "./TodoStore.js"
+export default function TodoStore(){}
+
+//module "./UserStore.js"
+export default function UserStore(){}
+```
+
+*Importing makes a function or object, from other modules, available to the current module*.
+
+```
+import TodoStore from "./TodoStore";
+import UserStore from "./UserStore";
+
+const todoStore = TodoStore();
+const userStore = UserStore();
+```
