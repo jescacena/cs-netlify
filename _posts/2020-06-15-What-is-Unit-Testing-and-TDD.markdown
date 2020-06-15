@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Medium - What Every Unit Test needs](https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d)
-
 ---
 layout: post
 title:  What is Unit Testing and TDD?
@@ -11,6 +6,11 @@ permalink: /js-unit-testing-whatis-tdd/
 icon: https://codersnack.com/assets/images/js-unit-testing-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Medium - What Every Unit Test needs](https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d)
+
 **A unit test runs some code over a segment of your program checking the input and output**. These tests allow developers to check individual areas of a program **to see where (and why) errors occur**.
 
 This comes with an inherent understanding of what you’re trying to test for and how the code should function.

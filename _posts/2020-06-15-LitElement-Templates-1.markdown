@@ -1,8 +1,3 @@
-
-### - References -
-
-- [LitElement Templates](https://lit-element.polymer-project.org/guide/templates)
-
 ---
 layout: post
 title:  LitElement Templates 1
@@ -11,6 +6,11 @@ permalink: /webcomponents-litelement-templates/
 icon: https://codersnack.com/assets/images/litelement-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [LitElement Templates](https://lit-element.polymer-project.org/guide/templates)
+
 Add a template to your component to define internal DOM to implement your component.
 
 To encapsulate the templated DOM LitElement uses **shadow DOM**. Shadow DOM provides three benefits:

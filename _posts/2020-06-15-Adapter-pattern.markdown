@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Medium - Javascript design patterns by Soumyajit Pathak](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
-
 ---
 layout: post
 title:  Adapter pattern
@@ -11,6 +6,11 @@ permalink: /js-design-patterns-adapter/
 icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Medium - Javascript design patterns by Soumyajit Pathak](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
+
 This is a *structural pattern* where **the interface of one class is translated into another**. 
 
 This pattern **lets classes work together that could not otherwise because of incompatible interfaces**.

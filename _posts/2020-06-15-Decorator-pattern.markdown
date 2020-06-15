@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Medium - Javascript design patterns by Soumyajit Pathak](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
-
 ---
 layout: post
 title:  Decorator pattern
@@ -11,6 +6,11 @@ permalink: /js-design-patterns-decorator/
 icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Medium - Javascript design patterns by Soumyajit Pathak](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
+
 This is also a *structural design pattern* that **focuses on the ability to add behaviour or functionalities to existing classes dynamically**. It is another viable alternative to sub-classing.
 
 The decorator type behaviour is very easy to implement in JavaScript because **JavaScript allows us to add methods and properties to object dynamically**. The simplest approach would be to just add a property to an object, but it will not be efficiently reusable.

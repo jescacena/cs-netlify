@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Flutter.dev - Introduction to declarative UI](https://flutter.dev/docs/get-started/flutter-for/declarative)
-
 ---
 layout: post
 title:  Flutter - Introduction to declarative UI
@@ -11,6 +6,11 @@ permalink: /flutter-declarative-ui/
 icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Flutter.dev - Introduction to declarative UI](https://flutter.dev/docs/get-started/flutter-for/declarative)
+
 > This introduction describes the conceptual difference between the declarative style used by Flutter, and the imperative style used by many other UI frameworks.
 
 ### Why a declarative UI?

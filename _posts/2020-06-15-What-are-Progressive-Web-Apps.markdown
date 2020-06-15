@@ -1,9 +1,3 @@
-
-### - References -
-
-- [Web.dev - What are PWAs? (Sam Richard & Pete LePage)](https://web.dev/what-are-pwas/)
-- [Web.dev - How Progressive Web Apps can drive your business success? (Sébastien Fourault)](https://web.dev/drive-business-success/)
-
 ---
 layout: post
 title:  What are Progressive Web Apps?
@@ -12,6 +6,12 @@ permalink: /pwa-what-are/
 icon: https://codersnack.com/assets/images/pwa-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Web.dev - What are PWAs? (Sam Richard & Pete LePage)](https://web.dev/what-are-pwas/)
+- [Web.dev - How Progressive Web Apps can drive your business success? (Sébastien Fourault)](https://web.dev/drive-business-success/)
+
 **The web is an incredible platform**. Its mix of ubiquity across devices and operating systems, its user-centered security model, and the fact that **neither its specification nor its implementation is controlled by a single company** makes the web a unique platform to develop software on. Combined with its inherent **linkability**, it's possible to search it and share what you've found with anyone, anywhere. **Whenever you go to a website, it's up-to-date**, and your experience with that site can be as ephemeral or as permanent as you'd like. Web applications can reach anyone, anywhere, on any device with a **single codebase**.
 
 **Native applications**, are known for being incredibly **rich and reliable**. They're ever-present, on home screens, docks, and taskbars. They work regardless of network connection. They launch in their **own standalone experience**. They can read and **write files from the local file system, access hardware** connected via USB, serial or bluetooth, and even interact with data stored on your device, like contacts and calendar events. In native applications, you can do things like take pictures, see playing songs listed on the home screen, or control song playback while in another app. Native applications **feel like part of the device they run on**.

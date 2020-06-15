@@ -1,10 +1,3 @@
-
-### - References -
-
-- [CSS trick - Calleb Williams - Introduction to web components](https://css-tricks.com/an-introduction-to-web-components/)
-- [HTML Living Standard specification](https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements)
-- [Living Standard DOM specification](https://dom.spec.whatwg.org/#shadow-trees)
-
 ---
 layout: post
 title:  Introduction to Web Components
@@ -13,6 +6,13 @@ permalink: /web-components-introduction/
 icon: https://codersnack.com/assets/images/web-components.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [CSS trick - Calleb Williams - Introduction to web components](https://css-tricks.com/an-introduction-to-web-components/)
+- [HTML Living Standard specification](https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements)
+- [Living Standard DOM specification](https://dom.spec.whatwg.org/#shadow-trees)
+
 ### What are Web Components, anyway?
 
 Web Components consist of **three separate technologies that are used together:**

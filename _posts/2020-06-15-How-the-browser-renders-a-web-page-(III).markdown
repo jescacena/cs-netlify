@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Uday Hiwarale - How the Browser renders a web page?](https://itnext.io/how-the-browser-renders-a-web-page-dom-cssom-and-rendering-df10531c9969)
-
 ---
 layout: post
 title:  How the browser renders a web page? (III)
@@ -11,6 +6,11 @@ permalink: /web-performance-how-browser-renders-3/
 icon: https://codersnack.com/assets/images/web-performance.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Uday Hiwarale - How the Browser renders a web page?](https://itnext.io/how-the-browser-renders-a-web-page-dom-cssom-and-rendering-df10531c9969)
+
 ### Render blocking CSS & DOMContentLoaded
 
 Now that we understood how the browser renders a web page from some HTML Text to individual pixels on the screen, **we need to understand how we can make this process efficient for better user experience**.

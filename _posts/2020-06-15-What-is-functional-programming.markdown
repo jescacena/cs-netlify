@@ -1,9 +1,3 @@
-
-### - References -
-
-- [Why functional programming](https://sookocheff.com/post/fp/why-functional-programming/)
-- [Functional Programming Fundamentals](https://www.matthewgerstman.com/tech/functional-programming-fundamentals/)
-
 ---
 layout: post
 title:  What is functional programming?
@@ -12,6 +6,12 @@ permalink: /functional-programming.what-is/
 icon: https://codersnack.com/assets/images/fp_lisp.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Why functional programming](https://sookocheff.com/post/fp/why-functional-programming/)
+- [Functional Programming Fundamentals](https://www.matthewgerstman.com/tech/functional-programming-fundamentals/)
+
 Functional programming is a *programming paradigm* that expresses a computation directly as pure functional transformation of data.
 
  A functional program can be viewed as a declarative program where computations are specified as *pure functions*.

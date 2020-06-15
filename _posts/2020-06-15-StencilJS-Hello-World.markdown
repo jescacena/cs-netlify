@@ -1,9 +1,3 @@
-
-### - References -
-
-- [stenciljs.com Getting started](https://stenciljs.com/docs/getting-started)
-- [stenciljs.com My first component](https://stenciljs.com/docs/my-first-component)
-
 ---
 layout: post
 title:  StencilJS Hello World
@@ -12,6 +6,12 @@ permalink: /stenciljs-hello-world/
 icon: https://codersnack.com/assets/images/stenciljs-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [stenciljs.com Getting started](https://stenciljs.com/docs/getting-started)
+- [stenciljs.com My first component](https://stenciljs.com/docs/my-first-component)
+
 ## Getting Started
 
 #### Starting a new project

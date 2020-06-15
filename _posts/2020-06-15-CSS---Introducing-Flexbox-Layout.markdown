@@ -1,8 +1,3 @@
-
-### - References -
-
-- [[CSS trick] A guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-
 ---
 layout: post
 title:  CSS - Introducing Flexbox Layout
@@ -11,6 +6,11 @@ permalink: /css-introducing-flex-box/
 icon: https://codersnack.com/assets/images/css-flex-box-basics.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [[CSS trick] A guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
 ``` ``` 
 ### The Flexbox Layout (Flexible Box) module
 

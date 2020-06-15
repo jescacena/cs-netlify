@@ -1,9 +1,3 @@
-
-### - References -
-
-- [TheDroidsOnRoids - Flutter vs React Native](https://www.thedroidsonroids.com/blog/flutter-vs-react-native-what-to-choose-in-2020#whatisflutter)
-- [Official Flutter website](https://flutter.dev/)
-
 ---
 layout: post
 title:  Introduction to Flutter
@@ -12,6 +6,12 @@ permalink: /flutter-introduction/
 icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [TheDroidsOnRoids - Flutter vs React Native](https://www.thedroidsonroids.com/blog/flutter-vs-react-native-what-to-choose-in-2020#whatisflutter)
+- [Official Flutter website](https://flutter.dev/)
+
 #### What is Flutter?
 Flutter is a Google's portable UI toolkit. In other words, it’s a **comprehensive app Software Development Kit (SDK)**, complete with widgets and tools.
 

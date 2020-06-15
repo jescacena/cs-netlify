@@ -1,8 +1,3 @@
-
-### - References -
-
-null
-
 ---
 layout: post
 title:  State pattern
@@ -11,6 +6,11 @@ permalink: /js-design-patterns-state/
 icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
+
+### - References -
+
+null
+
 It is a *behavioural design pattern* that **allows an object to alter its behaviour based on changes to its internal state**. The object returned by a state pattern class seems to change its class. It **provides state-specific logic to a limited set of objects in which each object type represents a particular state**.
 
 We will take a simple **example** of a *traffic light* to understand this pattern. The *TrafficLight* class changes the object it returns based on its internal state, which is an object of *Red*, *Yellow*, or *Green* class.

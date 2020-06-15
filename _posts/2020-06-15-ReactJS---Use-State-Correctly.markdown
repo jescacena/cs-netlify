@@ -1,8 +1,3 @@
-
-### - References -
-
-- [ReactJS - Adding lifecycle methods to a class](https://reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class)
-
 ---
 layout: post
 title:  ReactJS - Use State Correctly
@@ -11,6 +6,11 @@ permalink: /reactjs-use-state-correctly/
 icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [ReactJS - Adding lifecycle methods to a class](https://reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class)
+
 There are three things you should know about setState().
 
 ### Do Not Modify State Directly

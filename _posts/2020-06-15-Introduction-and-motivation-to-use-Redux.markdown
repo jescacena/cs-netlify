@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Reduxjs.org - getting started](https://redux.js.org/introduction/getting-started)
-
 ---
 layout: post
 title:  Introduction and motivation to use Redux
@@ -11,6 +6,11 @@ permalink: /redux-introduction/
 icon: https://codersnack.com/assets/images/redux-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Reduxjs.org - getting started](https://redux.js.org/introduction/getting-started)
+
 Redux is a **predictable state container for JavaScript apps**.
 
 It helps you write applications that behave consistently, **run in different environments (client, server, and native)**, and are easy to test. 

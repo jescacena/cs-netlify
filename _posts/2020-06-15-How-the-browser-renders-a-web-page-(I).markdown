@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Uday Hiwarale - How the Browser renders a web page?](https://itnext.io/how-the-browser-renders-a-web-page-dom-cssom-and-rendering-df10531c9969)
-
 ---
 layout: post
 title:  How the browser renders a web page? (I)
@@ -11,6 +6,11 @@ permalink: /web-performance-how-browser-renders/
 icon: https://codersnack.com/assets/images/web-performance.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Uday Hiwarale - How the Browser renders a web page?](https://itnext.io/how-the-browser-renders-a-web-page-dom-cssom-and-rendering-df10531c9969)
+
 ### Document Object Model (DOM)
 
 When the browser reads HTML code, whenever it encounters an HTML element like html, body, div etc., **it creates a JavaScript object called as *Node*. **Eventually, **all HTML elements will be converted to JavaScript objects**. Since every different HTML element has different properties, the Node object will be created from different classes (constructor functions).

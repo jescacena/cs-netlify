@@ -1,9 +1,3 @@
-
-### - References -
-
-- [stenciljs.com Introduction](https://stenciljs.com/docs/introduction)
-- [stenciljs.com Goals](https://stenciljs.com/docs/goals-and-objectives)
-
 ---
 layout: post
 title:  StencilJS Introduction
@@ -12,6 +6,12 @@ permalink: /stenciljs-introduction/
 icon: https://codersnack.com/assets/images/stenciljs-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [stenciljs.com Introduction](https://stenciljs.com/docs/introduction)
+- [stenciljs.com Goals](https://stenciljs.com/docs/goals-and-objectives)
+
 **Stencil is a compiler that generates Web Components** (more specifically, Custom Elements). Stencil combines the best concepts of the most popular frameworks into a simple build-time tool.
 Stencil takes features such as
 	•	**Virtual DOM**

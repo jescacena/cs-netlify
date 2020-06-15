@@ -1,8 +1,3 @@
-
-### - References -
-
-- [LitElement lifecycle](https://lit-element.polymer-project.org/guide/lifecycle)
-
 ---
 layout: post
 title:  LitElement Lifecycle 1
@@ -11,6 +6,11 @@ permalink: /webcomponents-litelement-lifecycle/
 icon: https://codersnack.com/assets/images/litelement-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [LitElement lifecycle](https://lit-element.polymer-project.org/guide/lifecycle)
+
 ### Overview
 **LitElement-based components update asynchronously in response to observed property changes**. **Property changes are batched**—if more properties change after an update is requested, but before the update starts, all of the changes are captured in the same update.
 

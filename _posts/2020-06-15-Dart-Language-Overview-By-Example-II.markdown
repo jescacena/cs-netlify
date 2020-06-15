@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Dart.dev cheatsheet](https://dart.dev/codelabs/dart-cheatsheet)
-
 ---
 layout: post
 title:  Dart Language Overview By Example II
@@ -11,6 +6,11 @@ permalink: /dart-language-overview-2/
 icon: https://codersnack.com/assets/images/dart-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Dart.dev cheatsheet](https://dart.dev/codelabs/dart-cheatsheet)
+
 ### String interpolation
 To put the value of an expression inside a string, use ```${expression}```. If the expression is an identifier, you can omit the {}.
 

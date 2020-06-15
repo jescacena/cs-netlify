@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Typescriptlang Declaration Files: Library structure](https://www.typescriptlang.org/docs/handbook/declaration-files/library-structures.html)
-
 ---
 layout: post
 title:  Typescript Declaration Modules Library Structure
@@ -11,6 +6,11 @@ permalink: /typescript-declaration-files-library-structure/
 icon: https://codersnack.com/assets/images/typescript-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Typescriptlang Declaration Files: Library structure](https://www.typescriptlang.org/docs/handbook/declaration-files/library-structures.html)
+
 ### Library Structures
 
 Broadly speaking, **the way you structure your declaration file depends on how the library is consumed**. There are many ways of offering a library for consumption in JavaScript, and you’ll need to write your declaration file to match it. This guide covers how to identify common library patterns, and how to write declaration files which correspond to that pattern.

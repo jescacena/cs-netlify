@@ -1,8 +1,3 @@
-
-### - References -
-
-- [LitElement lifecycle](https://lit-element.polymer-project.org/guide/lifecycle)
-
 ---
 layout: post
 title:  LitElement Lifecycle 2
@@ -11,6 +6,11 @@ permalink: /webcomponents-litelement-lifecycle-2/
 icon: https://codersnack.com/assets/images/litelement-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [LitElement lifecycle](https://lit-element.polymer-project.org/guide/lifecycle)
+
 #### firstUpdated
 ```
 /**

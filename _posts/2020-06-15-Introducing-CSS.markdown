@@ -1,8 +1,3 @@
-
-### - References -
-
-- [W3C - Css intro](https://www.w3schools.com/css/css_intro.asp)
-
 ---
 layout: post
 title:  Introducing CSS
@@ -11,6 +6,11 @@ permalink: /introducing-css/
 icon: https://codersnack.com/assets/images/logo-css.jpg
 categories: [snackpost]
 ---
+
+### - References -
+
+- [W3C - Css intro](https://www.w3schools.com/css/css_intro.asp)
+
 #### What is CSS?
 - CSS stands for **Cascading Style Sheets**
 - CSS describes **how HTML elements are to be displayed** on screen, paper, or in other media

@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Wikipedia -Typescript](https://en.wikipedia.org/wiki/TypeScript)
-
 ---
 layout: post
 title:  Typescript introduction
@@ -11,6 +6,11 @@ permalink: /typescript-introduction/
 icon: https://codersnack.com/assets/images/typescript-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Wikipedia -Typescript](https://en.wikipedia.org/wiki/TypeScript)
+
 TypeScript is an open-source programming language developed and maintained by **Microsoft**. It is **a strict syntactical superset of JavaScript, and adds optional static typing to the language**.
 
 TypeScript is a strict superset of ECMAScript 2015, which is itself a superset of ECMAScript 5, commonly referred to as JavaScript. As such, **a JavaScript program is also a valid TypeScript program**, and a TypeScript program can seamlessly consume JavaScript. By default the compiler targets ECMAScript 5, the current prevailing standard, but is also able to generate constructs used in ECMAScript 3 or 2015.

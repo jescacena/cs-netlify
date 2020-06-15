@@ -1,8 +1,3 @@
-
-### - References -
-
-- [[CSS trick] A guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-
 ---
 layout: post
 title:  CSS Flexbox Properties for flex item (1)
@@ -11,6 +6,11 @@ permalink: /css-flexbox-properties-children/
 icon: https://codersnack.com/assets/images/css-flex-grow.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [[CSS trick] A guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
 These snack covers these flex items properties: order, flex-grow, flex-shrink, flex-basis , flex and align-itself
 
 #### order

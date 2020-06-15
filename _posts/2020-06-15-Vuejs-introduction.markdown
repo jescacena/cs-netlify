@@ -1,9 +1,3 @@
-
-### - References -
-
-- [Wikipedia](https://en.wikipedia.org/wiki/Vue.js)
-- [Official website](https://vuejs.org/)
-
 ---
 layout: post
 title:  Vuejs introduction
@@ -12,6 +6,12 @@ permalink: /vuejs-introduction/
 icon: https://codersnack.com/assets/images/vuejs-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Wikipedia](https://en.wikipedia.org/wiki/Vue.js)
+- [Official website](https://vuejs.org/)
+
 Vue.js is an **open-source Model```–```view```–```viewmodel JavaScript framework** for building user interfaces and single-page applications.
 
 It was created by **Evan You**, and is maintained by him and the rest of the active core team members coming from various companies such as Netlify and Netguru.

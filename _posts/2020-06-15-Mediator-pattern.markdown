@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Medium - Javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
-
 ---
 layout: post
 title:  Mediator pattern
@@ -11,6 +6,11 @@ permalink: /js-design-patterns-mediator/
 icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Medium - Javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
+
 It is a *behavioural design pattern* that encapsulates how a set of objects interact with each other. It **provides the central authority over a group of objects by promoting loose coupling, keeping objects from referring to each other explicitly**.
 
 In this **example**, we have *TrafficTower* as *Mediator* that controls the way *Airplane* objects interact with each other. All the *Airplane* objects register themselves with a *TrafficTower* object, and it is the mediator class object that handles how an *Airplane* object receives coordinates data of all the other *Airplane* objects.

@@ -1,9 +1,3 @@
-
-### - References -
-
-- [Reactjs.org - Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
-- [Why Jsx talk](https://www.youtube.com/watch?v=x7cQ3mrcKaY)
-
 ---
 layout: post
 title:  ReactJS - Introducing JSX
@@ -12,6 +6,12 @@ permalink: /reactjs-introducing-jsx/
 icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Reactjs.org - Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
+- [Why Jsx talk](https://www.youtube.com/watch?v=x7cQ3mrcKaY)
+
 Consider this variable declaration:
 
 ```

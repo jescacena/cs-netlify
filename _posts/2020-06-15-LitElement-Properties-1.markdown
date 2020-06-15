@@ -1,8 +1,3 @@
-
-### - References -
-
-- [LitElement properties](https://lit-element.polymer-project.org/guide/properties)
-
 ---
 layout: post
 title:  LitElement Properties 1
@@ -11,6 +6,11 @@ permalink: /webcomponents-litelement-properties-1/
 icon: https://codersnack.com/assets/images/litelement-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [LitElement properties](https://lit-element.polymer-project.org/guide/properties)
+
 ### Overview
 **LitElement manages your declared properties and their corresponding attributes**. By default, LitElement will:
 

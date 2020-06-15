@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Fun with React - A quick overview](https://www.telerik.com/blogs/fun-with-react-a-quick-overview)
-
 ---
 layout: post
 title:  What is React?
@@ -11,6 +6,11 @@ permalink: /react-what-is/
 icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Fun with React - A quick overview](https://www.telerik.com/blogs/fun-with-react-a-quick-overview)
+
 React is a free, unlicensed JS library focused in **UI management**.
 
 Created by **Facebook**,React was initially released in 2013.

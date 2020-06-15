@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Flutter.dev - Write your first flutter app](https://flutter.dev/docs/get-started/codelab)
-
 ---
 layout: post
 title:  Write your first app II
@@ -11,6 +6,11 @@ permalink: /flutter-write-your-first-app-2/
 icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Flutter.dev - Write your first flutter app](https://flutter.dev/docs/get-started/codelab)
+
 ### Step 3: Add a Stateful widget
 
 **Stateless widgets are immutable**, meaning that their properties can’t change: all values are final.

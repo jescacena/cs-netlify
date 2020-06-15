@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Flutter.dev - Intro to widgets](https://flutter.dev/docs/development/ui/widgets-intro)
-
 ---
 layout: post
 title:  Flutter - Introduction to widgets
@@ -11,6 +6,11 @@ permalink: /flutter-widget-introduction/
 icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Flutter.dev - Intro to widgets](https://flutter.dev/docs/development/ui/widgets-intro)
+
 ### Introduction to widgets
 
 Flutter widgets are built using a modern framework that takes **inspiration from React**. The central idea is that you build your UI out of widgets. **Widgets describe what their view should look like given their current configuration and state**. When a widget's state changes, the widget rebuilds its description, which the **framework diffs against the previous description in order to determine the minimal changes needed** in the underlying render tree to transition from one state to the next.

@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Dart.dev - Samples](https://dart.dev/samples)
-
 ---
 layout: post
 title:  Dart Language Overview By Example I
@@ -11,6 +6,11 @@ permalink: /dart-language-overview-1/
 icon: https://codersnack.com/assets/images/dart-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Dart.dev - Samples](https://dart.dev/samples)
+
 This collection is not exhaustive—it’s just a brief introduction to the language **for people who like to learn by example**. You might also want to check out the language and library tours, or the [Dart cheatsheet codelab](https://dart.dev/codelabs/dart-cheatsheet).
 
 ### Hello World

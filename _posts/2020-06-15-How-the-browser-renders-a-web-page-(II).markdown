@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Uday Hiwarale - How the Browser renders a web page?](https://itnext.io/how-the-browser-renders-a-web-page-dom-cssom-and-rendering-df10531c9969)
-
 ---
 layout: post
 title:  How the browser renders a web page? (II)
@@ -11,6 +6,11 @@ permalink: /web-performance-how-browser-renders-2/
 icon: https://codersnack.com/assets/images/web-performance.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Uday Hiwarale - How the Browser renders a web page?](https://itnext.io/how-the-browser-renders-a-web-page-dom-cssom-and-rendering-df10531c9969)
+
 ### Render Tree
 
 **Render-Tree is a tree-like structure constructed by combining DOM and CSSOM trees**. The browser has to calculate the layout of each visible element and paint them on the screen, for that browser uses Render-Tree. Hence, unless Render-Tree isn’t constructed, nothing will get printed on the screen.

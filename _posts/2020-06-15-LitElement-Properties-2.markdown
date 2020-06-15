@@ -1,9 +1,3 @@
-
-### - References -
-
-- [LitElement Properties](https://lit-element.polymer-project.org/guide/properties)
-- [Alligator.io attributes-properties](https://alligator.io/web-components/attributes-properties/)
-
 ---
 layout: post
 title:  LitElement Properties 2
@@ -12,6 +6,12 @@ permalink: /webcomponents-litelement-properties-2/
 icon: https://codersnack.com/assets/images/litelement-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [LitElement Properties](https://lit-element.polymer-project.org/guide/properties)
+- [Alligator.io attributes-properties](https://alligator.io/web-components/attributes-properties/)
+
 ### Properties vs Attributes
 The difference between properties and attributes can be confusing. **Properties are available on a DOM node** when being manipulated by JavaScript:
 

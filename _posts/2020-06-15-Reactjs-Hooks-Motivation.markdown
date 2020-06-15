@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Reactjs.org Hooks Overview](https://reactjs.org/docs/hooks-overview.html)
-
 ---
 layout: post
 title:  Reactjs Hooks Motivation
@@ -11,6 +6,11 @@ permalink: /reactjs-hooks-overview/
 icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Reactjs.org Hooks Overview](https://reactjs.org/docs/hooks-overview.html)
+
 ### Motivation
 
 Hooks are a new addition in React 16.8. They **let you use state and other React features without writing a class**.

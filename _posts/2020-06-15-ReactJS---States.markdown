@@ -1,8 +1,3 @@
-
-### - References -
-
-- [ReactJS - State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
-
 ---
 layout: post
 title:  ReactJS - States
@@ -11,6 +6,11 @@ permalink: /reactjs-states/
 icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [ReactJS - State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
+
 > State is similar to props, but it is private and fully controlled by the component.
 
 Consider this ticking clock example. By now, we only call *ReactDOM.render()* to change the rendered output:

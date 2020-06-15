@@ -1,10 +1,3 @@
-
-### - References -
-
-- [Medium - Javascript design patterns by Soumyajit Pathak](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
-- [Codepen example](https://codepen.io/jescacena/project/editor/ZyVyGn)
-- [Essential JS design patterns book](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
-
 ---
 layout: post
 title:  Factory pattern
@@ -13,6 +6,13 @@ permalink: /js-design-patterns-factory/
 icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Medium - Javascript design patterns by Soumyajit Pathak](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
+- [Codepen example](https://codepen.io/jescacena/project/editor/ZyVyGn)
+- [Essential JS design patterns book](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+
 Factory pattern is a *class-based creational pattern*. It provides a generic interface that delegates the responsibility of object instantiation to its subclasses.
 
 This pattern is frequently used when we need to manage or **manipulate collections of objects that are different yet have many similar characteristics**.

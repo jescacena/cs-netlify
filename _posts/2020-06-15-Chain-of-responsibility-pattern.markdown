@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Medium - Javascript design patterns by Soumyajit Pathak](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
-
 ---
 layout: post
 title:  Chain of responsibility pattern
@@ -11,6 +6,11 @@ permalink: /js-design-patterns-chain-of-responsibility/
 icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Medium - Javascript design patterns by Soumyajit Pathak](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
+
 This is a *behavioural design pattern* that **provides a chain of loosely coupled objects. Each of these objects can choose to act on or handle the request of the client.**
 
 > A good example of the chain of responsibility pattern is the event bubbling in DOM in which an event propagates through a series of nested DOM elements, one of which may have an "event listener" attached to listen to and act on the event.

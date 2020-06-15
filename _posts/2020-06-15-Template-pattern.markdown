@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Medium - Javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
-
 ---
 layout: post
 title:  Template pattern
@@ -11,6 +6,11 @@ permalink: /js-design-patterns-template/
 icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Medium - Javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
+
 This is a *behavioural design pattern* based on **defining the skeleton of the algorithm or implementation of an operation, but deferring some steps to subclasses**. It lets subclasses redefine certain steps of an algorithm without changing the algorithm’s outward structure.
 
 In this **example**, we have a *Template* class *Employee* that implements *work* method partially. It is for the subclasses to implement responsibilities method to make it work as a whole. We then create two subclasses *Developer* and *Tester* that extend the template class and implement the required method to fill the implementation gap.

@@ -1,8 +1,3 @@
-
-### - References -
-
-- [ReactJS - Components and props](https://reactjs.org/docs/components-and-props.html)
-
 ---
 layout: post
 title:  ReactJS - Components and Props
@@ -11,6 +6,11 @@ permalink: /reactjs-components-and-props/
 icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [ReactJS - Components and props](https://reactjs.org/docs/components-and-props.html)
+
 > Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. 
 
 **Conceptually, components are like JavaScript functions**. They accept arbitrary inputs (called *props*) and return React elements describing what should appear on the screen.

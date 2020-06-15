@@ -74,7 +74,7 @@ fetch("http://localhost:1337/codersnacks")
 
             fs.writeFile(
                 "_posts/" + todayDate + "-" + slug + ".markdown",
-                contentReferences + "\n" + contentHeader + "\n" + content,
+                contentHeader + "\n" +  contentReferences + "\n" + content,
                 err => {
                     if (err) throw err;
                     console.log(

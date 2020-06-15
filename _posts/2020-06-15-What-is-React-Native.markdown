@@ -1,8 +1,3 @@
-
-### - References -
-
-- [reactnative.dev](https://reactnative.dev/)
-
 ---
 layout: post
 title:  What is React Native?
@@ -11,6 +6,11 @@ permalink: /react-native-what-is/
 icon: https://codersnack.com/assets/images/react-native-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [reactnative.dev](https://reactnative.dev/)
+
 ## Create native apps for Android and iOS using React
 React Native **combines the best parts of native development with React**, a best-in-class JavaScript library for building user interfaces.
 

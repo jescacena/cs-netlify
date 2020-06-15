@@ -1,10 +1,3 @@
-
-### - References -
-
-- [Medium - Javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
-- [MDN Web docs - ES6 Reflect](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect)
-- [MDN Web docs - ES6 Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
-
 ---
 layout: post
 title:  Proxy pattern
@@ -13,6 +6,13 @@ permalink: /js-design-patterns-proxy/
 icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Medium - Javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
+- [MDN Web docs - ES6 Reflect](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect)
+- [MDN Web docs - ES6 Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
+
 This is a *structural design pattern* that behaves exactly as its name suggests. It **acts as a surrogate or placeholder for another object to control access to it**.
 
 **It is usually used in situations in which a target object is under constraints and may not be able to handle all its responsibilities efficiently**. A proxy, in this case, usually provides the same interface to the client and adds a level of indirection to support controlled access to the target object to avoid undue pressure on it.

@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Medium - What are declaration files in typescript? - Charlie Greenman](https://medium.com/razroo/what-are-declaration-files-in-typescript-476c1c06f353)
-
 ---
 layout: post
 title:  Typescript - What are declaration files in Typescript?
@@ -11,6 +6,11 @@ permalink: /typescript-what-declaration-files/
 icon: https://codersnack.com/assets/images/typescript-icon.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Medium - What are declaration files in typescript? - Charlie Greenman](https://medium.com/razroo/what-are-declaration-files-in-typescript-476c1c06f353)
+
 ### What are Declaration Files in Typescript?
 
 **Declaration files** are an integral part of the Angular/Typescript ecosystem. However, **it is uncommon to work with declaration files**, because most major libraries have them bundled with respective npm library already (,or are written natively in Typescript). In addition, there are 5,000+ typings created by the open source library [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types). Nonetheless, granted this is the reality of present day Angular development, it is integral to understand how it works. Every application usually has a one-off use case that makes it special. When that time arrives, knowing how a declaration file works is going to come in handy. Most likely because you will need to create one yourself.

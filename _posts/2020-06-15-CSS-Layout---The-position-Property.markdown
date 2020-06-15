@@ -1,9 +1,3 @@
-
-### - References -
-
-- [W3C - CSS positioning](https://www.w3schools.com/css/css_positioning.asp)
-- [W3C - position fixed example](https://www.w3schools.com/css/tryit.asp?filename=trycss_position_fixed)
-
 ---
 layout: post
 title:  CSS Layout - The position Property
@@ -12,6 +6,12 @@ permalink: /css-layout-the-position-property/
 icon: https://codersnack.com/assets/images/logo-css.jpg
 categories: [snackpost]
 ---
+
+### - References -
+
+- [W3C - CSS positioning](https://www.w3schools.com/css/css_positioning.asp)
+- [W3C - position fixed example](https://www.w3schools.com/css/tryit.asp?filename=trycss_position_fixed)
+
 The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
 
 There are five different position values:

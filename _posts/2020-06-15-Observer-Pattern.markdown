@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Medium - Javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
-
 ---
 layout: post
 title:  Observer Pattern
@@ -11,6 +6,11 @@ permalink: /js-design-patterns-observer/
 icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Medium - Javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
+
 It is a crucial *behavioural design pattern* that **defines one-to-many dependencies between objects so that when one object (publisher) changes its state, all the other dependent objects (subscribers) are notified and updated automatically.** This is also called **PubSub (publisher/subscribers) or event dispatcher/listeners pattern**. The publisher is sometimes called the **subject**, and the subscribers are sometimes called **observers**.
 
 Chances are, you’re already somewhat familiar with this pattern if you have used **addEventListener or jQuery’s** .on to write even-handling code. It has its influences in **Reactive Programming (think RxJS)** as well.

@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Functional programming fundamentals](https://www.matthewgerstman.com/tech/functional-programming-fundamentals/?utm_campaign=React%2BNewsletter&utm_medium=email&utm_source=React_Newsletter_147)
-
 ---
 layout: post
 title:  Functional programming - Side Effects
@@ -11,6 +6,11 @@ permalink: /functional-programming-side-effects/
 icon: https://codersnack.com/assets/images/functional-programming.png
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Functional programming fundamentals](https://www.matthewgerstman.com/tech/functional-programming-fundamentals/?utm_campaign=React%2BNewsletter&utm_medium=email&utm_source=React_Newsletter_147)
+
 ### Side Effects
 
 **The no side-effects bit is particularly important, because this is what allows us to trust that a function will always behave the same in any environment**. 

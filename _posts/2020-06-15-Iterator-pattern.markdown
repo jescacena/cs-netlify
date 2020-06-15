@@ -1,8 +1,3 @@
-
-### - References -
-
-- [Medium - Javascript design patterns by Soumyajit Pathak](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
-
 ---
 layout: post
 title:  Iterator pattern
@@ -11,6 +6,11 @@ permalink: /js-design-patterns-iterator/
 icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Medium - Javascript design patterns by Soumyajit Pathak](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
+
 It is a *behavioural design pattern* that **provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.**
 
 **Iterators have a special kind of behaviour where we step through an ordered set of values one at a time by calling *next()* until we reach the end.** The introduction of *Iterator and Generators in ES6 *made the implementation of the iterator pattern extremely straightforward.

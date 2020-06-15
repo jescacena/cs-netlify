@@ -1,9 +1,3 @@
-
-### - References -
-
-- [Medium - javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15?)
-- [Wikipedia - Desgin Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
-
 ---
 layout: post
 title:  What is a design pattern?
@@ -12,6 +6,12 @@ permalink: /what-is-a-design-pattern/
 icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
+
+### - References -
+
+- [Medium - javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15?)
+- [Wikipedia - Desgin Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
+
 We write code to solve problems. These problems usually have many similarities, and, when trying to solve them, we notice several common patterns. This is where design patterns come in.
 
 > A design pattern is a term used in software engineering for a general, reusable solution to a commonly occurring problem in software design.
