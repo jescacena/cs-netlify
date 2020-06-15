@@ -7,7 +7,8 @@ icon: https://codersnack.com/assets/images/web-performance.png
 categories: [snackpost]
 ---
 
-> *Information drawn from* - [Uday Hiwarale - How the Browser renders a web page?](https://itnext.io/how-the-browser-renders-a-web-page-dom-cssom-and-rendering-df10531c9969)
+> Information drawn from 
+- [Uday Hiwarale - How the Browser renders a web page?](https://itnext.io/how-the-browser-renders-a-web-page-dom-cssom-and-rendering-df10531c9969)
 
 ### Document Object Model (DOM)
 

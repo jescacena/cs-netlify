@@ -7,7 +7,8 @@ icon: https://codersnack.com/assets/images/litelement-icon.png
 categories: [snackpost]
 ---
 
-> *Information drawn from* - [LitElement lifecycle](https://lit-element.polymer-project.org/guide/lifecycle)
+> Information drawn from 
+- [LitElement lifecycle](https://lit-element.polymer-project.org/guide/lifecycle)
 
 #### firstUpdated
 ```

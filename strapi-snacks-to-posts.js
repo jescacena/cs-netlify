@@ -34,7 +34,8 @@ categories: [snackpost]
 
 function getMarkdownForReferences(referencesMarkdownContent) {
     return `
-> *Information drawn from* ${referencesMarkdownContent}
+> Information drawn from 
+${referencesMarkdownContent}
 `;
 }
 

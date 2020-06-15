@@ -7,7 +7,8 @@ icon: https://codersnack.com/assets/images/css-flex-align-items.png
 categories: [snackpost]
 ---
 
-> *Information drawn from* - [[CSS trick] A guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+> Information drawn from 
+- [[CSS trick] A guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 These snacks will core these flex properties: flex-flow, justify-content and align-items
 

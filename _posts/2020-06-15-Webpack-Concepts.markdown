@@ -7,7 +7,8 @@ icon: https://codersnack.com/assets/images/webpack-icon.png
 categories: [snackpost]
 ---
 
-> *Information drawn from* - [Webpack.js.org Concepts](https://webpack.js.org/concepts/)
+> Information drawn from 
+- [Webpack.js.org Concepts](https://webpack.js.org/concepts/)
 
 At its core, **webpack is a static module bundler** for modern JavaScript applications. When webpack processes your application, it **internally builds a ```dependency graph``` which maps every module your project needs and generates one or more bundles**.
 

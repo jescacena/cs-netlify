@@ -70,7 +70,7 @@ main {
         line-height: 1.5em;
         margin: 1em;
         overflow: auto;
-        max-width: 80%;
+        // max-width: 80%;
         @include for-phone-only {
             max-width: 100%;
         }
@@ -282,9 +282,8 @@ main {
         margin-left: 12rem;
         margin-right: 11rem;
 
-        blockquote:first-child{
-                background-color: yellow;
-        }
+
+
         // h5#information-drawn-from{
         //         background-color: yellow;
         // }
@@ -460,6 +459,21 @@ main {
             right: 5px;
             position: relative;
             display: inline-block;
+        }
+    }
+}
+
+body > main > section > blockquote:nth-child(5) {
+    background-color: $lightBlueColor;
+    padding: 0.5rem 1rem;
+    max-width: none;
+    p, li {
+        font-size: 0.9rem !important;
+        font-family: Lato-Regular !important;
+        color: white;
+        a {
+            font-family: Lato-Regular !important;
+            color: white;
         }
     }
 }

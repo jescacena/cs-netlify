@@ -7,7 +7,8 @@ icon: https://codersnack.com/assets/images/litelement-icon.png
 categories: [snackpost]
 ---
 
-> *Information drawn from* - [LitElement Properties](https://lit-element.polymer-project.org/guide/properties)
+> Information drawn from 
+- [LitElement Properties](https://lit-element.polymer-project.org/guide/properties)
 - [Alligator.io attributes-properties](https://alligator.io/web-components/attributes-properties/)
 
 ### Properties vs Attributes

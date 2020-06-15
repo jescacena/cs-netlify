@@ -7,7 +7,8 @@ icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
 ---
 
-> *Information drawn from* - [TheDroidsOnRoids - Flutter vs React Native](https://www.thedroidsonroids.com/blog/flutter-vs-react-native-what-to-choose-in-2020#whatisflutter)
+> Information drawn from 
+- [TheDroidsOnRoids - Flutter vs React Native](https://www.thedroidsonroids.com/blog/flutter-vs-react-native-what-to-choose-in-2020#whatisflutter)
 - [Official Flutter website](https://flutter.dev/)
 
 #### What is Flutter?

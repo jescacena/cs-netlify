@@ -7,7 +7,8 @@ icon: https://codersnack.com/assets/images/functional-programming.png
 categories: [snackpost]
 ---
 
-> *Information drawn from* - [Functional programming fundamentals](https://www.matthewgerstman.com/tech/functional-programming-fundamentals/?utm_campaign=React%2BNewsletter&utm_medium=email&utm_source=React_Newsletter_147)
+> Information drawn from 
+- [Functional programming fundamentals](https://www.matthewgerstman.com/tech/functional-programming-fundamentals/?utm_campaign=React%2BNewsletter&utm_medium=email&utm_source=React_Newsletter_147)
 
 ### Side Effects
 

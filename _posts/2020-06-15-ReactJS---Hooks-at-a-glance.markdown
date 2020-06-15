@@ -7,7 +7,8 @@ icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 
-> *Information drawn from* - [ReactJS - Hooks overview](https://reactjs.org/docs/hooks-overview.html)
+> Information drawn from 
+- [ReactJS - Hooks overview](https://reactjs.org/docs/hooks-overview.html)
 
 
 Hooks are **a new addition in React 16.8**. They **let you use state and other React features without writing a class**.

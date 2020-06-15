@@ -7,7 +7,8 @@ icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 
-> *Information drawn from* - [ReactJS - Components and props](https://reactjs.org/docs/components-and-props.html)
+> Information drawn from 
+- [ReactJS - Components and props](https://reactjs.org/docs/components-and-props.html)
 
 > Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. 
 
