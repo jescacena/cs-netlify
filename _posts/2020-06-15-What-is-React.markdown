@@ -7,9 +7,10 @@ icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 
-### - References -
+### References ---
 
 - [Fun with React - A quick overview](https://www.telerik.com/blogs/fun-with-react-a-quick-overview)
+---
 
 React is a free, unlicensed JS library focused in **UI management**.
 

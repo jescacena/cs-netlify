@@ -7,9 +7,10 @@ icon: https://codersnack.com/assets/images/litelement-icon.png
 categories: [snackpost]
 ---
 
-### - References -
+### References ---
 
 - [LitElement Templates](https://lit-element.polymer-project.org/guide/templates)
+---
 
 Add a template to your component to define internal DOM to implement your component.
 

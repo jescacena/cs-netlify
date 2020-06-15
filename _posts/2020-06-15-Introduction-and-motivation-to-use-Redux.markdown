@@ -7,9 +7,10 @@ icon: https://codersnack.com/assets/images/redux-icon.png
 categories: [snackpost]
 ---
 
-### - References -
+### References ---
 
 - [Reduxjs.org - getting started](https://redux.js.org/introduction/getting-started)
+---
 
 Redux is a **predictable state container for JavaScript apps**.
 

@@ -7,9 +7,10 @@ icon: https://codersnack.com/assets/images/typescript-icon.png
 categories: [snackpost]
 ---
 
-### - References -
+### References ---
 
 - [Typescriptlang Declaration Files: Library structure](https://www.typescriptlang.org/docs/handbook/declaration-files/library-structures.html)
+---
 
 ### Library Structures
 

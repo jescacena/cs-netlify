@@ -7,9 +7,10 @@ icon: https://codersnack.com/assets/images/logo-css.jpg
 categories: [snackpost]
 ---
 
-### - References -
+### References ---
 
 [W3C - CSS how to](https://www.w3schools.com/css/css_howto.asp)
+---
 
 When a browser reads a style sheet, it will format the HTML document according to the information in the style sheet.
 

@@ -7,9 +7,10 @@ icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 
-### - References -
+### References ---
 
 - [Medium - Javascript design patterns by Soumyajit Pathak](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
+---
 
 This is a *structural pattern* where **the interface of one class is translated into another**. 
 

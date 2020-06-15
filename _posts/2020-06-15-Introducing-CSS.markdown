@@ -7,9 +7,10 @@ icon: https://codersnack.com/assets/images/logo-css.jpg
 categories: [snackpost]
 ---
 
-### - References -
+### References ---
 
 - [W3C - Css intro](https://www.w3schools.com/css/css_intro.asp)
+---
 
 #### What is CSS?
 - CSS stands for **Cascading Style Sheets**

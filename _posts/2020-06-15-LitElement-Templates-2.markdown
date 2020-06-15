@@ -7,9 +7,10 @@ icon: https://codersnack.com/assets/images/litelement-icon.png
 categories: [snackpost]
 ---
 
-### - References -
+### References ---
 
 - [LitElement Templates](https://lit-element.polymer-project.org/guide/templates)
+---
 
 ### Bind properties to templated elements
 You can insert JavaScript expressions as placeholders for HTML text content, attributes, Boolean attributes, properties, and event handlers.

@@ -7,9 +7,10 @@ icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 
-### - References -
+### References ---
 
 - [Medium - Javascript design patterns by Soumyajit Pathak](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
+---
 
 This is a *behavioural design pattern* that **aims to encapsulate actions or operations as objects**. This pattern allows *loose coupling of systems and classes* by separating the objects that request an operation or invoke a method from the ones that execute or process the actual implementation.
 
