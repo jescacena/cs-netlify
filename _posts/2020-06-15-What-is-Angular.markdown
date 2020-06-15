@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  What is Angular?
-date:   2020-06-15T10:13:05.011Z
+date:   2020-06-15T10:13:58.488Z
 permalink: /angular-what-is/
 icon: https://codersnack.com/assets/images/angular-icon.png
 categories: [snackpost]
@@ -41,7 +41,7 @@ An app's components typically define many views, arranged hierarchically. Angula
 > Organizing your code into distinct functional modules helps in managing development of complex applications, and in designing for reusability. In addition, this technique lets you take advantage of lazy-loading—that is, loading modules on demand—to minimize the amount of code that needs to be loaded at startup.
 
 
-##Components
+## Components
 
 **Every Angular application has at least one component, the root component that connects a component hierarchy with the page document object model (DOM)**. Each component defines a class that contains application data and logic, and is associated with an HTML template that defines a view to be displayed in a target environment.
 
@@ -51,7 +51,7 @@ The **@Component() decorator** identifies the class immediately below it as a co
 
 
 
-##Templates, directives, and data binding
+## Templates, directives, and data binding
 
 **A template combines HTML with Angular markup that can modify HTML elements before they are displayed**. *Template directives provide program logic, and binding markup connects your application data and the DOM*. There are two types of data binding:
 
@@ -63,13 +63,13 @@ Before a view is displayed, Angular evaluates the directives and resolves the bi
 Your templates can use **pipes to improve the user experience by transforming values for display**. For example, use pipes to display dates and currency values that are appropriate for a user's locale. Angular provides predefined pipes for common transformations, and you can also define your own pipes.
 
 
-##Services and dependency injection
+## Services and dependency injection
 
 **For data or logic that isn't associated with a specific view, and that you want to share across components, you create a service class**. A service class definition is immediately preceded by the **@Injectable() decorator.** The decorator provides the metadata that allows other providers to be injected as dependencies into your class.
 
 Dependency injection (DI) lets you keep your component classes lean and efficient. They don't fetch data from the server, validate user input, or log directly to the console; they delegate such tasks to services.
 
-##Routing
+## Routing
 
 The Angular Router NgModule provides a service that lets you define a navigation path among the different application states and view hierarchies in your app. It is modeled on the familiar browser navigation conventions:
 
