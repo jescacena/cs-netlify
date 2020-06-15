@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  What is React Native?
-date:   2020-06-13T12:25:22.411Z
+date:   2020-06-15T11:53:41.762Z
 permalink: /react-native-what-is/
 icon: https://codersnack.com/assets/images/react-native-icon.png
 categories: [snackpost]
@@ -63,7 +63,9 @@ REACT NATIVE / UI COMPONENT / ANDROID VIEW / IOS VIEW /	WEB ANALOG / DESCRIPTION
 
 Because React Native uses the same API structure as React components, you’ll need to understand React component APIs to get started. 
 
+
 ## JavaScript Environment
+
 
 ### JavaScript Runtime
 
