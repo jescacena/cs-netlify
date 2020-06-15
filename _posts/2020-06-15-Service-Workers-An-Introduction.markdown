@@ -7,11 +7,7 @@ icon: https://codersnack.com/assets/images/pwa-icon.png
 categories: [snackpost]
 ---
 
-> #### Information drawn from
-
-- [Google developers - Service Workers Introduction - Matt Gaunt](https://developers.google.com/web/fundamentals/primers/service-workers)
-
--------------
+> *Information drawn from* - [Google developers - Service Workers Introduction - Matt Gaunt](https://developers.google.com/web/fundamentals/primers/service-workers)
 
 **Rich offline experiences, periodic background syncs, push notifications**—functionality that would normally require a native application—are coming to the web. **Service workers provide the technical foundation that all these features rely on**.
 

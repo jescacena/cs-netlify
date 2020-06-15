@@ -7,12 +7,8 @@ icon: https://codersnack.com/assets/images/stenciljs-icon.png
 categories: [snackpost]
 ---
 
-> #### Information drawn from
-
-- [stenciljs.com Getting started](https://stenciljs.com/docs/getting-started)
+> *Information drawn from* - [stenciljs.com Getting started](https://stenciljs.com/docs/getting-started)
 - [stenciljs.com My first component](https://stenciljs.com/docs/my-first-component)
-
--------------
 
 ## Getting Started
 

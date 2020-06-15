@@ -7,11 +7,7 @@ icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 
-> #### Information drawn from
-
-- [ReactJS - Adding lifecycle methods to a class](https://reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class)
-
--------------
+> *Information drawn from* - [ReactJS - Adding lifecycle methods to a class](https://reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class)
 
 There are three things you should know about setState().
 

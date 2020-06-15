@@ -7,11 +7,7 @@ icon: https://codersnack.com/assets/images/js-unit-testing-icon.png
 categories: [snackpost]
 ---
 
-> #### Information drawn from
-
-- [Medium - What Every Unit Test needs](https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d)
-
--------------
+> *Information drawn from* - [Medium - What Every Unit Test needs](https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d)
 
 **A unit test runs some code over a segment of your program checking the input and output**. These tests allow developers to check individual areas of a program **to see where (and why) errors occur**.
 

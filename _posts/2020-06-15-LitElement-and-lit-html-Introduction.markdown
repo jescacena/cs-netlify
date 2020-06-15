@@ -7,13 +7,9 @@ icon: https://codersnack.com/assets/images/litelement-icon.png
 categories: [snackpost]
 ---
 
-> #### Information drawn from
-
-- [lit-html project](https://lit-html.polymer-project.org/guide)
+> *Information drawn from* - [lit-html project](https://lit-html.polymer-project.org/guide)
 - [Example LitElement project](https://github.com/PolymerLabs/start-lit-element)
 - [lit-element project](https://lit-element.polymer-project.org/)
-
--------------
 
 ### What is LitElement?
 

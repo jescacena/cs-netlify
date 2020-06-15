@@ -7,11 +7,7 @@ icon: https://codersnack.com/assets/images/typescript-icon.png
 categories: [snackpost]
 ---
 
-> #### Information drawn from
-
-- [Typescriptlang Declaration Files: Library structure](https://www.typescriptlang.org/docs/handbook/declaration-files/library-structures.html)
-
--------------
+> *Information drawn from* - [Typescriptlang Declaration Files: Library structure](https://www.typescriptlang.org/docs/handbook/declaration-files/library-structures.html)
 
 ### Library Structures
 

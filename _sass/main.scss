@@ -282,9 +282,14 @@ main {
         margin-left: 12rem;
         margin-right: 11rem;
 
-        blockquote:first-child {
+        blockquote:first-child{
                 background-color: yellow;
         }
+        // h5#information-drawn-from{
+        //         background-color: yellow;
+        // }
+
+        // li ~ a
 
         @include for-phone-only {
             margin: 0;

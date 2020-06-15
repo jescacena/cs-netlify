@@ -7,12 +7,8 @@ icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 
-> #### Information drawn from
-
-- [Medium - javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15?)
+> *Information drawn from* - [Medium - javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15?)
 - [Wikipedia - Desgin Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
-
--------------
 
 We write code to solve problems. These problems usually have many similarities, and, when trying to solve them, we notice several common patterns. This is where design patterns come in.
 

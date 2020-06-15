@@ -7,12 +7,8 @@ icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 
-> #### Information drawn from
-
-- [Reactjs.org - Uncontrolled components](https://reactjs.org/docs/uncontrolled-components.html)
+> *Information drawn from* - [Reactjs.org - Uncontrolled components](https://reactjs.org/docs/uncontrolled-components.html)
 - [Reactjs.org - Controlled components](https://reactjs.org/docs/forms.html)
-
--------------
 
 *HTML form elements work a little bit differently from other DOM elements in React,* because **form elements naturally keep some internal state**. For example, this form in plain HTML accepts a single name:
 ```

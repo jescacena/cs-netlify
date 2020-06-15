@@ -7,12 +7,8 @@ icon: https://codersnack.com/assets/images/es6-let-const.png
 categories: [snackpost]
 ---
 
-> #### Information drawn from
-
-- [Medium - These are the features in es6 that you should know](https://medium.freecodecamp.org/these-are-the-features-in-es6-that-you-should-know-1411194c71cb)
+> *Information drawn from* - [Medium - These are the features in es6 that you should know](https://medium.freecodecamp.org/these-are-the-features-in-es6-that-you-should-know-1411194c71cb)
 - [Medium - Discover the power of closures in javascript](https://medium.freecodecamp.org/discover-the-power-of-closures-in-javascript-5c472a7765d7)
-
--------------
 
 There are two ways for declaring a variable (let and const) plus one that has become obsolete (var).
 

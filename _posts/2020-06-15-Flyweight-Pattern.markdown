@@ -7,11 +7,7 @@ icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 
-> #### Information drawn from
-
-- [Medium - Javascript design patterns by Soumyajit Pathak](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
-
--------------
+> *Information drawn from* - [Medium - Javascript design patterns by Soumyajit Pathak](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
 
 This is a *structural design pattern* focused on **efficient data sharing through fine-grained objects**. It is used for efficiency and **memory conservation purposes**.
 

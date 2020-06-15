@@ -7,11 +7,7 @@ icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 
-> #### Information drawn from
-
-- [Reactjs.org Hooks Overview](https://reactjs.org/docs/hooks-overview.html)
-
--------------
+> *Information drawn from* - [Reactjs.org Hooks Overview](https://reactjs.org/docs/hooks-overview.html)
 
 ### Motivation
 

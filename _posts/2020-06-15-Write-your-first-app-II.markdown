@@ -7,11 +7,7 @@ icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
 ---
 
-> #### Information drawn from
-
-- [Flutter.dev - Write your first flutter app](https://flutter.dev/docs/get-started/codelab)
-
--------------
+> *Information drawn from* - [Flutter.dev - Write your first flutter app](https://flutter.dev/docs/get-started/codelab)
 
 ### Step 3: Add a Stateful widget
 

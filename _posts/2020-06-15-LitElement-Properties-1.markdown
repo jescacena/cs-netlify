@@ -7,11 +7,7 @@ icon: https://codersnack.com/assets/images/litelement-icon.png
 categories: [snackpost]
 ---
 
-> #### Information drawn from
-
-- [LitElement properties](https://lit-element.polymer-project.org/guide/properties)
-
--------------
+> *Information drawn from* - [LitElement properties](https://lit-element.polymer-project.org/guide/properties)
 
 ### Overview
 **LitElement manages your declared properties and their corresponding attributes**. By default, LitElement will:
