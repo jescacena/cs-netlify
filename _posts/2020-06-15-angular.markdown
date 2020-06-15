@@ -8,3 +8,4 @@ icon: https://codersnack.com/assets/images/angular-icon.png
 exclude: true
 ---
  * [What is Angular?](https://codersnack.com/angular-what-is) 
+ * [Angular Data Biding & Pipes & Directives](https://codersnack.com/angular-data-binding-pipes-directives) 
