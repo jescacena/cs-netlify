@@ -34,10 +34,10 @@ categories: [snackpost]
 
 function getMarkdownForReferences(referencesMarkdownContent) {
     return `
-### References ---
+> References
 
 ${referencesMarkdownContent}
----
+
 `;
 }
 

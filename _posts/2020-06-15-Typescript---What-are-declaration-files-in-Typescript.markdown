@@ -7,10 +7,10 @@ icon: https://codersnack.com/assets/images/typescript-icon.png
 categories: [snackpost]
 ---
 
-### References ---
+> References
 
 - [Medium - What are declaration files in typescript? - Charlie Greenman](https://medium.com/razroo/what-are-declaration-files-in-typescript-476c1c06f353)
----
+
 
 ### What are Declaration Files in Typescript?
 

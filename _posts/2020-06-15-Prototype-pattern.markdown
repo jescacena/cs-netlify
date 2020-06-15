@@ -7,10 +7,10 @@ icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 
-### References ---
+> References
 
 - [Medium - Javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
----
+
 
 This pattern is an *object-based creational design pattern*. In this, **we use a sort of a "skeleton" of an existing object to create or instantiate new objects**.
 

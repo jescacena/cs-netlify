@@ -7,10 +7,10 @@ icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 
-### References ---
+> References
 
 - [Medium - Javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
----
+
 
 This is a *behavioural design pattern* based on **defining the skeleton of the algorithm or implementation of an operation, but deferring some steps to subclasses**. It lets subclasses redefine certain steps of an algorithm without changing the algorithm’s outward structure.
 

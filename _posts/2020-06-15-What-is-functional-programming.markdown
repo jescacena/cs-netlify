@@ -7,11 +7,11 @@ icon: https://codersnack.com/assets/images/fp_lisp.png
 categories: [snackpost]
 ---
 
-### References ---
+> References
 
 - [Why functional programming](https://sookocheff.com/post/fp/why-functional-programming/)
 - [Functional Programming Fundamentals](https://www.matthewgerstman.com/tech/functional-programming-fundamentals/)
----
+
 
 Functional programming is a *programming paradigm* that expresses a computation directly as pure functional transformation of data.
 

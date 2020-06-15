@@ -7,10 +7,10 @@ icon: https://codersnack.com/assets/images/css-flex-grow.png
 categories: [snackpost]
 ---
 
-### References ---
+> References
 
 - [[CSS trick] A guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
----
+
 
 These snack covers these flex items properties: order, flex-grow, flex-shrink, flex-basis , flex and align-itself
 

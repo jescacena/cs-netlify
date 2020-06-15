@@ -7,10 +7,10 @@ icon: https://codersnack.com/assets/images/design-pattern.jpg
 categories: [snackpost]
 ---
 
-### References ---
+> References
 
 - [Medium - Javascript design patterns by Soumyajit Pathak](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
----
+
 
 This is a *class-based creational design pattern*. **Constructors are special functions that can be used to instantiate new objects** with methods and properties defined by that function.
 

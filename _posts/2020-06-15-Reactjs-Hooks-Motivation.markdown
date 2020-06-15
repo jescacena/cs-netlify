@@ -7,10 +7,10 @@ icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 
-### References ---
+> References
 
 - [Reactjs.org Hooks Overview](https://reactjs.org/docs/hooks-overview.html)
----
+
 
 ### Motivation
 

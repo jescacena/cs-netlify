@@ -7,10 +7,10 @@ icon: https://codersnack.com/assets/images/css-grid.png
 categories: [snackpost]
 ---
 
-### References ---
+> References
 
 - [CSS tricks - A complete guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
----
+
 
 CSS Grid Layout is the most powerful layout system available in CSS. 
 

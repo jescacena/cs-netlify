@@ -7,10 +7,10 @@ icon: https://codersnack.com/assets/images/es6.png
 categories: [snackpost]
 ---
 
-### References ---
+> References
 
 - [These are the features in es6 that you should know](https://www.freecodecamp.org/news/these-are-the-features-in-es6-that-you-should-know-1411194c71cb/)
----
+
 
 Before modules, a variable declared outside any function was a global variable.
 

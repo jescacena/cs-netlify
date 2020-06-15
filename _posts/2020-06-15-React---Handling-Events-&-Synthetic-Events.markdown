@@ -7,11 +7,11 @@ icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 
-### References ---
+> References
 
 - [reactjs.org - Handlng events](https://reactjs.org/docs/handling-events.html)
 - [reactjs.org - Synthetic Events](https://reactjs.org/docs/events.html)
----
+
 
 Handling events with React elements is **very similar to handling events on DOM elements**. There are some syntax **differences**:
 

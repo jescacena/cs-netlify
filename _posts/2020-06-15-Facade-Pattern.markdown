@@ -7,10 +7,10 @@ icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 
-### References ---
+> References
 
 - [Medium - Javascript design patterns by Soumyajit Pathak](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
----
+
 
 This is a *structural design pattern* that is widely used in the JavaScript libraries. It is **used to provide a unified and simpler, public-facing interface for ease of use that shields away from the complexities of its consisting subsystems or subclasses**.
 

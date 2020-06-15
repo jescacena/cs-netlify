@@ -7,11 +7,11 @@ icon: https://codersnack.com/assets/images/pwa-icon.png
 categories: [snackpost]
 ---
 
-### References ---
+> References
 
 - [Web.dev - What are PWAs? (Sam Richard & Pete LePage)](https://web.dev/what-are-pwas/)
 - [Web.dev - How Progressive Web Apps can drive your business success? (Sébastien Fourault)](https://web.dev/drive-business-success/)
----
+
 
 **The web is an incredible platform**. Its mix of ubiquity across devices and operating systems, its user-centered security model, and the fact that **neither its specification nor its implementation is controlled by a single company** makes the web a unique platform to develop software on. Combined with its inherent **linkability**, it's possible to search it and share what you've found with anyone, anywhere. **Whenever you go to a website, it's up-to-date**, and your experience with that site can be as ephemeral or as permanent as you'd like. Web applications can reach anyone, anywhere, on any device with a **single codebase**.
 
