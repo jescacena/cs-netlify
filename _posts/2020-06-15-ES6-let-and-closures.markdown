@@ -7,11 +7,12 @@ icon: http://codersnack.com/assets/images/es6-let-closure.png
 categories: [snackpost]
 ---
 
-> References
+> #### Information drawn from
 
 - [[Medium] Discover the power of closures in javascript](https://medium.freecodecamp.org/discover-the-power-of-closures-in-javascript-5c472a7765d7)
 - [[Medium] These are the features in es6 that you should know](https://medium.freecodecamp.org/these-are-the-features-in-es6-that-you-should-know-1411194c71cb)
 
+-------------
 
 Functions can be nested inside other functions. 
 Consider the next code:

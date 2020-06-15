@@ -7,10 +7,11 @@ icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 
-> References
+> #### Information drawn from
 
 null
 
+-------------
 
 It is a *behavioural design pattern* that **allows an object to alter its behaviour based on changes to its internal state**. The object returned by a state pattern class seems to change its class. It **provides state-specific logic to a limited set of objects in which each object type represents a particular state**.
 

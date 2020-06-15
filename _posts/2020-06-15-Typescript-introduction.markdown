@@ -7,10 +7,11 @@ icon: https://codersnack.com/assets/images/typescript-icon.png
 categories: [snackpost]
 ---
 
-> References
+> #### Information drawn from
 
 - [Wikipedia -Typescript](https://en.wikipedia.org/wiki/TypeScript)
 
+-------------
 
 TypeScript is an open-source programming language developed and maintained by **Microsoft**. It is **a strict syntactical superset of JavaScript, and adds optional static typing to the language**.
 

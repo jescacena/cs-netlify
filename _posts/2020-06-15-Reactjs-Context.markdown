@@ -7,10 +7,11 @@ icon: https://codersnack.com/assets/images/logo-reactjs.png
 categories: [snackpost]
 ---
 
-> References
+> #### Information drawn from
 
 - [Reacts.org - Context](https://reactjs.org/docs/context.html)
 
+-------------
 
 **Context provides a way to pass data through the component tree without having to pass props down manually at every level**.
 

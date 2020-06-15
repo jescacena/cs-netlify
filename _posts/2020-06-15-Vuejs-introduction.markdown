@@ -7,11 +7,12 @@ icon: https://codersnack.com/assets/images/vuejs-icon.png
 categories: [snackpost]
 ---
 
-> References
+> #### Information drawn from
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Vue.js)
 - [Official website](https://vuejs.org/)
 
+-------------
 
 Vue.js is an **open-source Model```–```view```–```viewmodel JavaScript framework** for building user interfaces and single-page applications.
 

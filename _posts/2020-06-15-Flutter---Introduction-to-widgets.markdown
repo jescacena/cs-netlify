@@ -7,10 +7,11 @@ icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
 ---
 
-> References
+> #### Information drawn from
 
 - [Flutter.dev - Intro to widgets](https://flutter.dev/docs/development/ui/widgets-intro)
 
+-------------
 
 ### Introduction to widgets
 

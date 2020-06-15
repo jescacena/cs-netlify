@@ -282,6 +282,10 @@ main {
         margin-left: 12rem;
         margin-right: 11rem;
 
+        blockquote:first-child {
+                background-color: yellow;
+        }
+
         @include for-phone-only {
             margin: 0;
         }

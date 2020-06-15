@@ -7,10 +7,11 @@ icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
 ---
 
-> References
+> #### Information drawn from
 
 - [Flutter.dev - Write your first flutter app](https://flutter.dev/docs/get-started/codelab)
 
+-------------
 
 ## What you’ll build
 > **Tip**: This codelab walks you through writing your first Flutter app on mobile. You might prefer to try writing your first Flutter app on the web. Note that if you have enabled web, the completed app just works on all of these devices!

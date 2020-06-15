@@ -7,10 +7,11 @@ icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 
-> References
+> #### Information drawn from
 
 - [Medium - Javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
 
+-------------
 
 It is a crucial *behavioural design pattern* that **defines one-to-many dependencies between objects so that when one object (publisher) changes its state, all the other dependent objects (subscribers) are notified and updated automatically.** This is also called **PubSub (publisher/subscribers) or event dispatcher/listeners pattern**. The publisher is sometimes called the **subject**, and the subscribers are sometimes called **observers**.
 

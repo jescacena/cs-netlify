@@ -1,16 +1,17 @@
 ---
 layout: post
 title:  What is Angular?
-date:   2020-06-15T09:44:23.825Z
+date:   2020-06-15T10:13:05.011Z
 permalink: /angular-what-is/
 icon: https://codersnack.com/assets/images/angular-icon.png
 categories: [snackpost]
 ---
 
-> References
+> #### Information drawn from
 
 - [Angular.io Architecture](https://angular.io/guide/architecture)
 
+-------------
 
 **Angular is a platform and framework for building single-page client applications using HTML and TypeScript**. Angular is written in TypeScript. It implements core and optional functionality as a set of TypeScript libraries that you import into your apps.
 
@@ -29,7 +30,7 @@ The metadata for a component class associates it with a template that defines a 
 An app's components typically define many views, arranged hierarchically. Angular provides the **Router service** to help you define navigation paths among views. The router provides sophisticated in-browser navigational capabilities.
 
 
-##Modules
+## Modules
 
 *Angular NgModules differ from and complement JavaScript (ES2015) modules*. **An NgModule declares a compilation context for a set of components that is dedicated to an application domain**, a workflow, or a closely related set of capabilities. An NgModule can associate its components with related code, such as services, to form functional units.
 

@@ -7,10 +7,11 @@ icon: https://codersnack.com/assets/images/react-native-icon.png
 categories: [snackpost]
 ---
 
-> References
+> #### Information drawn from
 
 - [reactnative.dev](https://reactnative.dev/)
 
+-------------
 
 ## Create native apps for Android and iOS using React
 React Native **combines the best parts of native development with React**, a best-in-class JavaScript library for building user interfaces.

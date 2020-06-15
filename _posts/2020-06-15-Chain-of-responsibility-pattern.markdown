@@ -7,10 +7,11 @@ icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 
-> References
+> #### Information drawn from
 
 - [Medium - Javascript design patterns by Soumyajit Pathak](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
 
+-------------
 
 This is a *behavioural design pattern* that **provides a chain of loosely coupled objects. Each of these objects can choose to act on or handle the request of the client.**
 

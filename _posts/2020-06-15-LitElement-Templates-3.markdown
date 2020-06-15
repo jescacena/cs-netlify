@@ -7,10 +7,11 @@ icon: https://codersnack.com/assets/images/litelement-icon.png
 categories: [snackpost]
 ---
 
-> References
+> #### Information drawn from
 
 - [LitElement Templates](https://lit-element.polymer-project.org/guide/templates)
 
+-------------
 
 ### Compose a template from other templates
 You can compose LitElement templates from other LitElement templates. In the following example, we compose a template for an element called ```<my-page>``` from smaller templates for the standard HTML elements ```<header>```, ```<article>```, and ```<footer>```:

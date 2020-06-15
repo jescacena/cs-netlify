@@ -7,10 +7,11 @@ icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 
-> References
+> #### Information drawn from
 
 - [Medium - Javascript design patterns by Soumyajit Pathak](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
 
+-------------
 
 This is also a *structural design pattern* that **focuses on the ability to add behaviour or functionalities to existing classes dynamically**. It is another viable alternative to sub-classing.
 

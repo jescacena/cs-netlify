@@ -7,12 +7,13 @@ icon: https://codersnack.com/assets/images/web-components.png
 categories: [snackpost]
 ---
 
-> References
+> #### Information drawn from
 
 - [CSS trick - Calleb Williams - Introduction to web components](https://css-tricks.com/an-introduction-to-web-components/)
 - [HTML Living Standard specification](https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements)
 - [Living Standard DOM specification](https://dom.spec.whatwg.org/#shadow-trees)
 
+-------------
 
 ### What are Web Components, anyway?
 

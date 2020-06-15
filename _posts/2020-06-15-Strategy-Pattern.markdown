@@ -7,10 +7,11 @@ icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
 ---
 
-> References
+> #### Information drawn from
 
 - [Medium - Javascript design patterns](https://medium.com/better-programming/javascript-design-patterns-25f0faaaa15)
 
+-------------
 
 It is a *behavioural design pattern* that **allows encapsulation of alternative algorithms for a particular task**. It **defines a family of algorithms and encapsulates them in such a way that they are interchangeable at runtime without client interference or knowledge**.
 
