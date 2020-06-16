@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  StencilJS Introduction
-date:   2020-04-14T15:04:06.843Z
+date:   2020-06-16T15:21:43.792Z
 permalink: /stenciljs-introduction/
 icon: https://codersnack.com/assets/images/stenciljs-icon.png
 categories: [snackpost]
@@ -13,11 +13,11 @@ categories: [snackpost]
 
 **Stencil is a compiler that generates Web Components** (more specifically, Custom Elements). Stencil combines the best concepts of the most popular frameworks into a simple build-time tool.
 Stencil takes features such as
-	•	**Virtual DOM**
-	•	**Async rendering (inspired by React Fiber)**
-	•	**Reactive data-binding**
-	•	**TypeScript**
-	•	**JSX**
+	- **Virtual DOM**
+	- **Async rendering (inspired by React Fiber)**
+	- **Reactive data-binding**
+	- **TypeScript**
+	- **JSX**
 and then generates standards-based Web Components with these features baked in.
 
 Since Stencil **generates standards-compliant web components**, they **can work with many popular frameworks right out of the box**, and can be used without a framework because they are just web components. Stencil also enables a number of key **capabilities on top of Web Components,** in particular, **pre-rendering**, and **objects-as-properties** (instead of just strings).
