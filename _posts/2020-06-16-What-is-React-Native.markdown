@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  What is React Native?
-date:   2020-06-16T21:15:59.061Z
+date:   2020-06-16T21:24:07.697Z
 permalink: /react-native-what-is/
 icon: https://codersnack.com/assets/images/react-native-icon.png
 categories: [snackpost]
@@ -86,40 +86,40 @@ A full list of React Native's enabled transformations can be found in *metro-rea
 
 **ES5**
 
-- Reserved Words: promise.catch(function() { });
+- Reserved Words: ```promise.catch(function() { });```
 
 **ES6**
 
-- Arrow functions: <C onPress={() => this.setState({pressed: true})} />
-- Block scoping: let greeting = 'hi';
-- Call spread: Math.max(...array);
-- Classes: class C extends React.Component { render() { return <View />; } }
-- Constants: const answer = 42;
-- Destructuring: var {isActive, style} = this.props;
-- for...of: for (var num of [1, 2, 3]) {};
-- Modules: import React, { Component } from 'react';
-- Computed Properties: var key = 'abc'; var obj = {[key]: 10};
-- Object Concise Method: var obj = { method() { return 10; } };
-- Object Short Notation: var name = 'vjeux'; var obj = { name };
-- Rest Params: function(type, ...args) {};
-- Template Literals: var who = 'world'; var str = `Hello ${who}`;
+- Arrow functions: ```<C onPress={() => this.setState({pressed: true})} />```
+- Block scoping: ```let greeting = 'hi';```
+- Call spread: ```Math.max(...array);```
+- Classes: ```class C extends React.Component { render() { return <View />; } }```
+- Constants: ```const answer = 42;```
+- Destructuring: ```var {isActive, style} = this.props;```
+- for...of: ```for (var num of [1, 2, 3]) {};```
+- Modules: ```import React, { Component } from 'react';```
+- Computed Properties: ```var key = 'abc'; var obj = {[key]: 10};```
+- Object Concise Method: ```var obj = { method() { return 10; } };```
+- Object Short Notation: ```var name = 'vjeux'; var obj = { name };```
+- Rest Params: ```function(type, ...args) {};```
+- Template Literals: ```var who = 'world'; var str = `Hello ${who}`;```
 
 **ES8**
 
-- Function Trailing Comma: function f(a, b, c,) {};
-- Async Functions: async function doStuffAsync() { const foo = await doOtherStuffAsync(); };
+- Function Trailing Comma: ```function f(a, b, c,) {};```
+- Async Functions: ```async function doStuffAsync() { const foo = await doOtherStuffAsync(); };```
 
 **Stage 3**
 
-- Object Spread: var extended = { ...obj, a: 10 };
-- Static class fields: class CustomDate { static epoch = new CustomDate(0); }
-- Optional Chaining: var name = obj.user?.name;
+- Object Spread: ```var extended = { ...obj, a: 10 };```
+- Static class fields: ```class CustomDate { static epoch = new CustomDate(0); }```
+- Optional Chaining: ```var name = obj.user?.name;```
 
 **Specific**
 
-- JSX: <View style={{color: 'red'}} />
-- Flow: function foo(x: ?number): string {};
-- TypeScript: function foo(x: number | undefined): string {};
+- JSX: ```<View style={{color: 'red'}} />```
+- Flow: ```function foo(x: ?number): string {};```
+- TypeScript: ```function foo(x: number | undefined): string {};```
 - Babel Template: allows AST templating
 
 ### Polyfills

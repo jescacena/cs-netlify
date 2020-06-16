@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  What is Angular?
-date:   2020-06-15T10:13:58.488Z
+date:   2020-06-16T21:21:09.533Z
 permalink: /angular-what-is/
 icon: https://codersnack.com/assets/images/angular-icon.png
 categories: [snackpost]
@@ -35,7 +35,7 @@ An app's components typically define many views, arranged hierarchically. Angula
 
 **Like JavaScript modules, NgModules can import functionality from other NgModules**, and allow their own functionality to be exported and used by other NgModules. For example, to use the router service in your app, you import the Router NgModule.
 
-> Organizing your code into distinct functional modules helps in managing development of complex applications, and in designing for reusability. In addition, this technique lets you take advantage of lazy-loading—that is, loading modules on demand—to minimize the amount of code that needs to be loaded at startup.
+> Organizing your code into distinct functional modules helps in managing development of complex applications, and in designing for reusability. In addition, this technique lets you take advantage of lazy-loading, that is, loading modules on demand, to minimize the amount of code that needs to be loaded at startup.
 
 
 ## Components
