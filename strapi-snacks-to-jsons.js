@@ -1,193 +1,218 @@
-'use strict';
+"use strict";
 
 // NODE v10.16.0 !!!!
-const fs = require('fs');
-const fsExtra = require('fs-extra');
-const fetch = require('node-fetch');
+const fs = require("fs");
+const fsExtra = require("fs-extra");
+const fetch = require("node-fetch");
 
-const baseCMSUrl = 'http://localhost:1337';
+const baseCMSUrl = "http://localhost:1337";
 
 const jsonUrlMap = [
     {
-        filename: 'categories.json',
-        urlPath: '/codersnacks-categories'
+        filename: "categories.json",
+        urlPath: "/codersnacks-categories",
     },
     {
-        filename: 'css.snacks.json',
+        filename: "css.snacks.json",
         urlPath:
-            '/codersnacks-asoc-snack-categories?codersnacks_category.key=css'
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=css",
     },
     {
-        filename: 'css.quizzes.json',
-        urlPath: '/codersnacks-asoc-snack-quizs?codersnacks_category.key=css'
+        filename: "css.quizzes.json",
+        urlPath: "/codersnacks-asoc-snack-quizs?codersnacks_category.key=css",
     },
     {
-        filename: 'es6.snacks.json',
+        filename: "es6.snacks.json",
         urlPath:
-            '/codersnacks-asoc-snack-categories?codersnacks_category.key=es6'
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=es6",
     },
     {
-        filename: 'es6.quizzes.json',
-        urlPath: '/codersnacks-asoc-snack-quizs?codersnacks_category.key=es6'
+        filename: "es6.quizzes.json",
+        urlPath: "/codersnacks-asoc-snack-quizs?codersnacks_category.key=es6",
     },
     {
-        filename: 'functional-programming.snacks.json',
+        filename: "functional-programming.snacks.json",
         urlPath:
-            '/codersnacks-asoc-snack-categories?codersnacks_category.key=functional-programming'
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=functional-programming",
     },
     {
-        filename: 'functional-programming.quizzes.json',
+        filename: "functional-programming.quizzes.json",
         urlPath:
-            '/codersnacks-asoc-snack-quizs?codersnacks_category.key=functional-programming'
+            "/codersnacks-asoc-snack-quizs?codersnacks_category.key=functional-programming",
     },
     {
-        filename: 'javascript-design-patterns.snacks.json',
+        filename: "javascript-design-patterns.snacks.json",
         urlPath:
-            '/codersnacks-asoc-snack-categories?codersnacks_category.key=javascript-design-patterns'
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=javascript-design-patterns",
     },
     {
-        filename: 'javascript-design-patterns.quizzes.json',
+        filename: "javascript-design-patterns.quizzes.json",
         urlPath:
-            '/codersnacks-asoc-snack-quizs?codersnacks_category.key=javascript-design-patterns'
+            "/codersnacks-asoc-snack-quizs?codersnacks_category.key=javascript-design-patterns",
     },
     {
-        filename: 'reactjs.snacks.json',
+        filename: "reactjs.snacks.json",
         urlPath:
-            '/codersnacks-asoc-snack-categories?codersnacks_category.key=reactjs'
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=reactjs",
     },
     {
-        filename: 'reactjs.quizzes.json',
+        filename: "reactjs.quizzes.json",
         urlPath:
-            '/codersnacks-asoc-snack-quizs?codersnacks_category.key=reactjs'
+            "/codersnacks-asoc-snack-quizs?codersnacks_category.key=reactjs",
     },
     {
-        filename: 'flutter.snacks.json',
+        filename: "flutter.snacks.json",
         urlPath:
-            '/codersnacks-asoc-snack-categories?codersnacks_category.key=flutter'
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=flutter",
     },
     {
-        filename: 'flutter.quizzes.json',
+        filename: "flutter.quizzes.json",
         urlPath:
-            '/codersnacks-asoc-snack-quizs?codersnacks_category.key=flutter'
+            "/codersnacks-asoc-snack-quizs?codersnacks_category.key=flutter",
     },
     {
-        filename: 'vuejs.snacks.json',
+        filename: "vuejs.snacks.json",
         urlPath:
-            '/codersnacks-asoc-snack-categories?codersnacks_category.key=vuejs'
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=vuejs",
     },
     {
-        filename: 'vuejs.quizzes.json',
-        urlPath:
-            '/codersnacks-asoc-snack-quizs?codersnacks_category.key=vuejs'
+        filename: "vuejs.quizzes.json",
+        urlPath: "/codersnacks-asoc-snack-quizs?codersnacks_category.key=vuejs",
     },
     {
-        filename: 'js-unit-testing.snacks.json',
+        filename: "js-unit-testing.snacks.json",
         urlPath:
-            '/codersnacks-asoc-snack-categories?codersnacks_category.key=js-unit-testing'
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=js-unit-testing",
     },
     {
-        filename: 'js-unit-testing.quizzes.json',
+        filename: "js-unit-testing.quizzes.json",
         urlPath:
-            '/codersnacks-asoc-snack-quizs?codersnacks_category.key=js-unit-testing'
+            "/codersnacks-asoc-snack-quizs?codersnacks_category.key=js-unit-testing",
     },
     {
-        filename: 'redux.snacks.json',
+        filename: "redux.snacks.json",
         urlPath:
-            '/codersnacks-asoc-snack-categories?codersnacks_category.key=redux'
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=redux",
     },
     {
-        filename: 'redux.quizzes.json',
-        urlPath:
-            '/codersnacks-asoc-snack-quizs?codersnacks_category.key=redux'
+        filename: "redux.quizzes.json",
+        urlPath: "/codersnacks-asoc-snack-quizs?codersnacks_category.key=redux",
     },
     {
-        filename: 'typescript.snacks.json',
+        filename: "typescript.snacks.json",
         urlPath:
-            '/codersnacks-asoc-snack-categories?codersnacks_category.key=typescript'
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=typescript",
     },
     {
-        filename: 'typescript.quizzes.json',
+        filename: "typescript.quizzes.json",
         urlPath:
-            '/codersnacks-asoc-snack-quizs?codersnacks_category.key=typescript'
+            "/codersnacks-asoc-snack-quizs?codersnacks_category.key=typescript",
     },
     {
-        filename: 'web-performance.snacks.json',
+        filename: "web-performance.snacks.json",
         urlPath:
-            '/codersnacks-asoc-snack-categories?codersnacks_category.key=web-performance'
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=web-performance",
     },
     {
-        filename: 'web-performance.quizzes.json',
+        filename: "web-performance.quizzes.json",
         urlPath:
-            '/codersnacks-asoc-snack-quizs?codersnacks_category.key=web-performance'
+            "/codersnacks-asoc-snack-quizs?codersnacks_category.key=web-performance",
     },
     {
-        filename: 'web-components.snacks.json',
+        filename: "web-components.snacks.json",
         urlPath:
-            '/codersnacks-asoc-snack-categories?codersnacks_category.key=web-components'
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=web-components",
     },
     {
-        filename: 'web-components.quizzes.json',
+        filename: "web-components.quizzes.json",
         urlPath:
-            '/codersnacks-asoc-snack-quizs?codersnacks_category.key=web-components'
+            "/codersnacks-asoc-snack-quizs?codersnacks_category.key=web-components",
     },
     {
-        filename: 'webpack.snacks.json',
+        filename: "webpack.snacks.json",
         urlPath:
-            '/codersnacks-asoc-snack-categories?codersnacks_category.key=webpack'
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=webpack",
     },
     {
-        filename: 'webpack.quizzes.json',
+        filename: "webpack.quizzes.json",
         urlPath:
-            '/codersnacks-asoc-snack-quizs?codersnacks_category.key=webpack'
+            "/codersnacks-asoc-snack-quizs?codersnacks_category.key=webpack",
     },
     {
-        filename: 'pwa.quizzes.json',
+        filename: "pwa.snacks.json",
         urlPath:
-            '/codersnacks-asoc-snack-quizs?codersnacks_category.key=pwa'
-    }
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=pwa",
+    },
+    {
+        filename: "pwa.quizzes.json",
+        urlPath: "/codersnacks-asoc-snack-quizs?codersnacks_category.key=pwa",
+    },
+    {
+        filename: "react-native.snacks.json",
+        urlPath:
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=react-native",
+    },
+    {
+        filename: "react-native.quizzes.json",
+        urlPath:
+            "/codersnacks-asoc-snack-quizs?codersnacks_category.key=react-native",
+    },
+    {
+        filename: "angular.snacks.json",
+        urlPath:
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=angular",
+    },
+    {
+        filename: "angular.quizzes.json",
+        urlPath:
+            "/codersnacks-asoc-snack-quizs?codersnacks_category.key=angular",
+    },
 ];
 
 // use map() to perform a fetch and handle the response for each url
 Promise.all(
-    jsonUrlMap.map(item =>
+    jsonUrlMap.map((item) =>
         fetch(baseCMSUrl + item.urlPath)
-            .then(response => response.json())
-            .then(response => {
+            .then((response) => response.json())
+            .then((response) => {
                 return {
                     filename: item.filename,
-                    jsonResponse: JSON.stringify(response)
+                    jsonResponse: JSON.stringify(response),
                 };
             })
-            .catch(error => {
+            .catch((error) => {
                 console.log(
-                    'Error fetching data for ' + error + ':' + item.filename
+                    "Error fetching data for " + error + ":" + item.filename
                 );
             })
     )
-).then(data => {
+).then((data) => {
     // do something with the data
     // console.log('JES data', data[0].jsonResponse);
-    fsExtra.emptyDirSync('assets/jsons');
+    fsExtra.emptyDirSync("assets/jsons");
 
-    data.forEach(function(item) {
+    data.forEach(function (item) {
         let content = item.jsonResponse;
 
         // Persist count of quizzes per category
-        if(item.filename.indexOf('.quizzes.')!== -1) {
-            var countFilename = 'assets/jsons/' + item.filename;
-            countFilename = countFilename.replace('quizzes.json', 'quizzes-count.json');
+        if (item.filename.indexOf(".quizzes.") !== -1) {
+            var countFilename = "assets/jsons/" + item.filename;
+            countFilename = countFilename.replace(
+                "quizzes.json",
+                "quizzes-count.json"
+            );
             var objContent = {
-                count:JSON.parse(content).length
-            }
-            fs.writeFile(countFilename, JSON.stringify(objContent), err => {
+                count: JSON.parse(content).length,
+            };
+            fs.writeFile(countFilename, JSON.stringify(objContent), (err) => {
                 if (err) throw err;
-                console.log('JSON written to file for ' + countFilename);
+                console.log("JSON written to file for " + countFilename);
             });
         }
 
-        fs.writeFile('assets/jsons/' + item.filename, content, err => {
+        fs.writeFile("assets/jsons/" + item.filename, content, (err) => {
             if (err) throw err;
-            console.log('JSON written to file for ' + item.filename);
+            console.log("JSON written to file for " + item.filename);
         });
     });
 });
