@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Angular Data Biding & Pipes & Directives
-date:   2020-06-15T17:04:11.159Z
+title:  Angular Data Biding and Pipes and Directives
+date:   2020-06-16T20:56:18.754Z
 permalink: /angular-data-binding-pipes-directives/
 icon: https://codersnack.com/assets/images/angular-icon.png
 categories: [snackpost]
