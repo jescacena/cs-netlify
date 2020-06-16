@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  What is React Native?
-date:   2020-06-16T21:25:51.605Z
+date:   2020-06-16T21:26:34.940Z
 permalink: /react-native-what-is/
 icon: https://codersnack.com/assets/images/react-native-icon.png
 categories: [snackpost]
@@ -117,8 +117,8 @@ A full list of React Native's enabled transformations can be found in *metro-rea
 
 **Specific**
 
-- JSX: ``` <View style={{color: "red" }} /> ``` 
-- Flow: ```function foo(x: ?number): string {};```
+- JSX: ``` <View style = {{ color: "red" }} /> ``` 
+- Flow: ``` function foo(x: ?number): string {}; ```
 - TypeScript: ```function foo(x: number | undefined): string {};```
 - Babel Template: allows AST templating
 
