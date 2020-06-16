@@ -83,12 +83,12 @@ main {
 
     code.highlighter-rouge {
         border-radius: 5px;
-        padding: 0.1rem 0.2rem;
-        font-style: italic;
-        background-color: $darkBlueColor;
-        font-family: SourceCodePro-ExtraLight;
-        color: white;
-        font-size: 0.7rem;
+    padding: 0.1rem 0.3rem;
+    /* font-style: italic; */
+    background-color: lightseagreen;
+    font-family: SourceCodePro-ExtraLight;
+    color: white;
+    font-size: 1rem;
     }
 
     em {
