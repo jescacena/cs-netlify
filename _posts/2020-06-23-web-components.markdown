@@ -19,3 +19,4 @@ exclude: true
  * [StencilJS Introduction](https://codersnack.com/stenciljs-introduction/) 
  * [StencilJS Hello World](https://codersnack.com/stenciljs-hello-world/) 
  * [Using the Shadow DOM](https://codersnack.com/web-components-shadow-dom/) 
+ * [Web Components - Using Templates and Slots](https://codersnack.com/web-components-templates-slots/) 

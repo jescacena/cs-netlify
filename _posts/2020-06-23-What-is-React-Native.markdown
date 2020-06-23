@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  What is React Native?
-date:   2020-06-16T21:27:30.112Z
+date:   2020-06-23T12:44:31.271Z
 permalink: /react-native-what-is/
 icon: https://codersnack.com/assets/images/react-native-icon.png
 categories: [snackpost]
@@ -15,7 +15,7 @@ React Native **combines the best parts of native development with React**, a bes
 
 **Use a little or a lot**. You can use React Native today in your existing Android and iOS projects or you can create a whole new app from scratch.
 
-## Written in JavaScript—rendered with native code
+## Written in JavaScript; rendered with native code
 React primitives render to native platform UI, meaning **your app uses the same native platform APIs other apps do**.
 
 **Many platforms, one React**. Create platform-specific versions of components so a single codebase can share code across platforms. With React Native, **one team can maintain two platforms and share a common technology: React.**
@@ -65,6 +65,7 @@ Because React Native uses the same API structure as React components, you’ll n
 
 
 ## JavaScript Environment
+
 
 ### JavaScript Runtime
 
