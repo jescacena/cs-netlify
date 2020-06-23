@@ -18,3 +18,4 @@ exclude: true
  * [LitElement Lifecycle 2](https://codersnack.com/webcomponents-litelement-lifecycle-2/) 
  * [StencilJS Introduction](https://codersnack.com/stenciljs-introduction/) 
  * [StencilJS Hello World](https://codersnack.com/stenciljs-hello-world/) 
+ * [Using the Shadow DOM](https://codersnack.com/web-components-shadow-dom/) 
