@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Using the Shadow DOM
-date:   2020-06-23T12:10:00.309Z
+date:   2020-06-23T12:39:11.606Z
 permalink: /web-components-shadow-dom/
 icon: https://codersnack.com/assets/images/web-components.png
 categories: [snackpost]
@@ -17,7 +17,7 @@ The **Shadow DOM API** is a key part of this, providing a way to **attach a hidd
 
 ## High-level view
 
-This article assumes you are already familiar with the concept of the **DOM (Document Object Model) **, a tree-like structure of connected nodes that represents the different elements and strings of text appearing in a markup document (usually an HTML document in the case of web documents). As an example, consider the following HTML fragment:
+This article assumes you are already familiar with the concept of the **DOM (Document Object Model)**, a tree-like structure of connected nodes that represents the different elements and strings of text appearing in a markup document (usually an HTML document in the case of web documents). As an example, consider the following HTML fragment:
 ``` 
 <!DOCTYPE html>
 <html>
