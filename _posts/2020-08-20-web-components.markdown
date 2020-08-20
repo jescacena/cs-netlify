@@ -20,3 +20,4 @@ exclude: true
  * [StencilJS Hello World](https://codersnack.com/stenciljs-hello-world/) 
  * [Using the Shadow DOM](https://codersnack.com/web-components-shadow-dom/) 
  * [Web Components - Using Templates and Slots](https://codersnack.com/web-components-templates-slots/) 
+ * [LitElement Styles 1](https://codersnack.com/webcomponents-litelement-styles/) 
