@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  Angular - Forms Overview
-date:   2021-04-11T16:33:05.489Z
+date:   2021-04-11T17:03:51.107Z
 permalink: /angular-forms-overview/
 icon: https://codersnack.com/assets/images/angular-icon.png
 categories: [snackpost]
 ---
 
 > Information drawn from 
-- [Angular.io Reactive Forms](https://angular.io/guide/forms-overview)
+- [Angular.io Forms Overview](https://angular.io/guide/forms-overview)
 
 Angular provides **two different approaches** to handling user input through forms: **reactive and template-driven**. Both capture user input events from the view, validate the user input, create a form model and data model to update, and provide a way to track changes.
 
