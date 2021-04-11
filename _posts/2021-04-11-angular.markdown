@@ -9,3 +9,5 @@ exclude: true
 ---
  * [What is Angular?](https://codersnack.com/angular-what-is) 
  * [Angular Data Biding and Pipes and Directives](https://codersnack.com/angular-data-binding-pipes-directives) 
+ * [Angular - Observables](https://codersnack.com/angular-observables) 
+ * [Angular - Forms Overview](https://codersnack.com/angular-forms-overview) 
