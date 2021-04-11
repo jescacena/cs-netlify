@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Angular - Observables
-date:   2021-04-11T16:02:37.392Z
+date:   2021-04-11T17:47:36.215Z
 permalink: /angular-observables/
 icon: https://codersnack.com/assets/images/angular-icon.png
 categories: [snackpost]
@@ -56,7 +56,8 @@ export class ZippyComponent {
 }
 ```
 
-### HTTP
+### HTTP
+
 
 **Angular’s HttpClient returns observables from HTTP method calls**. For instance, ```http.get(‘/api’)``` returns an observable. This provides **several advantages over promise-based HTTP APIs**:
 
