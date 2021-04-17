@@ -14,3 +14,4 @@ exclude: true
  * [Angular - Forms Overview II](https://codersnack.com/angular-forms-overview-2) 
  * [Angular - Reactive Forms](https://codersnack.com/angular-reactive-forms) 
  * [Angular - Reactive Forms - Grouping Form Controls](https://codersnack.com/angular-reactive-forms-grouping-controls) 
+ * [Angular - Dynamic Component Loader](https://codersnack.com/angular-dynamic-component-loader) 
