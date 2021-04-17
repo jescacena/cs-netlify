@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Angular - Dynamic Component Loader
-date:   2021-04-17T12:16:19.570Z
+date:   2021-04-17T12:23:22.165Z
 permalink: /angular-dynamic-component-loader/
 icon: https://codersnack.com/assets/images/angular-icon.png
 categories: [snackpost]
@@ -9,6 +9,7 @@ categories: [snackpost]
 
 > Information drawn from 
 - [Angular.io Dynamic Component Loader](https://angular.io/guide/dynamic-component-loader)
+- [Stackblitz - Live example ](https://angular.io/guide/dynamic-component-loader)https://stackblitz.com/angular/ndkygjjglpb?file=src%2Fapp%2Fapp.component.ts
 
 Component templates are not always fixed. An application may need to load new components at runtime.
 
