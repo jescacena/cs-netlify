@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Angular - Dynamic Component Loader
-date:   2021-04-17T12:10:58.891Z
+date:   2021-04-17T12:16:19.570Z
 permalink: /angular-dynamic-component-loader/
 icon: https://codersnack.com/assets/images/angular-icon.png
 categories: [snackpost]
@@ -183,7 +183,7 @@ export class HeroProfileComponent implements AdComponent {
 
 ## Final ad banner
 The final ad banner looks like this:
-![angular dynamic ad banner](https://codersnack.com/assets/images/angular-dynamic-ad-bannerpng)
+![angular dynamic ad banner](https://codersnack.com/assets/images/angular-dynamic-ad-banner.gif)
 
 
 
