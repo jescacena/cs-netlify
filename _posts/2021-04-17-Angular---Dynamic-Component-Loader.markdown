@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Angular - Dynamic Component Loader
-date:   2021-04-17T12:23:22.165Z
+date:   2021-04-17T12:34:05.006Z
 permalink: /angular-dynamic-component-loader/
 icon: https://codersnack.com/assets/images/angular-icon.png
 categories: [snackpost]
@@ -9,7 +9,6 @@ categories: [snackpost]
 
 > Information drawn from 
 - [Angular.io Dynamic Component Loader](https://angular.io/guide/dynamic-component-loader)
-- [Stackblitz - Live example ](https://angular.io/guide/dynamic-component-loader)https://stackblitz.com/angular/ndkygjjglpb?file=src%2Fapp%2Fapp.component.ts
 
 Component templates are not always fixed. An application may need to load new components at runtime.
 
@@ -181,6 +180,71 @@ export class HeroProfileComponent implements AdComponent {
   @Input() data: any;
 }
 ```
+
+***app.component.ts***
+```
+import { Component, OnInit } from '@angular/core';
+
+import { AdService } from './ad.service';
+import { AdItem } from './ad-item';
+
+@Component({
+  selector: 'app-root',
+  template: `
+    <div>
+      <app-ad-banner [ads]="ads"></app-ad-banner>
+    </div>
+  `
+})
+export class AppComponent implements OnInit {
+  ads: AdItem[];
+
+  constructor(private adService: AdService) {}
+
+  ngOnInit() {
+    this.ads = this.adService.getAds();
+  }
+}
+```
+
+
+***ad-item.ts***
+```
+import { Type } from '@angular/core';
+
+export class AdItem {
+  constructor(public component: Type<any>, public data: any) {}
+}
+```
+
+
+***ad.service.ts***
+
+```
+import { Injectable } from '@angular/core';
+
+import { HeroJobAdComponent } from './hero-job-ad.component';
+import { HeroProfileComponent } from './hero-profile.component';
+import { AdItem } from './ad-item';
+
+@Injectable()
+export class AdService {
+  getAds() {
+    return [
+      new AdItem(HeroProfileComponent, {name: 'Bombasto', bio: 'Brave as they come'}),
+
+      new AdItem(HeroProfileComponent, {name: 'Dr IQ', bio: 'Smart as they come'}),
+
+      new AdItem(HeroJobAdComponent,   {headline: 'Hiring for several positions',
+                                        body: 'Submit your resume today!'}),
+
+      new AdItem(HeroJobAdComponent,   {headline: 'Openings in all departments',
+                                        body: 'Apply today'}),
+    ];
+  }
+}
+```
+  
 
 ## Final ad banner
 The final ad banner looks like this:
