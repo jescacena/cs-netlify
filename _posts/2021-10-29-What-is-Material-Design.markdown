@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  What is Material Design?
-date:   2021-10-29T10:52:19.497Z
+date:   2021-10-29T11:20:46.987Z
 permalink: /what-is-material/
-icon: https://codersnack.com/assets/images/ux-logo.jpeg
+icon: https://codersnack.com/assets/images/ux-logo.png
 categories: [snackpost]
 ---
 

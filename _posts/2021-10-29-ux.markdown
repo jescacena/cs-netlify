@@ -1,10 +1,10 @@
 ---
 layout: category-post
-title:  ux-design
-date:   2021-10-29T10:12:53.307Z
+title:  UX Design
+date:   2021-10-29T11:21:18.987Z
 permalink: /ux/
 categories: [catpost]
-icon: https://codersnack.com/assets/images/ux-logo.jpeg
+icon: https://codersnack.com/assets/images/ux-logo.png
 exclude: true
 ---
  * [What is Material Design?](https://codersnack.com/what-is-material) 
