@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  What is Material Design?
-date:   2021-10-29T11:20:46.987Z
+date:   2021-10-29T11:31:14.049Z
 permalink: /what-is-material/
 icon: https://codersnack.com/assets/images/ux-logo.png
 categories: [snackpost]
@@ -46,3 +46,23 @@ You take the concept of tactile reality, and you:
 It's critical to combine bold, deliberate design choices with subtlety regarding their natural reactions to user input. For example, if the user drops a selected item into a group of objects, the latter should move aside, accommodating it. **In Material Design we try not to let objects do magical things,** such as vanish or move on their own. Instead, we **translate the familiarity of the limited, physical world onto screens** that have unlimited potential. YouTube’s infinite scrolling exemplifies this.
 
 ![Using contrasting surface fills to depict elevation](https://codersnack.com/assets/images/ux-contrast-elevation.png)
+*Using contrasting surface fills to depict elevation*
+
+### Material Design, Redesigned
+
+**In May 2018, Google released a revised version to remedy a major problem** – the original guidelines were restrictive, emphasizing function over style. Because apps created in line with these looked alike, **many app makers disliked Material Design**. Google had to balance Material Design’s consistency with the capacity for differentiation – to grant designers the flexibility to adapt it to brand needs. 
+
+Version 2 features not only **new guidelines** but also a tool suite (including **new icon packs** and a **Material Theme editor)** you can use to **customize your designs**. Therefore, you can fine-tune aesthetics to suit your organization’s brand presence while you build on the foundation of timeless natural laws.
+
+### Learn More about Material Design
+
+You’ll find Google’s Material Design guidelines and library here: https://design.google/resources/ and here: [Material IO Design](https://material.io/design/)
+
+Learn how to create interfaces that mimic real-world objects: 
+[how-to-create-intuitive-products-by-imitating-physicality](https://www.interaction-design.org/courses/how-to-create-intuitive-products-by-imitating-physicality)
+
+A detailed piece on standing out with Material Design: 
+[10-guidelines-material-design](https://usabilitygeek.com/10-guidelines-material-design/)
+
+An enlightening do’s-and-don’ts guide to Material Design: 
+[dont-risk-making-a-crappy-ui-use-material-design](https://uxplanet.org/dont-risk-making-a-crappy-ui-use-material-design-520ebaceffe4)
