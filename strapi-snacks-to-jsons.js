@@ -167,6 +167,11 @@ const jsonUrlMap = [
         urlPath:
             "/codersnacks-asoc-snack-quizs?codersnacks_category.key=angular",
     },
+    {
+        filename: "ux.quizzes.json",
+        urlPath:
+            "/codersnacks-asoc-snack-quizs?codersnacks_category.key=ux",
+    },
 ];
 
 // use map() to perform a fetch and handle the response for each url
