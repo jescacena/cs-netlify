@@ -8,3 +8,4 @@ icon: https://codersnack.com/assets/images/gatsbyjs-logo.png
 exclude: true
 ---
  * [GatsbyJS - Introduction](https://codersnack.com/gatsbyjs-introduction) 
+ * [GatsbyJS - Use and Style React Components](https://codersnack.com/gatsbyjs-use-react-components) 
