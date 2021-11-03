@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  GatsbyJS - Add Features with Plugins
-date:   2021-11-03T20:33:43.718Z
+date:   2021-11-03T20:40:12.105Z
 permalink: /gatsbyjs-add-features-plugin/
 icon: https://codersnack.com/assets/images/gatsbyjs-logo.png
 categories: [snackpost]
@@ -107,7 +107,8 @@ const IndexPage = () => {
   )
 }
 export default IndexPage
-``
+```
+
 
 ### Task: Update the static image to use a photo from your local filesystem
 

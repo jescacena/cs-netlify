@@ -10,3 +10,4 @@ exclude: true
  * [GatsbyJS - Introduction](https://codersnack.com/gatsbyjs-introduction) 
  * [GatsbyJS - Use and Style React Components](https://codersnack.com/gatsbyjs-use-react-components) 
  * [GatsbyJS - Add Features with Plugins](https://codersnack.com/gatsbyjs-add-features-plugin) 
+ * [GatsbyJS - Query for Data with GraphQL](https://codersnack.com/gatsbyjs-graphql) 
