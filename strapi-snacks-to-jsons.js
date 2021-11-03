@@ -172,6 +172,11 @@ const jsonUrlMap = [
         urlPath:
             "/codersnacks-asoc-snack-quizs?codersnacks_category.key=ux",
     },
+    {
+        filename: "gatsbyjs.quizzes.json",
+        urlPath:
+            "/codersnacks-asoc-snack-quizs?codersnacks_category.key=gatsbyjs",
+    },
 ];
 
 // use map() to perform a fetch and handle the response for each url
