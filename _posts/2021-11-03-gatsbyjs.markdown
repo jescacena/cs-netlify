@@ -7,4 +7,4 @@ categories: [catpost]
 icon: https://codersnack.com/assets/images/gatsbyjs-logo.png
 exclude: true
 ---
- * [GastbyJS - Introduction](https://codersnack.com/gatsbyjs-introduction) 
+ * [GatsbyJS - Introduction](https://codersnack.com/gatsbyjs-introduction) 
