@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  GatsbyJS - Query for Data with GraphQL
-date:   2021-11-03T22:21:47.461Z
+date:   2021-11-03T22:29:18.918Z
 permalink: /gatsbyjs-graphql/
 icon: https://codersnack.com/assets/images/gatsbyjs-logo.png
 categories: [snackpost]
@@ -146,7 +146,7 @@ Now that you have a GraphQL query that returns the data you’re looking for, ho
 
 **To pull data into a building-block component, you’ll use a pre-defined function from Gatsby called *useStaticQuery*.**
 
-** -- Key Gatsby Concept -- **: **Pulling data into building-block components with *useStaticQuery***
+**-- Key Gatsby Concept --**  :  **Pulling data into building-block components with *useStaticQuery***
 The Gatsby package has a special pre-defined hook that lets you add GraphQL queries to your building-block components: **useStaticQuery**.
 
 **useStaticQuery takes one parameter: a templated string of the GraphQL query you want to run**. It returns the requested data, which you can store in a variable and then use throughout your component.
@@ -574,7 +574,7 @@ Run the query in GraphiQL. Your response in the Result Window should look someth
 }
 ```
 
-**-- Seeing more nodes than expected? -- **
+**-- Seeing more nodes than expected? --**
 If you’re still using a StaticImage from an external URL (like https://some-site/image.jpg) on your home page, you’ll see an extra node for that image show up in your GraphQL response. That’s because StaticImage uses 
 **createRemoteFileNode**
  under the hood which **creates a File node for each image it downloads**. **If you’re only using images from your filesystem, you won’t see the extra node**.
@@ -600,7 +600,7 @@ Now that you’ve built a GraphQL query that returns a list of your post filenam
 
 **Using GraphQL queries in page components uses a slightly different syntax from queries in building-block components**. In page components, you use page queries.
 
-** -- Key Gatsby Concept -- **: Pulling data into page components with page queries
+**-- Key Gatsby Concept --** :  Pulling data into page components with page queries
 The process for making a query in a page component looks slightly different from useStaticQuery:
 
 - **Import the graphql tag** from the Gatsby package.
@@ -635,7 +635,7 @@ export default HomePage
 ```
 
 
-** --.-- **
+**--.--**
 
 Follow the steps below to add a list of post filenames to your blog page.
 
@@ -742,11 +742,11 @@ Take a moment to think back on what you’ve learned so far. Challenge yourself 
 - To pull data into a “building block” component, use the useStaticQuery hook.
 - To pull data into a page component, use a page query.
 
-** -- Key Gatsby Concept -- ** : General process for using data in your site
+**-- Key Gatsby Concept --** : General process for using data in your site
 - Add a source plugin to add data into the GraphQL data layer.
 - Use GraphiQL to design a query that responds with the data you want from the data layer.
 - Add the query into your component.
 - Use page queries for page components.
 - Use useStaticQuery for “building block” components.
 - Use the data from the response in your component.
-** --.-- **
+**--.--**
