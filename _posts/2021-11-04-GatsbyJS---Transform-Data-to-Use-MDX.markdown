@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  GatsbyJS - Transform Data to Use MDX
-date:   2021-11-04T13:09:01.260Z
+date:   2021-11-04T13:47:51.504Z
 permalink: /gatsbyjs-transform-data-mdx/
 icon: https://codersnack.com/assets/images/gatsbyjs-logo.png
 categories: [snackpost]
@@ -476,6 +476,10 @@ export default BlogPage
 ```
 ![gatsbyjs-blog-page-with-full-posts](https://codersnack.com/assets/images/gatsbyjs-blog-page-with-full-posts.png)
 
-
+## Key takeaways
+- Data in Gatsby’s GraphQL data layer is stored in **nodes**.
+- **Each source plugin creates a different type of node** with different fields.
+- **Transformer plugins create new types of nodes**, using data from existing source nodes as a starting point. Transformer plugins don’t actually change the original source nodes.
+**gatsby-plugin-mdx is a transformer plugin that lets you use MDX in your site**. With MDX, you can create text content with **Markdown formatting and embedded React components**.
 
 

@@ -12,3 +12,4 @@ exclude: true
  * [GatsbyJS - Add Features with Plugins](https://codersnack.com/gatsbyjs-add-features-plugin) 
  * [GatsbyJS - Query for Data with GraphQL](https://codersnack.com/gatsbyjs-graphql) 
  * [GatsbyJS - Transform Data to Use MDX](https://codersnack.com/gatsbyjs-transform-data-mdx) 
+ * [GatsbyJS - Create Pages Programmatically](https://codersnack.com/gatsbyjs-create-pages-programmatically) 
