@@ -178,6 +178,16 @@ const jsonUrlMap = [
             "/codersnacks-asoc-snack-quizs?codersnacks_category.key=ux",
     },
     {
+        filename: "nextjs.snacks.json",
+        urlPath:
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=nextjs",
+    },
+    {
+        filename: "nextjs.quizzes.json",
+        urlPath:
+            "/codersnacks-asoc-snack-quizs?codersnacks_category.key=nextjs",
+    },
+    {
         filename: "gatsbyjs.snacks.json",
         urlPath:
             "/codersnacks-asoc-snack-categories?codersnacks_category.key=gatsbyjs",

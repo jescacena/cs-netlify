@@ -94,6 +94,11 @@ const categoryUrlMap = [
             "/codersnacks-asoc-snack-categories?codersnacks_category.key=ux"
     },
     {
+        categorySlug: "nextjs",
+        urlPath:
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=nextjs"
+    },
+    {
         categorySlug: "gatsbyjs",
         urlPath:
             "/codersnacks-asoc-snack-categories?codersnacks_category.key=gatsbyjs"
