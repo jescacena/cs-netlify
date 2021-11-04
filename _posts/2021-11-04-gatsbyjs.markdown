@@ -11,3 +11,4 @@ exclude: true
  * [GatsbyJS - Use and Style React Components](https://codersnack.com/gatsbyjs-use-react-components) 
  * [GatsbyJS - Add Features with Plugins](https://codersnack.com/gatsbyjs-add-features-plugin) 
  * [GatsbyJS - Query for Data with GraphQL](https://codersnack.com/gatsbyjs-graphql) 
+ * [GatsbyJS - Transform Data to Use MDX](https://codersnack.com/gatsbyjs-transform-data-mdx) 
