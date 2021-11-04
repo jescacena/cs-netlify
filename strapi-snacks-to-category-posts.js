@@ -151,7 +151,13 @@ const getMarkdownListFromSnackList = snackList => {
 };
 
 const writeCategoryPost = data => {
-    const category = data.snackList[0].category;
+    
+    let category;
+    try {
+        category = data.snackList[0].category;
+    } catch (error) {
+        console.log('JES error data', data);
+    }
 
     // TODO 1.- Build Markdown header
     const markdownHeader = getMarkdownHeaderForCategory(
