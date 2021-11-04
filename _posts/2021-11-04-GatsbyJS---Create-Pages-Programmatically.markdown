@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  GatsbyJS - Create Pages Programmatically
-date:   2021-11-04T17:12:40.498Z
+date:   2021-11-04T17:30:09.099Z
 permalink: /gatsbyjs-create-pages-programmatically/
 icon: https://codersnack.com/assets/images/gatsbyjs-logo.png
 categories: [snackpost]
@@ -21,8 +21,7 @@ By the end of this part of the Tutorial, you will be able to:
 - **Use Gatsby’s Filesystem Route API to dynamically create new pages for your blog posts**.
 - **Add a query variable to a page query.**
 
-
-## Create new routes dynamically with Gatsby’s File System Route API
+## Create new routes dynamically with Gatsby’s File System Route API
 
 When you build your Gatsby site, **Gatsby creates a new route for each page component in your src/pages directory**. So far, you’ve only been building one page per file: the index.js file creates the Home page, the about.js file creates the About page, and the blog.js file creates the Blog page.
 
@@ -475,7 +474,9 @@ What is the syntax for creating a new collection route?
 What is a query variable?
 When can you use a query variable?
 
-### Key takeaways
+
+### Key takeaways
+
 - **Gatsby’s File System Route API lets you dynamically create new pages from data layer nodes** by naming your files with a special syntax.
 - **File System Routes only work on files in the src/pages directory (or subdirectories)**.
 - **To create a new collection route, you name your file {nodeType.field}.js**, where nodeType is the type of node you want to create pages from, and field is the data field from that node type that you want to use in the URL for that page.
