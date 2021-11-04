@@ -44,7 +44,7 @@ String.prototype.replaceAll = function(search, replacement) {
     return target.replace(new RegExp(search, "g"), replacement);
 };
 
-fetch("http://localhost:1337/codersnacks")
+fetch("http://localhost:1337/codersnacks?_limit=10000")
     .then(response => response.json())
     .then(data => {
         // console.log(data)

@@ -192,7 +192,7 @@ const jsonUrlMap = [
 // use map() to perform a fetch and handle the response for each url
 Promise.all(
     jsonUrlMap.map((item) =>
-        fetch(baseCMSUrl + item.urlPath)
+        fetch(baseCMSUrl + item.urlPath + '?_limit=10000')
             .then((response) => response.json())
             .then((response) => {
                 return {
