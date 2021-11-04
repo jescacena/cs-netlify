@@ -177,7 +177,7 @@ const writeCategoryPost = data => {
 
 Promise.all(
     categoryUrlMap.map(item =>
-        fetch(baseCMSUrl + item.urlPath + '?_limit=10000')
+        fetch(baseCMSUrl + item.urlPath + '&_limit=10000')
             .then(response => response.json())
             .then(response => {
                 return {

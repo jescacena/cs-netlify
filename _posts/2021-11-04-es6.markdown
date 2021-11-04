@@ -1,0 +1,13 @@
+---
+layout: category-post
+title:  ES6
+date:   2020-01-04T11:09:02.347Z
+permalink: /es6/
+categories: [catpost]
+icon: https://codersnack.com/assets/images/es6.png
+exclude: true
+---
+ * [ES6 let and closures](https://codersnack.com/es6-let-closures/) 
+ * [ES6 let and const](https://codersnack.com/es6-let-const/) 
+ * [ES6 modules](https://codersnack.com/es6-modules/) 
+ * [ES6 classes](https://codersnack.com/es6-classes/) 

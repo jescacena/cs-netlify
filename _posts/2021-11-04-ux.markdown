@@ -1,0 +1,10 @@
+---
+layout: category-post
+title:  UX Design
+date:   2021-10-29T11:21:18.987Z
+permalink: /ux/
+categories: [catpost]
+icon: https://codersnack.com/assets/images/ux-logo.png
+exclude: true
+---
+ * [What is Material Design?](https://codersnack.com/what-is-material) 

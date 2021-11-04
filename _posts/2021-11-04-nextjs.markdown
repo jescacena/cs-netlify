@@ -1,0 +1,12 @@
+---
+layout: category-post
+title:  NextJS
+date:   2021-03-21T21:21:09.568Z
+permalink: /nextjs/
+categories: [catpost]
+icon: https://codersnack.com/assets/images/nextjs-logo.png
+exclude: true
+---
+ * [NextJS - Create a Next.js App](https://codersnack.com/nextjs-creating-an-app/) 
+ * [NextJS - Creating a NextJS App - Setup](https://codersnack.com/nextjs-creating-an-app-setup/) 
+ * [NextJs - Navigating between pages](https://codersnack.com/nextjs-navigating-between-pages/) 
