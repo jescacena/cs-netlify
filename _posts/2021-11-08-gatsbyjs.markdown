@@ -15,3 +15,4 @@ exclude: true
  * [GatsbyJS - Create Pages Programmatically](https://codersnack.com/gatsbyjs-create-pages-programmatically) 
  * [GatsbyJS - Add Dynamic Images from Data](https://codersnack.com/gatsbyjs-add-dynamic-images) 
  * [GatsbyJS - Sourcing Content from JSON or YAML](https://codersnack.com/gatsbyjs-sourcing-content-yaml-json) 
+ * [GatsbyJS - Creating Tags Pages for Blog Posts](https://codersnack.com/gatsbyjs-creating-tags-pages) 
