@@ -16,3 +16,4 @@ exclude: true
  * [Angular - Reactive Forms - Grouping Form Controls](https://codersnack.com/angular-reactive-forms-grouping-controls) 
  * [Angular - Dynamic Component Loader](https://codersnack.com/angular-dynamic-component-loader) 
  * [Angular - Upgrading from AngularJS to Angular (I)](https://codersnack.com/angular-upgrade-from-angularjs) 
+ * [Angular - Upgrading from AngularJS to Angular - II](https://codersnack.com/angular-upgrade-from-angularjs-2) 
