@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Upgrading from AngularJS to Angular (II)
-date:   2021-11-08T23:18:02.739Z
+title:  Angular - Upgrading from AngularJS to Angular - II
+date:   2021-11-08T23:20:20.510Z
 permalink: /angular-upgrade-from-angularjs-2/
 icon: https://codersnack.com/assets/images/angularjs-to-angular.png
 categories: [snackpost]
