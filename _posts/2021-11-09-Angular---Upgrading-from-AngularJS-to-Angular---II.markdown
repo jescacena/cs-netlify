@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Angular - Upgrading from AngularJS to Angular - II
-date:   2021-11-08T23:26:12.400Z
+date:   2021-11-08T23:27:23.512Z
 permalink: /angular-upgrade-from-angularjs-2/
 icon: https://codersnack.com/assets/images/angularjs-to-angular.png
 categories: [snackpost]
@@ -118,5 +118,30 @@ angular.module('heroApp', [])
 
 **Pure AngularJS applications can be automatically bootstrapped by using an *ng-app* directive somewhere on the HTML page. But for hybrid applications, you manually bootstrap using the *UpgradeModule***. Therefore, it is a **good preliminary step to switch AngularJS applications to use the manual JavaScript *angular.bootstrap* method even before switching them to hybrid mode.**
 
+Say you have an ng-app driven bootstrap such as this one:
 
+```
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <base href="/">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js"></script>
+    <script src="app/ajs-ng-app/app.module.js"></script>
+  </head>
+
+  <body ng-app="heroApp" ng-strict-di>
+    <div id="message" ng-controller="MainCtrl as mainCtrl">
+      {{ mainCtrl.message }}
+    </div>
+  </body>
+</html>
+```
+
+**You can remove the ng-app and ng-strict-di directives from the HTML and instead switch to calling angular.bootstrap from JavaScript**, which will result in the same thing:
+
+*app.module.ts*
+
+```
+angular.bootstrap(document.body, ['heroApp'], { strictDi: true });
+```
 
