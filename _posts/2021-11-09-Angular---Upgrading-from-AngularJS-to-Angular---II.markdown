@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Angular - Upgrading from AngularJS to Angular - II
-date:   2021-11-08T23:25:19.531Z
+date:   2021-11-08T23:26:12.400Z
 permalink: /angular-upgrade-from-angularjs-2/
 icon: https://codersnack.com/assets/images/angularjs-to-angular.png
 categories: [snackpost]
@@ -90,6 +90,33 @@ In practice, you do not need to call $apply(), regardless of whether it is in An
 **When you downgrade an Angular component and then use it from AngularJS, the inputs of the component will be watched using AngularJS change detection**. When those inputs change, the corresponding properties in the component are set. You can also hook into the changes by implementing the OnChanges interface in the component, just like you could if it hadn't been downgraded.
 
 Correspondingly, **when you upgrade an AngularJS component and use it from Angular, all the bindings defined for scope (or bindToController) of the component directive will be hooked into Angular change detection**. They will be treated as regular Angular inputs. Their values will be written to the scope (or controller) of the upgraded component when they change.
+
+### Using UpgradeModule with Angular NgModules
+
+Both AngularJS and Angular have their own concept of modules to help organize an application into cohesive blocks of functionality.
+
+Their details are quite different in architecture and implementation. **In AngularJS, you add Angular assets to the angular.module property. In Angular, you create one or more classes adorned with an NgModule decorator that describes Angular assets in metadata**. The differences blossom from there.
+
+In a hybrid application you run both versions of Angular at the same time. That means that you need at least one module each from both AngularJS and Angular. You will import UpgradeModule inside the NgModule, and then use it for bootstrapping the AngularJS module.
+
+For more information, see NgModules.
+
+### Bootstrapping hybrid applications
+
+To bootstrap a hybrid application, you must bootstrap each of the Angular and AngularJS parts of the application. **You must bootstrap the Angular bits first and then ask the UpgradeModule to bootstrap the AngularJS bits next**.
+
+In an AngularJS application you have a root AngularJS module, which will also be used to bootstrap the AngularJS application.
+
+*app.module.ts*
+
+```
+angular.module('heroApp', [])
+  .controller('MainCtrl', function() {
+    this.message = 'Hello world';
+  });
+```
+
+**Pure AngularJS applications can be automatically bootstrapped by using an *ng-app* directive somewhere on the HTML page. But for hybrid applications, you manually bootstrap using the *UpgradeModule***. Therefore, it is a **good preliminary step to switch AngularJS applications to use the manual JavaScript *angular.bootstrap* method even before switching them to hybrid mode.**
 
 
 
