@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Angular - Upgrading from AngularJS to Angular ngUpgrade
-date:   2021-11-08T22:58:24.690Z
+title:  Upgrading from AngularJS to Angular (II)
+date:   2021-11-08T23:18:02.739Z
 permalink: /angular-upgrade-from-angularjs-2/
 icon: https://codersnack.com/assets/images/angularjs-to-angular.png
 categories: [snackpost]
@@ -39,7 +39,7 @@ Even accounting for these differences you can still have dependency injection in
 
 - **You can also make Angular services available for injection to AngularJS code by downgrading them**. Only services from the Angular root injector can be downgraded. Again, the same singleton instances are shared between the frameworks. When you register a downgraded service, you must explicitly specify a string token that you want to use in AngularJS.
 
-![The two injectors in a hybrid application]https://codersnack.com/assets/images/angularjs-to-angular-injectors.png)
+![The two injectors in a hybrid application](https://codersnack.com/assets/images/angularjs-to-angular-injectors.png)
 
 
 ### Components and the DOM
@@ -110,6 +110,7 @@ To bootstrap a hybrid application, you must bootstrap each of the Angular and An
 In an AngularJS application you have a root AngularJS module, which will also be used to bootstrap the AngularJS application.
 
 *app.module.ts*
+
 ```
 angular.module('heroApp', [])
   .controller('MainCtrl', function() {
@@ -144,9 +145,11 @@ Say you have an ng-app driven bootstrap such as this one:
 ```
 angular.bootstrap(document.body, ['heroApp'], { strictDi: true });
 ```
+
 **To begin converting your AngularJS application to a hybrid, you need to load the Angular framework**. You can see how this can be done with SystemJS by following the instructions in Setup for Upgrading to AngularJS for selectively copying code from the QuickStart github repository.
 
-You also need to **install the @angular/upgrade package** using 
+You also need to **install the @angular/upgrade package** using
+
 ```
 npm install @angular/upgrade --save
 ```
@@ -154,6 +157,7 @@ npm install @angular/upgrade --save
  and **add a mapping for the @angular/upgrade/static package**:
 
 *systemjs.config.js (map)*
+
 ```
 '@angular/upgrade/static': 'npm:@angular/upgrade/fesm2015/static.mjs',
 ```
@@ -161,6 +165,7 @@ npm install @angular/upgrade --save
 Next, **create an app.module.ts** file and add the following NgModule class:
 
 *app.module.ts*
+
 ```
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -189,11 +194,13 @@ In the constructor of the AppModule, use dependency injection to **get a hold of
 Now you can **bootstrap AppModule using the *platformBrowserDynamic.bootstrapModule* method.**
 
 *app.module.ts*
+
 ```
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 platformBrowserDynamic().bootstrapModule(AppModule);
 ```
+
 
 Congratulations! You're running a hybrid application! The existing AngularJS code works as before and you're ready to start adding Angular code.
 
