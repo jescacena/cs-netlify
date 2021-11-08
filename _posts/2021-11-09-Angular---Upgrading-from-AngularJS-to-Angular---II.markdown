@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Angular - Upgrading from AngularJS to Angular - II
-date:   2021-11-08T23:28:06.839Z
+date:   2021-11-08T23:28:54.319Z
 permalink: /angular-upgrade-from-angularjs-2/
 icon: https://codersnack.com/assets/images/angularjs-to-angular.png
 categories: [snackpost]
@@ -147,4 +147,62 @@ Say you have an ng-app driven bootstrap such as this one:
 ```
 angular.bootstrap(document.body, ['heroApp'], { strictDi: true });
 ```
+**To begin converting your AngularJS application to a hybrid, you need to load the Angular framework**. You can see how this can be done with SystemJS by following the instructions in Setup for Upgrading to AngularJS for selectively copying code from the QuickStart github repository.
+
+You also need to **install the @angular/upgrade package** using
+
+```
+npm install @angular/upgrade --save
+```
+
+ and **add a mapping for the @angular/upgrade/static package**:
+
+*systemjs.config.js (map)*
+
+```
+'@angular/upgrade/static': 'npm:@angular/upgrade/fesm2015/static.mjs',
+```
+
+Next, **create an app.module.ts** file and add the following NgModule class:
+
+*app.module.ts*
+
+```
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { UpgradeModule } from '@angular/upgrade/static';
+
+@NgModule({
+  imports: [
+    BrowserModule,
+    UpgradeModule
+  ]
+})
+export class AppModule {
+  constructor(private upgrade: UpgradeModule) { }
+  ngDoBootstrap() {
+    this.upgrade.bootstrap(document.body, ['heroApp'], { strictDi: true });
+  }
+}
+```
+
+This bare minimum NgModule imports BrowserModule, the module every Angular browser-based application must have. It also imports UpgradeModule from @angular/upgrade/static, which exports providers that will be used for upgrading and downgrading services and components.
+
+In the constructor of the AppModule, use dependency injection to **get a hold of the UpgradeModule instance, and use it to bootstrap the AngularJS application in the AppModule.ngDoBootstrap method**. The upgrade.bootstrap method takes the exact same arguments as angular.bootstrap:
+
+> NOTE: You do not add a bootstrap declaration to the @NgModule decorator, since **AngularJS will own the root template of the application**.
+
+Now you can **bootstrap AppModule using the *platformBrowserDynamic.bootstrapModule* method.**
+
+*app.module.ts*
+
+```
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+
+platformBrowserDynamic().bootstrapModule(AppModule);
+```
+
+
+Congratulations! You're running a hybrid application! The existing AngularJS code works as before and you're ready to start adding Angular code.
+
 
