@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Angular - Upgrading from AngularJS to Angular - II
-date:   2021-11-08T23:27:23.512Z
+date:   2021-11-08T23:28:06.839Z
 permalink: /angular-upgrade-from-angularjs-2/
 icon: https://codersnack.com/assets/images/angularjs-to-angular.png
 categories: [snackpost]
@@ -120,7 +120,8 @@ angular.module('heroApp', [])
 
 Say you have an ng-app driven bootstrap such as this one:
 
-```
+```html
+
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
@@ -135,7 +136,9 @@ Say you have an ng-app driven bootstrap such as this one:
     </div>
   </body>
 </html>
+
 ```
+
 
 **You can remove the ng-app and ng-strict-di directives from the HTML and instead switch to calling angular.bootstrap from JavaScript**, which will result in the same thing:
 
