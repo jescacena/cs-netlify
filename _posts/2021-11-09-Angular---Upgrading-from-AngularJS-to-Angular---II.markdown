@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Angular - Upgrading from AngularJS to Angular - II
-date:   2021-11-08T23:23:26.239Z
+date:   2021-11-08T23:25:19.531Z
 permalink: /angular-upgrade-from-angularjs-2/
 icon: https://codersnack.com/assets/images/angularjs-to-angular.png
 categories: [snackpost]
@@ -68,6 +68,28 @@ Consider a situation where you use an Angular component from AngularJS like this
 ```
 
 The DOM element ```<a-component>```  will remain to be an **AngularJS managed element**, because it is defined in an AngularJS template. That also means you can apply additional AngularJS directives to it, but not Angular directives. It is only in the template of the ```<a-component>``` where Angular steps in. This same rule also applies when you use AngularJS component directives from Angular.
+
+### Change Detection
+
+The **scope.$apply()** is how **AngularJS detects changes and updates data bindings**. After every event that occurs, scope.$apply() gets called. This is done either **automatically** by the framework, or **manually by you**.
+
+**In Angular things are different**. While change detection still occurs after every event, no one needs to call scope.$apply() for that to happen. This is because **all Angular code runs inside something called the Angular zone**. Angular always knows when the code finishes, so it also knows when it should kick off change detection. The code itself doesn't have to call scope.$apply() or anything like it.
+
+In the case of hybrid applications, the ***UpgradeModule* bridges the AngularJS and Angular approaches**. Here is what happens:
+
+- **Everything that happens in the application runs inside the Angular zone. This is true whether the event originated in AngularJS or Angular code**. The zone triggers Angular change detection after every event.
+
+- The **UpgradeModule will invoke** the AngularJS **$rootScope.$apply()** after every turn of the Angular zone. This also triggers AngularJS change detection after every event.
+
+
+![Change detection in a hybrid application](https://codersnack.com/assets/images/angularjs-to-angular-change_detection.png)
+
+
+In practice, you do not need to call $apply(), regardless of whether it is in AngularJS or Angular. The UpgradeModule does it for us.**You can still call $apply() so there is no need to remove such calls from existing code**. Those calls just trigger additional AngularJS change detection checks in a hybrid application.
+
+**When you downgrade an Angular component and then use it from AngularJS, the inputs of the component will be watched using AngularJS change detection**. When those inputs change, the corresponding properties in the component are set. You can also hook into the changes by implementing the OnChanges interface in the component, just like you could if it hadn't been downgraded.
+
+Correspondingly, **when you upgrade an AngularJS component and use it from Angular, all the bindings defined for scope (or bindToController) of the component directive will be hooked into Angular change detection**. They will be treated as regular Angular inputs. Their values will be written to the scope (or controller) of the upgraded component when they change.
 
 
 
