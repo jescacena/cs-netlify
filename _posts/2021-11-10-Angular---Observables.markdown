@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Angular - Observables
-date:   2021-04-11T17:47:36.215Z
+date:   2021-11-10T11:55:06.190Z
 permalink: /angular-observables/
 icon: https://codersnack.com/assets/images/angular-icon.png
 categories: [snackpost]
@@ -12,14 +12,16 @@ categories: [snackpost]
 
 
 Angular makes use of **observables as an interface to handle a variety of common asynchronous operations**. For example:
-	•	You can define **custom events** that send observable output data from a child to a parent component.
-	•	The HTTP module uses observables to **handle AJAX requests and responses**.
-	•	The **Router and Forms modules use observables** to listen for and respond to user-input events.
+	-	You can define **custom events** that send observable output data from a child to a parent component.
+	-	The HTTP module uses observables to **handle AJAX requests and responses**.
+	-	The **Router and Forms modules use observables** to listen for and respond to user-input events.
 
 ### Transmitting data between components
 
-Angular provides an **EventEmitter** class that is used when publishing values from a component through the ```@Output()``` decorator. EventEmitter extends RxJS
-Subject, adding an **emit()** method so it can send arbitrary values. When you call **emit()**, it passes the emitted value to the **next()** method of any **subscribed observer**.
+Angular provides an **EventEmitter** class that is used when publishing values from a component through the** ```@Output()```** decorator. 
+
+EventEmitter extends **RxJS Subject**, adding an **emit()** method so it can send arbitrary values. When you call **emit()**, it passes the emitted value to the **next()** method of any **subscribed observer**.
+
 A good example of usage can be found in the EventEmitter documentation. Here is the example component that listens for open and close events:
 ```
 <app-zippy (open)="onOpen($event)" (close)="onClose($event)"></app-zippy>
