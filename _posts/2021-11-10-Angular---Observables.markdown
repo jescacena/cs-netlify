@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Angular - Observables
-date:   2021-11-10T11:55:06.190Z
+date:   2021-11-10T11:56:49.923Z
 permalink: /angular-observables/
 icon: https://codersnack.com/assets/images/angular-icon.png
 categories: [snackpost]
@@ -12,9 +12,9 @@ categories: [snackpost]
 
 
 Angular makes use of **observables as an interface to handle a variety of common asynchronous operations**. For example:
-	-	You can define **custom events** that send observable output data from a child to a parent component.
-	-	The HTTP module uses observables to **handle AJAX requests and responses**.
-	-	The **Router and Forms modules use observables** to listen for and respond to user-input events.
+- You can define **custom events** that send observable output data from a child to a parent component.
+- The HTTP module uses observables to **handle AJAX requests and responses**.
+- The **Router and Forms modules use observables** to listen for and respond to user-input events.
 
 ### Transmitting data between components
 
