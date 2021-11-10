@@ -17,4 +17,4 @@ exclude: true
  * [Angular - Dynamic Component Loader](https://codersnack.com/angular-dynamic-component-loader) 
  * [Angular - Upgrading from AngularJS to Angular (I)](https://codersnack.com/angular-upgrade-from-angularjs) 
  * [Angular - Upgrading from AngularJS to Angular - II](https://codersnack.com/angular-upgrade-from-angularjs-2) 
- * [Angular - Upgrading from AngularJS to Angular (III)](https://codersnack.com/angular-upgrade-from-angularjs-iii) 
+ * [Angular - Upgrading from AngularJS to Angular - 3](https://codersnack.com/angular-upgrade-from-angularjs-iii) 
