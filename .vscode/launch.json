@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/strapi-snacks-to-category-posts.js"
+            "program": "${workspaceFolder}/strapi-snacks-to-jsons.js"
         }
     ]
 }
