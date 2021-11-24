@@ -195,8 +195,11 @@ Promise.all(
       item.urlPath !== "/codersnacks-categories"
         ? baseCMSUrl + item.urlPath + "&_limit=10000"
         : baseCMSUrl + item.urlPath + "?_limit=10000";
-    fetch(url)
-      .then((response) => response.json())
+    console.log("Festching from url -->" + url);
+    return fetch(url)
+      .then((response) => {
+        return response.json();
+      })
       .then((response) => {
         return {
           filename: item.filename,
