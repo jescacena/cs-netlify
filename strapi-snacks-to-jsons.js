@@ -192,7 +192,7 @@ const jsonUrlMap = [
 Promise.all(
   jsonUrlMap.map((item) => {
     const url =
-      item.urlPath !== "categories.json"
+      item.urlPath !== "/codersnacks-categories"
         ? baseCMSUrl + item.urlPath + "&_limit=10000"
         : baseCMSUrl + item.urlPath + "?_limit=10000";
     fetch(url)
