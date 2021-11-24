@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Angular Elements Overview
-date:   2021-11-24T12:34:15.449Z
+date:   2021-11-24T12:37:28.446Z
 permalink: /angular-elements-overview/
 icon: https://codersnack.com/assets/images/angular-icon.png
 categories: [snackpost]
@@ -59,7 +59,8 @@ Use the **built-in customElements.define()** function to **register the configur
 
 > **Avoid using the @Component selector as the custom-element tag name.** This can lead to unexpected behavior, due to Angular creating two component instances for a single DOM element: One regular Angular component and a second one using the custom element.
 
-### Mapping
+
+### Mapping
 
 A custom element hosts an Angular component, providing a bridge between the data and logic defined in the component and standard DOM APIs. Component properties and logic maps directly into HTML attributes and the browser's event system.
 
