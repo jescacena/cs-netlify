@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Angular Elements Overview
-date:   2021-11-24T12:37:28.446Z
+date:   2021-11-24T12:41:58.116Z
 permalink: /angular-elements-overview/
 icon: https://codersnack.com/assets/images/angular-icon.png
 categories: [snackpost]
@@ -257,7 +257,9 @@ export class AppComponent {
 }
 ```
 
-### Typings for custom elements
+
+### Typings for custom elements
+
 
 **Generic DOM APIs, such as document.createElement() or document.querySelector(), return an element type that is appropriate for the specified arguments**. For example, calling document.createElement('a') returns an HTMLAnchorElement, which TypeScript knows has an href property. Similarly, document.createElement('div') returns an HTMLDivElement, which TypeScript knows has no href property.
 
