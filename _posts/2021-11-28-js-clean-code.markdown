@@ -8,3 +8,4 @@ icon: https://codersnack.com/assets/images/js-clean-code.jpeg
 exclude: true
 ---
  * [JS Clean Code - Introduction - Variables](https://codersnack.com/js-clean-code-variables) 
+ * [Javascript Clean Code - Functions](https://codersnack.com/js-clean-code-functions) 

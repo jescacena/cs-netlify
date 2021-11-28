@@ -1,14 +1,13 @@
 ---
 layout: post
 title:  JS Clean Code - Introduction - Variables
-date:   2021-11-28T11:06:02.741Z
+date:   2021-11-28T11:25:30.251Z
 permalink: /js-clean-code-variables/
 icon: https://codersnack.com/assets/images/js-clean-code.png
 categories: [snackpost]
 ---
 
 > Information drawn from 
-
 - [Clean Code Javascript - Ryan McDermott](https://github.com/ryanmcdermott/clean-code-javascript)
 
 ![js-clean-code-wtfs](https://codersnack.com/assets/images/js-clean-code-wtfs.jpeg)
@@ -24,7 +23,9 @@ One more thing: knowing these won't immediately make you a better software devel
 
 ### Variables
 
+
 #### Use meaningful and pronounceable variable names
+
 
 *Bad:*
 
@@ -39,6 +40,7 @@ const currentDate = moment().format("YYYY/MM/DD");
 
 #### Use the same vocabulary for the same type of variable
 
+
 *Bad:*
 ```
 getUserInfo();
@@ -51,7 +53,8 @@ getUser();
 ```
 
 
-#### Use searchable names
+#### Use searchable names
+
 
 **We will read more code than we will ever write. It's important that the code we do write is readable and searchable.** By not naming variables that end up being meaningful for understanding our program, we hurt our readers. **Make your names searchable**. Tools like *[buddy.js](https://github.com/danielstjules/buddy.js/)* and *ESLint* can help identify unnamed constants.
 
@@ -69,7 +72,9 @@ const MILLISECONDS_PER_DAY = 60 * 60 * 24 * 1000; //86400000;
 setTimeout(blastOff, MILLISECONDS_PER_DAY);
 ```
 
+
 #### Use explanatory variables
+
 
 *Bad:*
 ```
@@ -119,7 +124,9 @@ locations.forEach(location => {
 });
 ```
 
-#### Don't add unneeded context
+
+#### Don't add unneeded context
+
 
 If your class/object name tells you something, don't repeat that in your variable name.
 
@@ -150,6 +157,7 @@ function paintCar(car, color) {
 
 
 #### Use default arguments instead of short circuiting or conditionals
+
 
 **Default arguments are often cleaner than short circuiting**. Be aware that if you use them, your function will only provide default values for undefined arguments. Other "falsy" values such as '', "", false, null, 0, and NaN, will not be replaced by a default value.
 
