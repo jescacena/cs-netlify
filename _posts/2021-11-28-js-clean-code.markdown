@@ -10,3 +10,4 @@ exclude: true
  * [JS Clean Code - Introduction - Variables](https://codersnack.com/js-clean-code-variables) 
  * [Javascript Clean Code - Functions](https://codersnack.com/js-clean-code-functions) 
  * [Javascript Clean Code - Objects and Data Structures](https://codersnack.com/js-clean-code-objects-data-structures) 
+ * [JS Clean Code - SOLID principles](https://codersnack.com/js-clean-code-solid-principles) 
