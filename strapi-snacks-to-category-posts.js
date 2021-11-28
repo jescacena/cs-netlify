@@ -102,6 +102,11 @@ const categoryUrlMap = [
         categorySlug: "gatsbyjs",
         urlPath:
             "/codersnacks-asoc-snack-categories?codersnacks_category.key=gatsbyjs"
+    },
+    {
+        categorySlug: "js-clean-code",
+        urlPath:
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=js-clean-code"
     }
 ];
 
