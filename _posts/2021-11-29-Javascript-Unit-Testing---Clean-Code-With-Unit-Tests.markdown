@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Clean Code With Unit Tests
-date:   2021-11-29T21:59:40.382Z
+title:  Javascript Unit Testing - Clean Code With Unit Tests
+date:   2021-11-29T22:06:26.214Z
 permalink: /js-unit-testing-clean-code/
 icon: https://codersnack.com/assets/images/js-unit-testing-icon.png
 categories: [snackpost]
