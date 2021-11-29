@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  What is Unit Testing and TDD?
-date:   2020-01-28T19:17:01.851Z
+date:   2021-11-29T21:50:29.915Z
 permalink: /js-unit-testing-whatis-tdd/
 icon: https://codersnack.com/assets/images/js-unit-testing-icon.png
 categories: [snackpost]
