@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Clean Code With Unit Tests
-date:   2021-11-29T21:41:46.225Z
+date:   2021-11-29T21:59:40.382Z
 permalink: /js-unit-testing-clean-code/
 icon: https://codersnack.com/assets/images/js-unit-testing-icon.png
 categories: [snackpost]
@@ -9,6 +9,7 @@ categories: [snackpost]
 
 > Information drawn from 
 - [Clean Code with Unit Tests](https://betterprogramming.pub/clean-code-with-unit-tests-5f28020828a5)
+
 
 Unit tests are important. **They prevent regressions as you refactor code, serve as documentation, and save you hours of time not spent doing tedious manual testing**. In short, tests enable change.
 
