@@ -145,7 +145,7 @@ main {
                 }
             }
             .cta-button {
-                background-color: $darkBlueColor;
+                background-color: $blueColor;
                 color: white;
                 border-radius: 10px;
                 padding: 1em 2em;
@@ -206,13 +206,14 @@ main {
                 float: left;
                 margin: 0.5rem;
                 border-radius: 10px;
-                background-color: $darkBlueColor;
+                background-color: $lightGreyColor;
                 padding: 0.7rem 1rem;
-                font-size: 0.7rem;
+                font-size: .9rem;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
                 a {
                     text-decoration: none;
-                    color: white;
+                    color: $darkBlueColor;
 
                     img {
                         width: 2em;
@@ -224,8 +225,8 @@ main {
     }
 
     section.latest {
-        width: 60%;
-        padding-left: 3rem;
+        width: 100%;
+        // padding-left: 3rem;
         @include for-phone-only {
             padding-left: 1rem;
 
@@ -235,7 +236,8 @@ main {
             }
         }
         .post-list {
-            margin: 0;
+            width: 800px;
+            margin: 3rem auto;
             padding: 0;
             h1,
             h2,
@@ -267,7 +269,7 @@ main {
             @include for-phone-only {
                 max-width: 60%;
             }
-            margin: 0 auto;
+            margin: 5rem auto;
             li {
                 padding: 1em;
 
@@ -488,7 +490,8 @@ footer {
     background-color: $primary-color;
     z-index: 11111;
     background: white;
-    border-top: 1px solid;
+    // border-top: 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 .current {
     color: green;
