@@ -11,3 +11,5 @@ exclude: true
  * [Javascript Clean Code - Functions](https://codersnack.com/js-clean-code-functions) 
  * [Javascript Clean Code - Objects and Data Structures](https://codersnack.com/js-clean-code-objects-data-structures) 
  * [JS Clean Code - SOLID principles](https://codersnack.com/js-clean-code-solid-principles) 
+ * [JS Clean Code - Testing - Concurrency - Error Handling](https://codersnack.com/js-clean-code-testing-concurrency-error-handling) 
+ * [Javascript Clean Code - Formatting - Comments](https://codersnack.com/js-clean-code-formatting-comment) 
