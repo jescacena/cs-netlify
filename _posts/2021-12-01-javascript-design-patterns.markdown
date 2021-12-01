@@ -27,3 +27,4 @@ exclude: true
  * [Strategy Pattern](https://codersnack.com/js-design-patterns-strategy/) 
  * [Template pattern](https://codersnack.com/js-design-patterns-template/) 
  * [Iterators and Generators](https://codersnack.com/design-patterns-iterators-generators) 
+ * [ES6 Proxy](https://codersnack.com/es6-proxy) 

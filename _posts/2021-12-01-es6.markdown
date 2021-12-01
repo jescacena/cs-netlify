@@ -11,3 +11,5 @@ exclude: true
  * [ES6 let and const](https://codersnack.com/es6-let-const/) 
  * [ES6 modules](https://codersnack.com/es6-modules/) 
  * [ES6 classes](https://codersnack.com/es6-classes/) 
+ * [ES6 Proxy](https://codersnack.com/es6-proxy) 
+ * [Iterators and Generators](https://codersnack.com/design-patterns-iterators-generators) 
