@@ -26,3 +26,4 @@ exclude: true
  * [State pattern](https://codersnack.com/js-design-patterns-state/) 
  * [Strategy Pattern](https://codersnack.com/js-design-patterns-strategy/) 
  * [Template pattern](https://codersnack.com/js-design-patterns-template/) 
+ * [Iterators and Generators](https://codersnack.com/design-patterns-iterators-generators) 
