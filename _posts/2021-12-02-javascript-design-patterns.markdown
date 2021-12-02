@@ -28,3 +28,5 @@ exclude: true
  * [Template pattern](https://codersnack.com/js-design-patterns-template/) 
  * [Iterators and Generators](https://codersnack.com/design-patterns-iterators-generators) 
  * [ES6 Proxy](https://codersnack.com/es6-proxy) 
+ * [Refactoring - Composing Methods](https://codersnack.com/js-clean-code-refactoring-catalog-composing-methods) 
+ * [Refactoring - Moving features between objects](https://codersnack.com/js-clean-code-refactoring-catalog-move-features-between-objects) 

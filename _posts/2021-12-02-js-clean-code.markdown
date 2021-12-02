@@ -14,3 +14,4 @@ exclude: true
  * [JS Clean Code - Testing - Concurrency - Error Handling](https://codersnack.com/js-clean-code-testing-concurrency-error-handling) 
  * [Javascript Clean Code - Formatting - Comments](https://codersnack.com/js-clean-code-formatting-comment) 
  * [Refactoring - Composing Methods](https://codersnack.com/js-clean-code-refactoring-catalog-composing-methods) 
+ * [Refactoring - Moving features between objects](https://codersnack.com/js-clean-code-refactoring-catalog-move-features-between-objects) 
