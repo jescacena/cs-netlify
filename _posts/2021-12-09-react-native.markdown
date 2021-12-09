@@ -7,4 +7,4 @@ categories: [catpost]
 icon: https://codersnack.com/assets/images/react-native-icon.png
 exclude: true
 ---
- * [What is React Native?](https://codersnack.com/react-native-what-is) 
+ * [What is React Native?](/react-native-what-is) 

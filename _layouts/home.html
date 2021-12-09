@@ -1,12 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>codersnack.com</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
   </head>
   <body>
+    {% include onload-spinner.html %} 
     {% include navigation.html %}
     <main>
       {{ content }}
@@ -18,5 +22,6 @@
         </li>
       </ul>
     </footer>
+
   </body>
 </html>

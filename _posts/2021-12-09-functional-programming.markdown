@@ -7,5 +7,5 @@ categories: [catpost]
 icon: https://codersnack.com/assets/images/functional-programming.png
 exclude: true
 ---
- * [What is functional programming?](https://codersnack.com/functional-programming.what-is/) 
- * [Functional programming - Side Effects](https://codersnack.com/functional-programming-side-effects/) 
+ * [What is functional programming?](/functional-programming.what-is/) 
+ * [Functional programming - Side Effects](/functional-programming-side-effects/) 

@@ -7,5 +7,5 @@ categories: [catpost]
 icon: https://codersnack.com/assets/images/pwa-icon.png
 exclude: true
 ---
- * [What are Progressive Web Apps?](https://codersnack.com/pwa-what-are/) 
- * [Service Workers: An Introduction](https://codersnack.com/pwa-service-workers-introduction/) 
+ * [What are Progressive Web Apps?](/pwa-what-are/) 
+ * [Service Workers: An Introduction](/pwa-service-workers-introduction/) 

@@ -7,4 +7,4 @@ categories: [catpost]
 icon: https://codersnack.com/assets/images/vuejs-icon.png
 exclude: true
 ---
- * [Vuejs introduction](https://codersnack.com/vuejs-introduction/) 
+ * [Vuejs introduction](/vuejs-introduction/) 

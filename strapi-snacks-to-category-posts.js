@@ -149,7 +149,8 @@ const getMarkdownListFromSnackList = snackList => {
     let result = "";
 
     snackList.forEach(item => {
-        result += ` * [${item.snack.header}](${item.snack.weblink}) \n`;
+        let link = item.snack.weblink.replace('https://codersnack.com','')
+        result += ` * [${item.snack.header}](${link}) \n`;
     });
 
     return result;

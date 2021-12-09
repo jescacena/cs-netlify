@@ -7,4 +7,4 @@ categories: [catpost]
 icon: https://codersnack.com/assets/images/ux-logo.png
 exclude: true
 ---
- * [What is Material Design?](https://codersnack.com/what-is-material) 
+ * [What is Material Design?](/what-is-material) 

@@ -7,5 +7,5 @@ categories: [catpost]
 icon: https://codersnack.com/assets/images/js-unit-testing-icon.png
 exclude: true
 ---
- * [Javascript Unit Testing - What is Unit Testing and TDD?](https://codersnack.com/js-unit-testing-whatis-tdd) 
- * [Javascript Unit Testing - Clean Code With Unit Tests](https://codersnack.com/js-unit-testing-clean-code) 
+ * [Javascript Unit Testing - What is Unit Testing and TDD?](/js-unit-testing-whatis-tdd) 
+ * [Javascript Unit Testing - Clean Code With Unit Tests](/js-unit-testing-clean-code) 

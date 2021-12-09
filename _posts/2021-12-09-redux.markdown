@@ -7,4 +7,4 @@ categories: [catpost]
 icon: https://codersnack.com/assets/images/redux-icon.png
 exclude: true
 ---
- * [Introduction and motivation to use Redux](https://codersnack.com/redux-introduction/) 
+ * [Introduction and motivation to use Redux](/redux-introduction/) 
