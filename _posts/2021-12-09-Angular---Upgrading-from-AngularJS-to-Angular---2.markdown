@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Angular - Upgrading from AngularJS to Angular - 2
-date:   2021-11-10T11:41:58.626Z
+date:   2021-12-09T17:39:28.893Z
 permalink: /angular-upgrade-from-angularjs-2/
 icon: https://codersnack.com/assets/images/angularjs-to-angular.png
 categories: [snackpost]
@@ -11,14 +11,14 @@ categories: [snackpost]
 - [Angular.io - Upgrading from AngularJS to Angular](https://angular.io/guide/upgrade)
 
 
-## Upgrading with *ngUpgrade*
+##   Upgrading with *ngUpgrade*
 
 **The ngUpgrade library in Angular is a very useful tool for upgrading** anything but the smallest of applications. With it **you can mix and match AngularJS and Angular components in the same application and have them interoperate seamlessly**. That means **you don't have to do the upgrade work all at once**, since there is a natural coexistence between the two frameworks during the transition period.
 
 > The end of life of AngularJS is December 31st, 2021. With this event, ngUpgrade is now in a feature complete state. We will continue publishing security and bug fixes for ngUpgrade at least until December 31st, 2022.
 
 
-### How ngUpgrade Works
+###   How ngUpgrade Works
 
 **One of the primary tools provided by ngUpgrade is called the *UpgradeModule***. This is a module that contains utilities for **bootstrapping and managing hybrid applications** that support both Angular and AngularJS code.
 
@@ -27,7 +27,7 @@ When you use ngUpgrade, what you're really doing is **running both AngularJS and
 What happens **on top of this is that components and services managed by one framework can interoperate with those from the other framework**. This happens in *three main areas: Dependency injection, the DOM, and change detection*.
 
 
-#### Dependency Injection
+####    Dependency Injection
 
 Dependency injection is front and center in both AngularJS and Angular, but there are some **key differences between the two frameworks** in how it actually works.
 
@@ -42,7 +42,7 @@ Even accounting for these differences you can still have dependency injection in
 ![The two injectors in a hybrid application](https://codersnack.com/assets/images/angularjs-to-angular-injectors.png)
 
 
-### Components and the DOM
+###    Components and the DOM
 
 **In the DOM of a hybrid ngUpgrade application are components and directives from both AngularJS and Angular**. These components communicate with each other by using the input and output bindings of their respective frameworks, which *ngUpgrade bridges together*. They may also *communicate through shared injected dependencies*, as described above.
 
@@ -69,7 +69,7 @@ Consider a situation where you use an Angular component from AngularJS like this
 
 The DOM element ```<a-component>```  will remain to be an **AngularJS managed element**, because it is defined in an AngularJS template. That also means you can apply additional AngularJS directives to it, but not Angular directives. It is only in the template of the ```<a-component>``` where Angular steps in. This same rule also applies when you use AngularJS component directives from Angular.
 
-### Change Detection
+###    Change Detection
 
 The **scope.$apply()** is how **AngularJS detects changes and updates data bindings**. After every event that occurs, scope.$apply() gets called. This is done either **automatically** by the framework, or **manually by you**.
 
@@ -91,7 +91,7 @@ In practice, you do not need to call $apply(), regardless of whether it is in An
 
 Correspondingly, **when you upgrade an AngularJS component and use it from Angular, all the bindings defined for scope (or bindToController) of the component directive will be hooked into Angular change detection**. They will be treated as regular Angular inputs. Their values will be written to the scope (or controller) of the upgraded component when they change.
 
-### Using UpgradeModule with Angular NgModules
+###   Using UpgradeModule with Angular NgModules
 
 Both AngularJS and Angular have their own concept of modules to help organize an application into cohesive blocks of functionality.
 
@@ -101,7 +101,7 @@ In a hybrid application you run both versions of Angular at the same time. That 
 
 For more information, see NgModules.
 
-### Bootstrapping hybrid applications
+###   Bootstrapping hybrid applications
 
 To bootstrap a hybrid application, you must bootstrap each of the Angular and AngularJS parts of the application. **You must bootstrap the Angular bits first and then ask the UpgradeModule to bootstrap the AngularJS bits next**.
 

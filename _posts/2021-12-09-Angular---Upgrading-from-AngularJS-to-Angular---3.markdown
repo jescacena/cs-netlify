@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Angular - Upgrading from AngularJS to Angular - 3
-date:   2021-11-10T11:41:48.968Z
+date:   2021-12-09T17:40:20.510Z
 permalink: /angular-upgrade-from-angularjs-3/
 icon: https://codersnack.com/assets/images/angularjs-to-angular.png
 categories: [snackpost]
@@ -10,7 +10,7 @@ categories: [snackpost]
 > Information drawn from 
 - [Angular.io - Upgrading from AngularJS to Angular](https://angular.io/guide/upgrade)
 
-## Using Angular Components from AngularJS Code
+##   Using Angular Components from AngularJS Code
 
 ![angularjs-to-angular-ajs-to-a](https://codersnack.com/assets/images/angularjs-to-angular-ajs-to-a.png)
 
@@ -151,7 +151,7 @@ Since this is an AngularJS template, **you can still use other AngularJS directi
 ```
 
 
-## Using AngularJS Component Directives from Angular Code
+##    Using AngularJS Component Directives from Angular Code
 
 ![angularjs-to-angular-a-to-ajs](https://codersnack.com/assets/images/angularjs-to-angular-a-to-ajs.png)
 
@@ -281,7 +281,7 @@ export class ContainerComponent {
 }
 ```
 
-## Projecting AngularJS Content into Angular Components
+##    Projecting AngularJS Content into Angular Components
 
 ![Projecting AngularJS content into Angular](https://codersnack.com/assets/images/angularjs-to-angular-ajs-to-a-with-projection.png)
 
@@ -320,7 +320,7 @@ When using the component from AngularJS, you can supply contents for it. Just li
 > When AngularJS content gets projected inside an Angular component, it still remains in "AngularJS land" and is managed by the AngularJS framework.
 
 
-### Transcluding Angular Content into AngularJS Component Directives
+###    Transcluding Angular Content into AngularJS Component Directives
 
 
 ![angularjs-to-angular-a-to-ajs-with-transclusion](https://codersnack.com/assets/images/angularjs-to-angular-a-to-ajs-with-transclusion.png)
@@ -367,7 +367,7 @@ export class ContainerComponent {
 ```
 
 
-### Making AngularJS Dependencies Injectable to Angular
+###   Making AngularJS Dependencies Injectable to Angular
 
 When running a hybrid app, you may encounter **situations where you need to inject some AngularJS dependencies into your Angular code**. Maybe you have some business logic still in AngularJS services. **Maybe you want access to built-in services of AngularJS like *$location* or *$timeout*.**
 
@@ -457,7 +457,7 @@ export class HeroDetailComponent {
 In this example **you upgraded a service class**. **You can use a TypeScript type annotation when you inject it**. While it doesn't affect how the dependency is handled, it enables the **benefits of static type checking**. This is not required though, and any AngularJS service, factory, or provider can be upgraded.
 
 
-### Making Angular Dependencies Injectable to AngularJS
+###    Making Angular Dependencies Injectable to AngularJS
 
 In addition to upgrading AngularJS dependencies, you can also **downgrade Angular dependencies, so that you can use them from AngularJS**. This can be useful when you start migrating services to Angular or creating new services in Angular while retaining components written in AngularJS.
 
