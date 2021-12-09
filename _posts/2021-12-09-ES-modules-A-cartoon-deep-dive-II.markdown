@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ES modules A cartoon deep-dive II
-date:   2021-12-09T17:16:41.774Z
+date:   2021-12-09T17:20:04.290Z
 permalink: /es6-modules-deep-dive-2/
 icon: https://codersnack.com/assets/images/es6.png
 categories: [snackpost]
@@ -97,7 +97,7 @@ This approach—having the algorithm split up into phases—is **one of the key 
 
 ***CommonJS* can do things differently because loading files from the filesystem takes much less time than downloading across the Internet.** This means Node can block the main thread while it loads the file. And since the file is already loaded, it makes sense to just instantiate and evaluate (which aren’t separate phases in CommonJS). This also means that you’re walking down the whole tree, loading, instantiating, and evaluating any dependencies before you return the module instance.
 
-![A diagram showing a Node module evaluating up to a require statement, and then Node going to synchronously load and evaluate the module and any of its dependencies](https://codersnack.com/assets/images/es-modules-deep-commonjs-nodes.png)
+![A diagram showing a Node module evaluating up to a require statement, and then Node going to synchronously load and evaluate the module and any of its dependencies](https://codersnack.com/assets/images/es-modules-deep-commonjs-node.png)
 
 **The CommonJS approach has a few implications**, and I will explain more about those later. But one thing that it means is that in Node with CommonJS modules, **you can use variables in your module specifier**. You are executing all of the code in this module (up to the require statement) before you look for the next module. That means **the variable will have a value when you go to do module resolution.**
 
