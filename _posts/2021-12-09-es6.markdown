@@ -13,4 +13,5 @@ exclude: true
  * [ES6 classes](/es6-classes/) 
  * [ES6 Proxy](/es6-proxy) 
  * [Iterators and Generators](/design-patterns-iterators-generators) 
- * [ES modules: A cartoon deep-dive](/es6-modules-deep-dive) 
+ * [ES modules: A cartoon deep-dive I](/es6-modules-deep-dive) 
+ * [ES modules: A cartoon deep-dive II](/es6-modules-deep-dive-2) 

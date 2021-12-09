@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  ES modules A cartoon deep-dive
-date:   2021-12-09T14:37:17.748Z
+title:  ES modules A cartoon deep-dive I
+date:   2021-12-09T14:49:14.021Z
 permalink: /es6-modules-deep-dive/
 icon: https://codersnack.com/assets/images/es6.png
 categories: [snackpost]
@@ -24,14 +24,12 @@ Let’s take a look at what problem ES modules solve and how they are different 
 When you think about it, **coding in JavaScript is all about managing variables**. It’s all about assigning values to variables, or adding numbers to variables, or combining two variables together and putting them into another variable.
 
 ![Code showing variables being manipulated](https://codersnack.com/assets/images/es-modules-deep-1.png)
-*Code showing variables being manipulated*
 
 Because so much of your code is just about changing variables, **how you organize these variables is going to have a big impact on how well you can code… and how well you can maintain that code.**
 
 **Having just a few variables to think about at one time makes things easier. JavaScript has a way of helping you do this, called *scope***. Because of how scopes work in JavaScript, **functions can’t access variables that are defined in other functions**.
 
 ![Two function scopes with one trying to reach into another but failing](https://codersnack.com/assets/images/es-modules-deep-functions.png)
-*Two function scopes with one trying to reach into another but failing*
 
 This is good. It means that when you’re working on one function, you can just think about that one function. You don’t have to worry about what other functions might be doing to your variables.
 
@@ -42,7 +40,6 @@ What if you do want to share your variable outside of a scope? **A common way to
 > You probably remember this from the **jQuery days**. Before you could load any jQuery plug-ins, you had to make sure that jQuery was in the global scope.
 
 ![Two function scopes in a global, with one putting jQuery into the global](https://codersnack.com/assets/images/es-modules-deep-jquery.png)
-*Two function scopes in a global, with one putting jQuery into the global*
 
 This works, but **they are some annoying problems that result**.
 
@@ -51,7 +48,6 @@ First, all of **your script tags need to be in the right order**. Then you have 
 If you do mess up that order, then in the middle of running, your app will throw an error. When the function goes looking for jQuery where it expects it — on the global — and doesn’t find it, it will throw an error and stop executing.
 
 ![The top function scope has been removed and now the second function scope can’t find jQuery on the global](https://codersnack.com/assets/images/es-modules-deep-jquery-2.png)
-*The top function scope has been removed and now the second function scope can’t find jQuery on the global*
 
 **This makes maintaining code tricky**. It makes removing old code or script tags a game of roulette. **You don’t know what might break**. The dependencies between these different parts of your code are implicit. Any function can grab anything on the global, so you don’t know which functions depend on which scripts.
 
@@ -69,7 +65,6 @@ But unlike function scopes, module scopes have a way of making their variables a
 **When something is made available to other modules, it’s called an *export***. Once you have an export, other modules can explicitly say that they depend on that variable, class or function.
 
 ![Two module scopes, with one reaching into the other to grab an export](https://codersnack.com/assets/images/es-modules-deep-export.png)
-*Two module scopes, with one reaching into the other to grab an export*
 
 **Because this is an explicit relationship, you can tell which modules will break if you remove another one.**
 
