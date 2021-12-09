@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  ES modules A cartoon deep-dive II
-date:   2021-12-09T17:03:36.137Z
+date:   2021-12-09T17:16:41.774Z
 permalink: /es6-modules-deep-dive-2/
 icon: https://codersnack.com/assets/images/es6.png
 categories: [snackpost]
@@ -210,7 +210,7 @@ Besides just filling in these boxes in memory, **evaluating the code can also tr
 **This is one reason to have the module map**. The module map caches the module by canonical URL so that there is only one module record for each module. **That ensures each module is only executed once**. Just as with instantiation, this is done as a depth first post-order traversal.
 
 
-#### What about those cycles that we talked about before?
+####   What about those cycles that we talked about before?
 
 
 **In a cyclic dependency, you end up having a loop in the graph**. Usually, this is a long loop. But to explain the problem, I’m going to use a contrived example with a short loop.
@@ -238,7 +238,7 @@ main.js getting its export connection to memory and filling in the correct value
 **Supporting these cycles is a big rationale behind the design of ES modules. It’s this three-phase design that makes them possible**.
 
 
-#### What’s the status of ES modules?
+####   What’s the status of ES modules?
 
 With the release of Firefox 60 in early May, all major browsers will support ES modules by default. **Node is also adding support, with a working group dedicated to figuring out compatibility issues between CommonJS and ES modules.**
 
