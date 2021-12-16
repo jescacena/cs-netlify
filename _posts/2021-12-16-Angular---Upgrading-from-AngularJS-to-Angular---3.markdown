@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Angular - Upgrading from AngularJS to Angular - 3
-date:   2021-12-09T17:40:20.510Z
+date:   2021-12-16T14:00:57.525Z
 permalink: /angular-upgrade-from-angularjs-3/
 icon: https://codersnack.com/assets/images/angularjs-to-angular.png
 categories: [snackpost]
@@ -10,7 +10,7 @@ categories: [snackpost]
 > Information drawn from 
 - [Angular.io - Upgrading from AngularJS to Angular](https://angular.io/guide/upgrade)
 
-##   Using Angular Components from AngularJS Code
+##  Using Angular Components from AngularJS Code
 
 ![angularjs-to-angular-ajs-to-a](https://codersnack.com/assets/images/angularjs-to-angular-ajs-to-a.png)
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Angular - Upgrading from AngularJS to Angular - 2
-date:   2021-12-09T17:39:28.893Z
+date:   2021-12-16T14:00:10.350Z
 permalink: /angular-upgrade-from-angularjs-2/
 icon: https://codersnack.com/assets/images/angularjs-to-angular.png
 categories: [snackpost]
@@ -42,7 +42,9 @@ Even accounting for these differences you can still have dependency injection in
 ![The two injectors in a hybrid application](https://codersnack.com/assets/images/angularjs-to-angular-injectors.png)
 
 
-###    Components and the DOM
+
+###  Components and the DOM
+
 
 **In the DOM of a hybrid ngUpgrade application are components and directives from both AngularJS and Angular**. These components communicate with each other by using the input and output bindings of their respective frameworks, which *ngUpgrade bridges together*. They may also *communicate through shared injected dependencies*, as described above.
 
