@@ -1,6 +1,7 @@
 .search-main {
   margin: 0rem auto 0 auto;
   padding-top: 2rem;
+  padding-bottom: 1rem;
 
   @include for-phone-only {
     width: 90%;
