@@ -112,3 +112,8 @@ pagination:
   indexpage: 'blog'
 
 ############################################################
+
+algolia:
+  application_id: AL41VT6XZ4
+  index_name: codersnack
+  search_only_api_key: 063d8de38af989059db80997656d2640

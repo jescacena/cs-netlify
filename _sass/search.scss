@@ -1,0 +1,22 @@
+.search-main {
+  margin: 0rem auto 0 auto;
+  padding-top: 2rem;
+
+  @include for-phone-only {
+    width: 90%;
+  }
+
+  @include for-desktop-up {
+    max-width: 700px;
+    // #search-searchbar {
+    //   // margin-top: 2rem;
+    // }
+    line-height: 1.3;
+  }
+
+  .post-list {
+    margin-top: 2rem;
+    @include for-desktop-up {
+    }
+  }
+}

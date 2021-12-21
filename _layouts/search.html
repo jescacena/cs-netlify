@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>codersnack.com</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    {% include onload-spinner.html %} {% include navigation.html %}
+    <main class="search-main">
+      <div id="search-searchbar"></div>
+
+      <div class="post-list" id="search-hits">
+        {% for post in site.posts %}
+            {% if post.categories[0] == 'snackpost' %}
+              <div class="post-item">
+                
+                {% assign date_format = site.minima.date_format | default: "%b %-d,
+                %Y" %}
+                <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+                <h2>
+                  <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                  </a>
+                </h2>
+
+                <!-- <div class="post-snippet">{{ post.excerpt }}</div> -->
+              </div>
+            {% endif %} 
+        {% endfor %}
+      </div>
+
+      {% include algolia.html %}
+    </main>
+    <footer><i>Copyright {{ 'now' | date: "%Y" }} Ⓒ JavierEscacena</i></footer>
+  </body>
+</html>
