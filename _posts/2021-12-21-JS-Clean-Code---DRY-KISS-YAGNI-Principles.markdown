@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  JS Clean Code - DRY-KISS-YAGNI Principles
-date:   2021-12-21T17:51:01.125Z
+date:   2021-12-21T17:55:06.366Z
 permalink: /js-clean-code-dry-kiss-yagni/
 icon: https://codersnack.com/assets/images/js-clean-code.png
 categories: [snackpost]
@@ -90,7 +90,9 @@ function getOrderStatusInfo(order){
 ``` 
 
 
-## KISS Principle
+
+##  KISS Principle
+
 
 KISS is an acronym for **Keep It Simple, Stupid**. This principle says about to make your code simple. You should avoid **unnecessary complexity**. A simple code it’s **easier to maintain and easier to understand.**
 
