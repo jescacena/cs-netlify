@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  JS Clean Code - DRY-KISS-YAGNI Principles
-date:   2021-12-21T17:55:06.366Z
+date:   2021-12-21T17:55:42.221Z
 permalink: /js-clean-code-dry-kiss-yagni/
 icon: https://codersnack.com/assets/images/js-clean-code.png
 categories: [snackpost]
@@ -136,6 +136,8 @@ Always implement things when you actually need them, never when you just foresee
 
 It means that you should not implement functionality just because you think that you may need it someday, but implement it just when you really need it. Doing that you will avoid spending time with implementations that were not even necessary, and maybe will never be used.
 
-##  Conclusion
+
+##   Conclusion
+
 
 Follow these principles, will allow you to write better code. Remember that **a clean code it’s easier to main, easier to understand and for sure it will save your time** when you need to change or implement something. Avoid use duplicated code, try to keep your code as simple as possible, and just implement features when it’s really necessary.
