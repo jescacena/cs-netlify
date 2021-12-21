@@ -30,3 +30,4 @@ exclude: true
  * [ES6 Proxy](/es6-proxy) 
  * [Refactoring - Composing Methods](/js-clean-code-refactoring-catalog-composing-methods) 
  * [Refactoring - Moving features between objects](/js-clean-code-refactoring-catalog-move-features-between-objects) 
+ * [JS Clean Code - DRY-KISS-YAGNI Principles](/js-clean-code-dry-kiss-yagni) 
