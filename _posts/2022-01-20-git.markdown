@@ -1,0 +1,10 @@
+---
+layout: category-post
+title:  Git
+date:   2022-01-20T15:06:57.128Z
+permalink: /git/
+categories: [catpost]
+icon: https://codersnack.com/assets/images/git-icon.png
+exclude: true
+---
+ * [How to do a code review - The Standard](/git-the-sdandard-code-review) 

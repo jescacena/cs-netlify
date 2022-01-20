@@ -107,6 +107,11 @@ const categoryUrlMap = [
         categorySlug: "js-clean-code",
         urlPath:
             "/codersnacks-asoc-snack-categories?codersnacks_category.key=js-clean-code"
+    },
+    {
+        categorySlug: "git",
+        urlPath:
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=git"
     }
 ];
 
