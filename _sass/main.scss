@@ -272,6 +272,9 @@ main {
 
   section.latest-topics {
     // width: 60%;
+    @include for-phone-only {
+      max-width: 90%;
+    }
     padding-left: 3rem;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
 
@@ -286,9 +289,13 @@ main {
 
     ul {
       display: inline-block;
+
       li {
         float: left;
         margin: 0.5rem;
+        @include for-phone-only {
+          margin: 0.5rem 1rem 1rem 0.5rem;
+        }
         border-radius: 10px;
         background-color: $lightGreyColor;
         padding: 0.7rem 1rem;

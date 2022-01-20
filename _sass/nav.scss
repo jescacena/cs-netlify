@@ -80,9 +80,9 @@ nav {
       margin: 0;
       display: inline-block;
       li {
-        &:first-child {
-          margin-bottom: 1rem;
-        }
+        // &:first-child {
+          margin-bottom: 1.5rem;
+        // }
       }
     }
   }
