@@ -8,3 +8,4 @@ icon: https://codersnack.com/assets/images/git-icon.png
 exclude: true
 ---
  * [How to do a code review - The Standard](/git-the-sdandard-code-review) 
+ * [How to do a code review - What to look for in a code review](/git-what-to-look-for-in-a-code-review) 
