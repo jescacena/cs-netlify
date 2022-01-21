@@ -9,3 +9,5 @@ exclude: true
 ---
  * [How to do a code review - The Standard](/git-the-sdandard-code-review) 
  * [How to do a code review - What to look for in a code review](/git-what-to-look-for-in-a-code-review) 
+ * [How to do a code review -  Navigating a CL in review](/git-navigate-code-review) 
+ * [How to do a code review - Speed of Code Reviews](/git-speed-code-review) 
