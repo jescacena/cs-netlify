@@ -11,3 +11,5 @@ exclude: true
  * [How to do a code review - What to look for in a code review](/git-what-to-look-for-in-a-code-review) 
  * [How to do a code review -  Navigating a CL in review](/git-navigate-code-review) 
  * [How to do a code review - Speed of Code Reviews](/git-speed-code-review) 
+ * [How to do a code review - How to write code review comments](/git-review-comments) 
+ * [How to to a code review - Handling pushback in code reviews](/git-code-review-pushback) 
