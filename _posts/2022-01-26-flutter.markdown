@@ -15,3 +15,5 @@ exclude: true
  * [Dart Language Overview By Example II](/dart-language-overview-2/) 
  * [Flutter - Introduction to widgets](/flutter-widget-introduction/) 
  * [Flutter - Essential animation concepts and classes](/flutter-animations-essencials) 
+ * [Flutter - Animation Examples I](/flutter-animations-examples-1) 
+ * [Flutter - Animation Examples II](/flutter-animations-examples-2) 
