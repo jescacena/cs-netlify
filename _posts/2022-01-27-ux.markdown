@@ -9,4 +9,5 @@ exclude: true
 ---
  * [What is Material Design?](/what-is-material) 
  * [Accessibility - What is accessibility?](/ux-what-is-accessibility) 
- * [Accessibility - HTML - A good basis for accessibility](/ux-accessibility-html-1) 
+ * [Accessibility - HTML - A good basis for accessibility - 1](/ux-accessibility-html-1) 
+ * [Accessibility - HTML - A good basis for accessibility - 2](/ux-accessibility-html-2) 

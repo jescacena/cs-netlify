@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Accessibility - HTML - A good basis for accessibility
-date:   2022-01-27T11:02:46.307Z
+title:  Accessibility - HTML - A good basis for accessibility - 1
+date:   2022-01-27T11:20:57.005Z
 permalink: /ux-accessibility-html-1/
 icon: https://codersnack.com/assets/images/ux-logo.png
 categories: [snackpost]
