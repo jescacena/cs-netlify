@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Accessibility - What is accessibility?
-date:   2022-01-24T17:14:05.116Z
+date:   2022-01-26T17:34:51.822Z
 permalink: /ux-what-is-accessibility/
 icon: https://codersnack.com/assets/images/ux-logo.png
 categories: [snackpost]
@@ -155,6 +155,6 @@ Different operating systems have different accessibility APIs available :
 
 Where the native semantic information provided by the HTML elements in your web apps falls down, you can supplement it with features from the [WAI-ARIA specification](https://www.w3.org/TR/wai-aria/), which add semantic information to the accessibility tree to improve accessibility. You can learn a lot more about WAI-ARIA in our [WAI-ARIA basics](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics) article.
 
-### Summary
 
+### Summary
 This article should have given you a useful high-level overview of accessibility, shown you why it's important, and looked at how you can fit it into your workflow. You should now also have a thirst to learn about the implementation details that can make sites accessible, and we'll start on that in the next section, looking at why HTML is a good basis for accessibility.
