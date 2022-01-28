@@ -11,3 +11,4 @@ exclude: true
  * [Accessibility - What is accessibility?](/ux-what-is-accessibility) 
  * [Accessibility - HTML - A good basis for accessibility - 1](/ux-accessibility-html-1) 
  * [Accessibility - HTML - A good basis for accessibility - 2](/ux-accessibility-html-2) 
+ * [Accessibility - HTML - A good basis for accessibility - 3](/ux-accessibility-html-3) 

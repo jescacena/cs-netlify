@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  Flutter - Implicit animation - Fade-in text effect
-date:   2022-01-27T22:27:39.303Z
+date:   2022-01-27T22:35:01.018Z
 permalink: /flutter-implicit-animations-fadein-text-effect/
 icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
 ---
 
 > Information drawn from 
-- [Flutter.dev - Animations Tutorial](https://docs.flutter.dev/codelabs/implicit-animations)
+- [Flutter.dev - Implicit animations](https://docs.flutter.dev/codelabs/implicit-animations)
 
 
 ### What are implicit animations?
