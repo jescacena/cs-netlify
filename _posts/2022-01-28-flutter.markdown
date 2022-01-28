@@ -19,3 +19,4 @@ exclude: true
  * [Flutter - Animation Examples II](/flutter-animations-examples-2) 
  * [Flutter - Animations Examples III](/flutter-animations-examples-3) 
  * [Flutter - Implicit animation - Fade-in text effect](/flutter-implicit-animations-fadein-text-effect) 
+ * [Flutter - Implicit animation - Shape-shifting effect effect](/flutter-implicit-animations-shape-shifting-effect) 
