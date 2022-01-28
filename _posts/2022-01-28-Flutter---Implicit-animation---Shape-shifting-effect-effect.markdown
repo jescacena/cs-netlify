@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Flutter - Implicit animation - Shape-shifting effect effect
-date:   2022-01-28T12:25:24.891Z
+date:   2022-01-28T12:30:35.106Z
 permalink: /flutter-implicit-animations-shape-shifting-effect/
 icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
@@ -220,3 +220,13 @@ The preceding examples **do not specify a curve, so the implicit animations appl
 Now that you have passed easeInOutBack as the value for curve to AnimatedContainer, **notice that the rates of change for margin, borderRadius, and color follow the curve defined by the easeInOutBack curve**: [video](https://flutter.github.io/assets-for-api-docs/assets/animation/curve_ease_in_out_back.mp4)
 
 The easeInOutBack constant is only one of many that you can pass for the curve parameter. Explore the list of curve constants to discover more ways to use curve to modify the look and feel of your animations.
+
+
+### Putting it all together
+
+The shape-shifting complete example animates transitions between values for margin, borderRadius, and color properties. Note that AnimatedContainer animates changes to any of its properties, including those you didn’t use such as padding, transform, and even child and alignment! The shape-shifting complete example builds upon fade-in complete by showing additional capabilities of implicit animations:
+
+- Some implicit animations (for example, AnimatedOpacity) only animate a single property, while others (like AnimatedContainer) can animate many properties.
+- Implicit animations automatically animate between the old and new values of properties when they change using the provided curve and duration.
+- If you do not specify a curve, implicit animations default to a linear curve.
+
