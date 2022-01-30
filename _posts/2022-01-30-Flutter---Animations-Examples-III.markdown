@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Flutter - Animations Examples III
-date:   2022-01-26T17:32:05.008Z
+date:   2022-01-30T22:12:36.853Z
 permalink: /flutter-animations-examples-3/
 icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
@@ -12,6 +12,9 @@ categories: [snackpost]
 
 ### Refactoring with AnimatedBuilder
 
+**Demo**
+
+![flutter-poc-animation-3.gif](https://codersnack.com/assets/images/flutter-poc-animation-3.gif)
 
 > **What's the point?**
 - An **AnimatedBuilder** understands **how to render the transition**.

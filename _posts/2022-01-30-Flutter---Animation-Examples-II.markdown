@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Flutter - Animation Examples II
-date:   2022-01-26T15:38:21.241Z
+date:   2022-01-30T22:16:10.073Z
 permalink: /flutter-animations-examples-2/
 icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
@@ -13,6 +13,8 @@ categories: [snackpost]
 
 ###  Simplifying with Animated­Widget
 
+**Demo**
+![flutter-poc-animate-2.gif](https://codersnack.com/assets/images/flutter-poc-animate-2.gif)
 
 > **What's the point?**
 - How to use the **AnimatedWidget** helper class (instead of addListener() and setState()) to **create a widget that animates**.

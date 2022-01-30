@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Flutter - Animation Examples I
-date:   2022-01-26T12:20:28.493Z
+date:   2022-01-30T22:23:27.606Z
 permalink: /flutter-animations-examples-1/
 icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
@@ -11,6 +11,10 @@ categories: [snackpost]
 - [Flutter.dev - Animations Tutorial](https://docs.flutter.dev/development/ui/animations/tutorial)
 
 This section walks you through 5 animation examples. Each section provides a link to the source code for that example.
+
+**Demo**
+
+![flutter-poc-animate-1.gif](https://codersnack.com/assets/images/flutter-poc-animate-1.gif)
 
 ### Rendering animations
 

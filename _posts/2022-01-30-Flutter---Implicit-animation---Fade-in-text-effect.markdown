@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Flutter - Implicit animation - Fade-in text effect
-date:   2022-01-27T22:35:01.018Z
+date:   2022-01-30T22:07:48.065Z
 permalink: /flutter-implicit-animations-fadein-text-effect/
 icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
@@ -15,6 +15,9 @@ categories: [snackpost]
 
 With Flutter’s animation library, you can add motion and create visual effects for the widgets in your UI. One widget set in the library manages animations for you. These widgets are collectively referred to as implicit animations, or implicitly animated widgets, deriving their name from the ImplicitlyAnimatedWidget class that they implement. **With implicit animations, you can animate a widget property by setting a target value; whenever that target value changes, the widget animates the property from the old value to the new one. In this way, implicit animations trade control for convenience—they manage animation effects so that you don’t have to.**
 
+Demo:
+text-fading-effect-animation
+![text-fading-effect-animation.gif](https://codersnack.com/assets/images/text-fading-effect-animation.gif)
 
 ### Example: Fade-in text effect
 
