@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Flutter - Implicit animation - Shape-shifting effect effect
-date:   2022-01-28T12:30:35.106Z
+date:   2022-01-30T21:59:26.585Z
 permalink: /flutter-implicit-animations-shape-shifting-effect/
 icon: https://codersnack.com/assets/images/flutter-icon.png
 categories: [snackpost]
@@ -14,6 +14,9 @@ The following example shows how to use the **AnimatedContainer** widget to **ani
 
 - A Container with borderRadius, margin, and color properties that are different each time you run the example.
 - A Change button that does nothing when clicked.
+
+Demo:
+![shape-shifting-flutter-animation.gif](https://codersnack.com/assets/images/shape-shifting-flutter-animation.gif)
 
 *Shape-shifting (starter code)*
 *lib/main.dart*
