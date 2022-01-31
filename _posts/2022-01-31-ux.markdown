@@ -13,3 +13,4 @@ exclude: true
  * [Accessibility - HTML - A good basis for accessibility - 2](/ux-accessibility-html-2) 
  * [Accessibility - HTML - A good basis for accessibility - 3](/ux-accessibility-html-3) 
  * [Accessibility - CSS accessibility best practices](/ux-accessibility-css) 
+ * [Accessibility - Javascript in accessibility](/ux-accessibility-javascript) 
