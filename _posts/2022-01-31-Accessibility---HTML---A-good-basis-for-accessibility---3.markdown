@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Accessibility - HTML - A good basis for accessibility - 3
-date:   2022-01-28T11:42:37.601Z
+date:   2022-01-31T10:34:07.075Z
 permalink: /ux-accessibility-html-3/
 icon: https://codersnack.com/assets/images/ux-logo.png
 categories: [snackpost]
@@ -9,7 +9,6 @@ categories: [snackpost]
 
 > Information drawn from 
 - [MDN - HTML - A good basis for accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
-**bold text**
 
 
 ### Accessible data tables
