@@ -21,3 +21,4 @@ exclude: true
  * [Flutter - Implicit animation - Fade-in text effect](/flutter-implicit-animations-fadein-text-effect) 
  * [Flutter - Implicit animation - Shape-shifting effect effect](/flutter-implicit-animations-shape-shifting-effect) 
  * [How to Choose Which Flutter Animation Widget is Right for You?](/flutter-whats-the-right-animation) 
+ * [Flutter Hero Animations](/flutter-hero-animations) 
