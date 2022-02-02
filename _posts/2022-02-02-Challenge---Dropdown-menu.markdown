@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Challenge - Dropdown menu
-date:   2022-02-02T17:09:17.860Z
+date:   2022-02-02T17:26:21.758Z
 permalink: /frontend-challenge-css-dropdown-menu/
 icon: https://codersnack.com/assets/images/frontend-challenge-logo.png
 categories: [snackpost]
@@ -11,7 +11,8 @@ categories: [snackpost]
 - [AceFrontend - Challenges](https://www.acefrontend.com/challenges/dropdown)
 
 
-##  Problem
+###   Problem
+
 
 The nav bar on our site has become too cluttered!
 
@@ -25,7 +26,9 @@ Here’s a mock from the designer showing what the updated nav bar should look l
 
 ----
 
-## Hints
+
+###  Hints
+
 > Not sure where **to start? Focus on the HTML** (including drop down) so you have something to work with
 
 -----
@@ -41,7 +44,9 @@ Here’s a mock from the designer showing what the updated nav bar should look l
 > Copy/paste this unicode character for the triangle symbol: ▼
 
 
-##  Solution
+
+###  Solution
+
 
 **This focus of this challenge is CSS positioning** and how well you know the default element behaviors.
 
@@ -73,7 +78,7 @@ Basic **semantic nav HTML** should look something like this:
 Notice the differences between a regular nav link and the drop down version:
 
 - A wrapper class called *.dropdown* around the entire link
-- A nested <div> alongside the top level link
+- A nested ```<div>```  alongside the top level link
 - A *.dropdown__menu* class to wrap the contents of the drop down
 
 **The next step is to position the drop down menu exactly at the bottom of the link that triggers it.** We can use **position: absolute** to achieve this:
@@ -88,7 +93,7 @@ Notice the differences between a regular nav link and the drop down version:
 ```
 **Now for the key functionality - showing/hiding the drop down with a CSS class, and controlling that class with javascript.**
 
-For that, create a class called* .dropdown--open* , then modify the CSS so that the **drop down is hidden by default, and shows when it’s a child of the open class.**
+For that, create a class called *.dropdown--open* , then modify the CSS so that the **drop down is hidden by default, and shows when it’s a child of the open class.**
 
 ```
 .dropdown { position: relative; }
