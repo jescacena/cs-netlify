@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Accessibility - WAI-ARIA basics II
-date:   2022-02-09T16:15:45.610Z
+date:   2022-02-09T16:32:30.513Z
 permalink: /ux-accessibility-wai-aria-2/
 icon: https://codersnack.com/assets/images/ux-logo.png
 categories: [snackpost]
@@ -55,10 +55,10 @@ We could go further with our ARIA usage, and provide some more validation help. 
 <p>Fields marked with an asterisk (*) are required.</p>
 ```
 
-- This makes visual sense, but it isn't as easy to understand for screenreader users. Fortunately, **WAI-ARIA provides the *aria-required* attribute to give screenreaders hints** that they should tell users that form inputs need to be filled in. Update the ```<input>``` elements like so:
- ```
+- This makes visual sense, but it isn't as easy to understand for screenreader users. Fortunately, **WAI-ARIA provides the *aria-required* attribute to give screenreaders hints** that they should tell users that form inputs need to be filled in. Update the ```<input>```  elements like so:
+ 
+``` 
 <input type="text" name="name" id="name" aria-required="true">
-
 <input type="number" name="age" id="age" aria-required="true">
 ```
 
