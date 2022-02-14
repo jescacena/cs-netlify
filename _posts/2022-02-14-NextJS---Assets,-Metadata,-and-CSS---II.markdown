@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  NextJS - Assets, Metadata, and CSS - II
-date:   2022-02-14T16:41:37.864Z
+date:   2022-02-14T18:40:18.423Z
 permalink: /nextjs-assets-metadata-css-2/
 icon: https://codersnack.com/assets/images/nextjs-logo.png
 categories: [snackpost]
@@ -145,7 +145,8 @@ If you were to navigate from the homepage to the /posts/first-post page, global 
 
 - Create a **top-level styles directory** and create **global.css** inside.
 - Add the following content to **styles/global.css**. It resets some styles and changes the color of the a tag:
-```
+
+``` 
 html,
 body {
   padding: 0;
@@ -174,6 +175,7 @@ img {
   display: block;
 }
 ```
+
 
 Finally, open **pages/_app.js** add import the CSS file like so:
 
