@@ -14,3 +14,5 @@ exclude: true
  * [NextJS - Assets, Metadata, and CSS - II](/nextjs-assets-metadata-css-2) 
  * [NextJS - Pre-rendering and Data Fetching 1](/nextjs-prerrendering-data-fetching-1) 
  * [NextJS - Pre-rendering and Data Fetching 2](/nextjs-prerrendering-data-fetching-2) 
+ * [NextJS - Dynamic Routes I](/nextjs-dynamic-routes-1) 
+ * [NextJS - Dynamic Routes II](/nextjs-dynamic-routes-2) 
