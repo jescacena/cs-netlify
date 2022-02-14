@@ -11,3 +11,6 @@ exclude: true
  * [NextJS - Creating a NextJS App - Setup](/nextjs-creating-an-app-setup/) 
  * [NextJs - Navigating between pages](/nextjs-navigating-between-pages/) 
  * [NextJS - Assets, Metadata, and CSS - I](/nextjs-assets-metadata-css-1) 
+ * [NextJS - Assets, Metadata, and CSS - II](/nextjs-assets-metadata-css-2) 
+ * [NextJS - Pre-rendering and Data Fetching 1](/nextjs-prerrendering-data-fetching-1) 
+ * [NextJS - Pre-rendering and Data Fetching 2](/nextjs-prerrendering-data-fetching-2) 
