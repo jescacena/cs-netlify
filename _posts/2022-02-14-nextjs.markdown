@@ -10,3 +10,4 @@ exclude: true
  * [NextJS - Create a Next.js App](/nextjs-creating-an-app/) 
  * [NextJS - Creating a NextJS App - Setup](/nextjs-creating-an-app-setup/) 
  * [NextJs - Navigating between pages](/nextjs-navigating-between-pages/) 
+ * [NextJS - Assets, Metadata, and CSS](/nextjs-assets-metadata-css) 
