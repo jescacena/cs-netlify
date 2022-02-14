@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  NextJS - Assets, Metadata, and CSS
-date:   2022-02-14T10:42:05.804Z
-permalink: /nextjs-assets-metadata-css/
+title:  NextJS - Assets, Metadata, and CSS - I
+date:   2022-02-14T12:28:40.151Z
+permalink: /nextjs-assets-metadata-css-1/
 icon: https://codersnack.com/assets/images/nextjs-logo.png
 categories: [snackpost]
 ---
