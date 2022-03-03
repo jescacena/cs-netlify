@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://codersnack.com/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/search.html</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog.html/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/about.html</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/nextjs-dynamic-routes-2/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/nextjs-dynamic-routes-1/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/nextjs-assets-metadata-css-2/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/nextjs-prerrendering-data-fetching-2/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/nextjs-prerrendering-data-fetching-1/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/nextjs-assets-metadata-css-1/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/ux-accessibility-wai-aria-2/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/ux-accessibility-wai-aria/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/frontend-challenge-css-dropdown-menu/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/flutter-hero-animations/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/flutter-whats-the-right-animation/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/ux-accessibility-javascript/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/ux-accessibility-css/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/ux-accessibility-html-3/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/flutter-animations-examples-1/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/flutter-animations-examples-2/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/flutter-animations-examples-3/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/flutter-implicit-animations-fadein-text-effect/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/flutter-implicit-animations-shape-shifting-effect/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/ux-accessibility-html-2/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/ux-accessibility-html-1/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/ux-what-is-accessibility/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/flutter-animations-essencials/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/git-code-review-pushback/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/git-review-comments/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/git-speed-code-review/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/git-navigate-code-review/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/git-what-to-look-for-in-a-code-review/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/git-the-sdandard-code-review/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-clean-code-dry-kiss-yagni/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/angular-upgrade-from-angularjs-3/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/angular-upgrade-from-angularjs-2/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/es6-modules-deep-dive-2/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/es6-modules-deep-dive/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-clean-code-refactoring-catalog-move-features-between-objects/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-clean-code-refactoring-catalog-composing-methods/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/es6-proxy/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/design-patterns-iterators-generators/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-unit-testing-whatis-tdd/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-unit-testing-clean-code/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/gatsbyjs-pagination/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-clean-code-formatting-comment/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-clean-code-testing-concurrency-error-handling/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-clean-code-solid-principles/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-clean-code-objects-data-structures/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-clean-code-functions/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-clean-code-variables/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/angular-elements-overview/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/angular-observables/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/angular-upgrade-from-angularjs-1/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/gatsbyjs-creating-tags-pages/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/gatsbyjs-sourcing-content-yaml-json/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/gatsbyjs-add-dynamic-images/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/gatsbyjs-create-pages-programmatically/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/gatsbyjs-transform-data-mdx/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/gatsbyjs-graphql/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/gatsbyjs-add-features-plugin/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/gatsbyjs-use-react-components/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/gatsbyjs-introduction/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/what-is-material/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/es6-let-closures/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/angular-dynamic-component-loader/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/angular-reactive-forms-grouping-controls/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/angular-reactive-forms/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/angular-forms-overview-2/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/angular-forms-overview/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/nextjs-navigating-between-pages/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/nextjs-creating-an-app-setup/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/nextjs-creating-an-app/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/webcomponents-litelement-styles-ii/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/webcomponents-litelement-styles/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/web-components-templates-slots/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/react-native-what-is/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/web-components-shadow-dom/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/angular-what-is/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/pwa-service-workers-introduction/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/angular-data-binding-pipes-directives/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/stenciljs-introduction/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-design-patterns-composite/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/pwa-what-are/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/reactjs-handling-events/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/typescript-what-declaration-files/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/typescript-declaration-files-library-structure/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/flutter-widget-introduction/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/vuejs-introduction/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/flutter-declarative-ui/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/dart-language-overview-2/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/dart-language-overview-1/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/es6-classes/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/flutter-write-your-first-app-2/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/flutter-write-first-app-1/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/flutter-introduction/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/es6-let-const/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/reactjs-hooks-introduction/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/lit-element-lit-html-introduction/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/webcomponents-litelement-templates/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/webcomponents-litelement-templates-2/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/webcomponents-litelement-properties-1/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/webcomponents-litelement-templates-3/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/webcomponents-litelement-properties-2/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/webcomponents-litelement-lifecycle/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/webcomponents-litelement-lifecycle-2/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/stenciljs-hello-world/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/webpack-concepts/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/reactjs-use-state-correctly/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/reactjs-hooks-overview/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/web-components-introduction/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/web-performance-how-browser-renders-3/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/typescript-generics/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/typescript-basic-types/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/what-is-a-design-pattern/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/web-performance-how-browser-renders-2/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/introducing-css/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/web-performance-how-browser-renders/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/es6-modules/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-design-patterns-iterator/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-design-patterns-flyweight/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-design-patterns-factory/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-design-patterns-facade/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-design-patterns-decorator/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-design-patterns-constructor/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-design-patterns-command/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-design-patterns-chain-of-responsibility/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-design-patterns-adapter/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/typescript-interfaces/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/typescript-introduction/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-design-patterns-template/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-design-patterns-strategy/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-design-patterns-state/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-design-patterns-observer/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-design-patterns-proxy/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-design-patterns-mediator/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/reactjs-context/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/redux-introduction/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-design-patterns-singleton/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/reactjs-hocs/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/reactjs-lifecycle-methods/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/reactjs-typechecking-proptypes/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-design-patterns-prototype/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/reactjs-forms/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/css-flexbox-properties-parent-1/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/css-flexbox-properties-parent-2/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/css-grid-introduction/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/css-flexbox-properties-children/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/css-layout-the-position-property/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/how-to-add-css-and-cascading-order/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/css-introducing-flex-box/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/reactjs-states/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/reactjs-introducing-jsx/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/react-what-is/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/reactjs-components-and-props/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/functional-programming.what-is/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/functional-programming-side-effects/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/frontend-challenges/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/ux/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/git/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-clean-code/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/gatsbyjs/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/nextjs/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/angular/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/react-native/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/pwa/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/webpack/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/web-components/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/web-performance/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/typescript/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/redux/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/flutter/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/js-unit-testing/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/vuejs/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/reactjs/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/javascript-design-patterns/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/functional-programming/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/css/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/es6/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/2/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/3/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/4/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/5/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/6/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/7/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/8/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/9/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/10/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.11</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/11/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.09</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/12/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.07</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/13/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.05</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/14/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/15/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.04</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/16/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.03</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/17/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/18/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.02</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/19/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/20/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/21/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/22/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/23/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.01</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/24/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/25/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/26/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/27/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/28/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/29/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/30/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/31/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/32/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/33/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/34/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+<url>
+  <loc>https://codersnack.com/blog/page/35/</loc>
+  <lastmod>2022-03-03T10:52:12+00:00</lastmod>
+  <priority>0.00</priority>
+</url>
+
+
+</urlset>
