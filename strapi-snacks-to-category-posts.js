@@ -117,6 +117,11 @@ const categoryUrlMap = [
         categorySlug: "frontend-challenges",
         urlPath:
             "/codersnacks-asoc-snack-categories?codersnacks_category.key=frontend-challenges"
+    },
+    {
+        categorySlug: "cypress",
+        urlPath:
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=cypress"
     }
 ];
 
