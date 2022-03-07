@@ -10,3 +10,5 @@ exclude: true
  * [Cypress - Introduction](/cypress-introduction) 
  * [Cypress - Install](/cypress-install-write-first-test) 
  * [Cypress - Writing your first test](/cypress-write-your-first-test) 
+ * [Cypress - Continuous integration](/cypress-continuous-integration) 
+ * [Cypress - Folder Structure](/cypress-folder-structure) 
