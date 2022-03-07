@@ -8,3 +8,5 @@ icon: https://codersnack.com/assets/images/cypress-logo.png
 exclude: true
 ---
  * [Cypress - Introduction](/cypress-introduction) 
+ * [Cypress - Install](/cypress-install-write-first-test) 
+ * [Cypress - Writing your first test](/cypress-write-your-first-test) 
