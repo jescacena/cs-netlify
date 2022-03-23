@@ -122,6 +122,11 @@ const categoryUrlMap = [
         categorySlug: "cypress",
         urlPath:
             "/codersnacks-asoc-snack-categories?codersnacks_category.key=cypress"
+    },
+    {
+        categorySlug: "rxjs",
+        urlPath:
+            "/codersnacks-asoc-snack-categories?codersnacks_category.key=rxjs"
     }
 ];
 
