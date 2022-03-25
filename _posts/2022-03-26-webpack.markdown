@@ -9,3 +9,4 @@ exclude: true
 ---
  * [Webpack Concepts](/webpack-concepts) 
  * [Webpack - Intro to Federated Modules and Micro-frontends](/webpack-getting-started-module-federation) 
+ * [Webpack - Module Federation Getting Started](/webpack-module-federation-getting-started) 

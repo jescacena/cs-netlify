@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Webpack - Intro to Federated Modules and Micro-frontends
-date:   2022-03-25T17:07:36.052Z
+date:   2022-03-25T17:10:26.935Z
 permalink: /webpack-getting-started-module-federation/
 icon: https://codersnack.com/assets/images/webpack-icon.png
 categories: [snackpost]
@@ -24,9 +24,6 @@ The current trend is to build a feature-rich and powerful browser application, a
 **The idea behind Micro Frontends is to think about a website or web app as a composition of features which are owned by independent teams**. Each team has a distinct area of business or mission it cares about and specialises in. A team is cross functional and develops its features end-to-end, from database to user interface.
 
 ![frontend monolith](https://codersnack.com/assets/images/verticals-headline.png)
-
-![frontend monolith](https://codersnack.com/assets/images/microfrontends-three-teams.png)
-
 
 However, this idea is not new. It has a lot in common with the Self-contained Systems concept. In the past approaches like this went by the name of Frontend Integration for Verticalised Systems. But Micro Frontends is clearly a more friendly and less bulky term.
 
@@ -86,6 +83,8 @@ A scalable solution to sharing code between independent applications has never b
 **If an application consuming a federated module does not have a dependency needed by the federated code,  Webpack will download the missing dependency from that federated build origin.**
 
 **Code is shared if it can be, but fallbacks exist in each case. Federated code can always load its dependencies but will attempt to use the consumers’ dependencies before downloading more payload**. This means less code duplication and dependency sharing just like a monolithic Webpack build. 
+
+![frontend monolith](https://codersnack.com/assets/images/microfrontends-three-teams.png)
 
 
 ##  Terminology
