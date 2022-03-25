@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Webpack - Intro to Federated Modules and Micro-frontends
-date:   2022-03-25T15:29:27.928Z
+date:   2022-03-25T17:07:36.052Z
 permalink: /webpack-getting-started-module-federation/
 icon: https://codersnack.com/assets/images/webpack-icon.png
 categories: [snackpost]
@@ -24,7 +24,10 @@ The current trend is to build a feature-rich and powerful browser application, a
 **The idea behind Micro Frontends is to think about a website or web app as a composition of features which are owned by independent teams**. Each team has a distinct area of business or mission it cares about and specialises in. A team is cross functional and develops its features end-to-end, from database to user interface.
 
 ![frontend monolith](https://codersnack.com/assets/images/verticals-headline.png)
-.
+
+![frontend monolith](https://codersnack.com/assets/images/microfrontends-three-teams.png)
+
+
 However, this idea is not new. It has a lot in common with the Self-contained Systems concept. In the past approaches like this went by the name of Frontend Integration for Verticalised Systems. But Micro Frontends is clearly a more friendly and less bulky term.
 
 ##  Core Ideas behind Micro Frontends
@@ -51,6 +54,23 @@ Don’t share a runtime, even if all teams use the same framework. Build indepen
 
 **Your feature should be useful, even if JavaScript failed or hasn’t executed yet**. Use Universal Rendering and Progressive Enhancement to improve perceived performance.
 
+![micro-frontend-architecture](https://codersnack.com/assets/images/micro-frontend-architecture.png)
+
+
+##   The Downside of Micro Frontends
+
+There are several reasons **why you might not want to use Micro Frontends**.
+
+- **__Failure or Downtime__**. Unlike Micro Services (backend architecture), when a service is down the entire system might still be useful to the user. But **with Micro Frontend this is a little bit tricky because if a particular micro fronted app is down it might lead to an incomplete page or might take down an entire section of the application**, which can lead to bad user experience or simply render the application useless for the user.
+
+- **__Managing Team Communication__** Communication between individual teams can be a hassle. Making sure each team meets the exact **specification**  and also making sure that there is **no code duplication between teams** can be time consuming 
+
+
+- **__Testing Process__** Although each team can have their individual unit testing,  implementing a comprehensive **end to end (E2E) testing for the entire application can be challenging**.
+
+- **__Individual Size of Micro Frontend__** Depending on the different technology and the complexity of the features in each Micro Frontend, the application payload or size might be huge and the **user may notice some lags while the application loads or while navigating between routes**.
+
+- **__Expensive to Implement__** Setting up a Micro Frontend architecture can be quite expensive to implement. You might end up paying a lot more to set up network infrastructure to hold all the Micro Frontends, and having to do so for each time-zone.
 
 ##    Module Federation
 
