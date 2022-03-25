@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Webpack - Intro to Federated Modules and Micro-frontends
-date:   2022-03-25T15:15:34.888Z
+date:   2022-03-25T15:27:53.640Z
 permalink: /webpack-getting-started-module-federation/
 icon: https://codersnack.com/assets/images/webpack-icon.png
 categories: [snackpost]
@@ -28,6 +28,8 @@ The current trend is to build a feature-rich and powerful browser application, a
 However, this idea is not new. It has a lot in common with the Self-contained Systems concept. In the past approaches like this went by the name of Frontend Integration for Verticalised Systems. But Micro Frontends is clearly a more friendly and less bulky term.
 
 ##  Core Ideas behind Micro Frontends
+
+----------
 
 ####   Be Technology Agnostic
 
