@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Web Standards - Cookies - Security Concerns
-date:   2022-04-06T13:35:27.424Z
+date:   2022-04-06T13:44:49.786Z
 permalink: /web-standards-cookies-security-concerns/
 icon: https://codersnack.com/assets/images/web-standards-logo.png
 categories: [snackpost]
@@ -30,7 +30,7 @@ A man-in-the-middle (MitM) attack describes a broad category of attacks where an
 
 This can be done in a **lot of ways**: by gaining access to or listening in on an **insecure website**, **mimicking** a public WiFi **router**, DNS **spoofing**, or through **malware** / adware like SuperFish.
 
-Here's a high-level overview of MitM attacks, and how websites can protect themselves and their users:  ![Video](https://youtu.be/8OR2dDIaIDw?t=57)
+Here's a high-level overview of MitM attacks, and how websites can protect themselves and their users:  [Video](https://youtu.be/8OR2dDIaIDw?t=57)
 
 As a developer, you can greatly reduce the chance of a MitM attack by ensuring that you **enable HTTPS on your server**, use an SSL certificate from a trusted certificate authority, and **ensure your code uses HTTPS instead of the insecure HTTP**.
 
@@ -63,7 +63,7 @@ These attacks are very problematic because they could affect every person that v
 
 **In terms of *cookies*, if a bad actor pulls off a successful XSS attack on a site, they could gain access to session cookies and access the site as another signed in user**. From there, they may be able to access the other user's settings, buy things as that user and have it shipped to another address, and so on.
 
-Here's a video that gives a high-level overview of the different types of XSS – Reflected, Stored, DOM-based, and Mutation:  ![video](https://youtu.be/EoaDgUgS6QA)
+Here's a video that gives a high-level overview of the different types of XSS – Reflected, Stored, DOM-based, and Mutation:  [video](https://youtu.be/EoaDgUgS6QA)
 
 As a developer, you'll want to **ensure that your server enforces the *Same Origin Policy***, and that **any input you receive from people is properly  sanitized**.
 
@@ -85,7 +85,7 @@ While CSRF attacks are somewhat related to XSS attacks, specifically reflected X
 According to Wikipedia, while XSS "exploits the trust a user has for a particular site, CSRF exploits the trust that a site has in a user's browser."
 
 Here's a video that explains the basics of CSRF, and gives some useful examples
-![video](https://youtu.be/eWEgUcHPle0)
+[video](https://youtu.be/eWEgUcHPle0)
 
 As for **cookies**, one way to **prevent possible CSRF attacks is with the *SameSite* flag**:
 
