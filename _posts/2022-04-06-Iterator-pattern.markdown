@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Iterator pattern
-date:   2020-02-20T22:07:32.750Z
+date:   2022-03-31T08:09:08.522Z
 permalink: /js-design-patterns-iterator/
 icon: https://codersnack.com/assets/images/design-patterns.jpg
 categories: [snackpost]
@@ -12,7 +12,7 @@ categories: [snackpost]
 
 It is a *behavioural design pattern* that **provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.**
 
-**Iterators have a special kind of behaviour where we step through an ordered set of values one at a time by calling *next()* until we reach the end.** The introduction of *Iterator and Generators in ES6 *made the implementation of the iterator pattern extremely straightforward.
+**Iterators have a special kind of behaviour where we step through an ordered set of values one at a time by calling *next()* until we reach the end.** The introduction of *Iterator and Generators in ES6* made the implementation of the iterator pattern extremely straightforward.
 
 We have **two examples** below. First, one *IteratorClass* uses iterator spec, while the other one *iteratorUsingGenerator* uses generator functions.
 

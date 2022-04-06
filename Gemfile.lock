@@ -102,7 +102,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.2.1)
-  jekyll-algolia
+  jekyll-algolia (~> 1.0)
   jekyll-feed (~> 0.12)
   jekyll-paginate-v2
   minima (~> 2.5)

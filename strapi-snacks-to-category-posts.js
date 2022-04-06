@@ -7,126 +7,105 @@ const fetch = require("node-fetch");
 
 const baseCMSUrl = "http://localhost:1337";
 
-const categoryUrlMap = [
-    {
+const categoryUrlMap = [{
         categorySlug: "functional-programming",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=functional-programming"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=functional-programming"
     },
     {
         categorySlug: "es6",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=es6"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=es6"
     },
     {
         categorySlug: "css",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=css"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=css"
     },
     {
         categorySlug: "javascript-design-patterns",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=javascript-design-patterns"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=javascript-design-patterns"
     },
     {
         categorySlug: "reactjs",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=reactjs"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=reactjs"
     },
     {
         categorySlug: "flutter",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=flutter"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=flutter"
     },
     {
         categorySlug: "vuejs",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=vuejs"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=vuejs"
     },
     {
         categorySlug: "js-unit-testing",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=js-unit-testing"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=js-unit-testing"
     },
     {
         categorySlug: "redux",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=redux"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=redux"
     },
     {
         categorySlug: "typescript",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=typescript"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=typescript"
     },
     {
         categorySlug: "web-performance",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=web-performance"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=web-performance"
     },
     {
         categorySlug: "web-components",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=web-components"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=web-components"
     },
     {
         categorySlug: "webpack",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=webpack"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=webpack"
     },
     {
         categorySlug: "pwa",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=pwa"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=pwa"
     },
     {
         categorySlug: "react-native",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=react-native"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=react-native"
     },
     {
         categorySlug: "angular",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=angular"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=angular"
     },
     {
         categorySlug: "ux",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=ux"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=ux"
     },
     {
         categorySlug: "nextjs",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=nextjs"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=nextjs"
     },
     {
         categorySlug: "gatsbyjs",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=gatsbyjs"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=gatsbyjs"
     },
     {
         categorySlug: "js-clean-code",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=js-clean-code"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=js-clean-code"
     },
     {
         categorySlug: "git",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=git"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=git"
     },
     {
         categorySlug: "frontend-challenges",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=frontend-challenges"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=frontend-challenges"
     },
     {
         categorySlug: "cypress",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=cypress"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=cypress"
     },
     {
         categorySlug: "rxjs",
-        urlPath:
-            "/codersnacks-asoc-snack-categories?codersnacks_category.key=rxjs"
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=rxjs"
+    },
+    {
+        categorySlug: "web-standards",
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=web-standards"
     }
 ];
 
@@ -169,7 +148,7 @@ const getMarkdownListFromSnackList = snackList => {
     let result = "";
 
     snackList.forEach(item => {
-        let link = item.snack.weblink.replace('https://codersnack.com','')
+        let link = item.snack.weblink.replace('https://codersnack.com', '')
         result += ` * [${item.snack.header}](${link}) \n`;
     });
 
@@ -177,7 +156,7 @@ const getMarkdownListFromSnackList = snackList => {
 };
 
 const writeCategoryPost = data => {
-    
+
     let category;
     try {
         category = data.snackList[0].category;
@@ -204,23 +183,23 @@ const writeCategoryPost = data => {
 Promise.all(
     categoryUrlMap.map(item =>
         fetch(baseCMSUrl + item.urlPath + '&_limit=10000')
-            .then(response => response.json())
-            .then(response => {
-                return {
-                    categorySlug: item.categorySlug,
-                    snackList: response.map(item => {
-                        return {
-                            category: item.codersnacks_category,
-                            snack: item.codersnack
-                        };
-                    })
-                };
-            })
-            .catch(error => {
-                console.log(
-                    "Error fetching data for " + error + ":" + item.filename
-                );
-            })
+        .then(response => response.json())
+        .then(response => {
+            return {
+                categorySlug: item.categorySlug,
+                snackList: response.map(item => {
+                    return {
+                        category: item.codersnacks_category,
+                        snack: item.codersnack
+                    };
+                })
+            };
+        })
+        .catch(error => {
+            console.log(
+                "Error fetching data for " + error + ":" + item.filename
+            );
+        })
     )
 ).then(data => {
     // fsExtra.emptyDirSync("_posts");
