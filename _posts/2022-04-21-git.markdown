@@ -15,3 +15,4 @@ exclude: true
  * [How to to a code review - Handling pushback in code reviews](/git-code-review-pushback) 
  * [Git - Monorepo: is it worth it?](/git-monorepo-worth-it) 
  * [Git - Merging vs Rebasing](/git-merging-vs-rebasing) 
+ * [Git rebase Tutorial](/git-rebase-tutorial) 
