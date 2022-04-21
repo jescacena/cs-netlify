@@ -13,3 +13,4 @@ exclude: true
  * [How to do a code review - Speed of Code Reviews](/git-speed-code-review) 
  * [How to do a code review - How to write code review comments](/git-review-comments) 
  * [How to to a code review - Handling pushback in code reviews](/git-code-review-pushback) 
+ * [Git - Monorepo: is it worth it?](/git-monorepo-worth-it) 
