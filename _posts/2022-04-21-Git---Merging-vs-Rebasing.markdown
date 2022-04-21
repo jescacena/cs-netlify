@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  Git - Merging vs Rebasing
-date:   2022-04-21T11:33:03.717Z
+date:   2022-04-21T17:47:20.786Z
 permalink: /git-merging-vs-rebasing/
-icon: https://codersnack.com/git-code-review-pushback
+icon: https://codersnack.com/assets/images/git-icon.png
 categories: [snackpost]
 ---
 
