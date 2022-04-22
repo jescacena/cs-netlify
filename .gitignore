@@ -9,3 +9,7 @@ _algolia_api_key
 
 # Local Netlify folder
 .netlify
+
+.vscode
+
+./.vscode/launch.json
