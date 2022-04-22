@@ -6,3 +6,6 @@ vendor
 backup
 node_modules
 _algolia_api_key
+
+# Local Netlify folder
+.netlify

@@ -1,3 +1,5 @@
+# NODE VERSION
+v16.14.0
 # Codersnack site generator
 
 * Using Jekyll static site generator
@@ -9,6 +11,10 @@
 jekyll serve 
 ```
 
+* Run in local linked with netlify
+```
+netlify dev
+```
 ### Import snacks and jsons from strapi content management (in local)
 
 * Run content management **strapi** in url http://localhost:1337/. Check: **http://localhost:1337/codersnacks** is working
