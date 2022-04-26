@@ -106,6 +106,10 @@ const categoryUrlMap = [{
     {
         categorySlug: "web-standards",
         urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=web-standards"
+    },
+    {
+        categorySlug: "stenciljs",
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=stenciljs"
     }
 ];
 

@@ -13,3 +13,4 @@ exclude: true
  * [Typescript Generics](/typescript-generics/) 
  * [Typescript Declaration Modules: Library Structure](/typescript-declaration-files-library-structure/) 
  * [Typescript - What are declaration files in Typescript?](/typescript-what-declaration-files/) 
+ * [Typescript - decorators introduction](/typescript-decorators-introduction) 
