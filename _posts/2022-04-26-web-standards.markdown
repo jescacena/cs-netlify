@@ -9,3 +9,5 @@ exclude: true
 ---
  * [Web Standards - Cookies History & How It works](/web-standards-cookies-history-how-it-works) 
  * [Web Standards - Cookies - Security Concerns](/web-standards-cookies-security-concerns) 
+ * [Using the Shadow DOM](/web-components-shadow-dom/) 
+ * [Web Components - Using Templates and Slots](/web-components-templates-slots/) 
