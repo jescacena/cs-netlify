@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  A practical guide to TypeScript decorators
-date:   2022-04-26T07:44:10.731Z
+date:   2022-04-26T09:23:21.705Z
 permalink: /typescript-decorators-a-practical-guide/
 icon: https://codersnack.com/assets/images/typescript-icon.png
 categories: [snackpost]
@@ -253,15 +253,20 @@ class Rocket {
   @changeValue(100)
   fuel = 50
 }
-```
+
 
 const rocket = new Rocket()
 console.log(rocket.fuel) // 100
+```
+
 Now, if you bind your decorator factory to the fuel property, the value will be 100.
 
-Automatic error guard
+
+####   Automatic error guard
+
 Let’s implement what we’ve learned to solve a real-world problem.
 
+```
 class Rocket {
   fuel = 50;
 
@@ -269,10 +274,13 @@ class Rocket {
     console.log("Launching to Mars in 3... 2... 1... 🚀");
   }
 }
-Let’s say you have a Rocket class that has a launchToMars method. To launch a rocket to Mars, the fuel level must be above 100.
+```
+
+Let’s say you have a Rocket class that has a launchToMars method. **To launch a rocket to Mars, the fuel level must be above 100.**
 
 Let’s create the decorator for it.
 
+```
 const minimumFuel = (fuel: number) => (
   target: Object,
   propertyKey: string,
@@ -290,12 +298,14 @@ const minimumFuel = (fuel: number) => (
 
   return descriptor;
 }; 
+```
 The minimumFuel is a factory decorator. It takes the fuel parameter, which indicates how much fuel is needed to launch a particular rocket.
 
 To check the fuel condition, wrap the original method with a new method, just like in the previous use case.
 
 Now you can plug your decorator to the launchToMars method and set the minimum fuel level.
 
+```
 class Rocket {
   fuel = 50;
 
@@ -304,19 +314,23 @@ class Rocket {
     console.log("Launching to Mars in 3... 2... 1... 🚀");
   }
 }
+```
 Now if you invoke the launchToMars method, it won’t launch the rocket to Mars because the current fuel level is 50.
 
+```
 const rocket = new Rocket()
 rocket.launchToMars()
 
 
 Not enough fuel!
+```
 The cool thing about this decorator is that you can apply the same logic into a different method without rewriting the whole if-else statement.
 
 Let’s say you want to make a new method to launch the rocket to the moon. To do that, the fuel level must be above 25.
 
 Repeat the same code and change the parameter.
 
+```
 class Rocket {
   fuel = 50;
 
@@ -330,14 +344,20 @@ class Rocket {
     console.log("Launching to Moon in 3... 2... 1... 🚀")
   }
 }
+```
 Now, this rocket can be launched to the moon.
 
+```
 const rocket = new Rocket()
 rocket.launchToMoon()
 
 
 Launching to Moon in 3... 2... 1... 🚀
+```
+
 This type of decorator can be very useful for authentication and authorization purposes, such as checking whether a user is allowed to access some private data or not.
 
-Conclusion
-It’s true that, in some scenarios, it’s not necessary to make your own decorators. Many TypeScript libraries/frameworks out there, such as TypeORM and Angular, already provide all the decorators you need. But it’s always worth the extra effort to understand what’s going on under the hood, and it might even inspire you to build your own TypeScript framework.
+
+###  Conclusion
+
+It’s true that, in some scenarios, it’s not necessary to make your own decorators. Many TypeScript libraries/frameworks out there, such as TypeORM and Angular, already provide all the decorators you need. But it’s always worth the extra effort to understand **what’s going on under the hood**, and it might even inspire you to build your own TypeScript framework.
