@@ -227,6 +227,14 @@ const jsonUrlMap = [{
         filename: "litelement.quizzes.json",
         urlPath: "/codersnacks-asoc-snack-quizs?codersnacks_category.key=litelement",
     },
+    {
+        filename: "single-spa.snacks.json",
+        urlPath: "/codersnacks-asoc-snack-categories?codersnacks_category.key=single-spa",
+    },
+    {
+        filename: "single-spa.quizzes.json",
+        urlPath: "/codersnacks-asoc-snack-quizs?codersnacks_category.key=single-spa",
+    },
 ];
 
 // use map() to perform a fetch and handle the response for each url
