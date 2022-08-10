@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Single-spa Getting started
-date:   2022-04-28T19:22:55.682Z
-permalink: /single-spa-logo-getting-started/
+title:  Single-spa Introduction
+date:   2022-04-28T19:38:46.463Z
+permalink: /single-spa-introduction/
 icon: https://codersnack.com/assets/images/single-spa-logo.png
 categories: [snackpost]
 ---
