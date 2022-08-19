@@ -23,3 +23,4 @@ exclude: true
  * [How to Choose Which Flutter Animation Widget is Right for You?](/flutter-whats-the-right-animation) 
  * [Flutter Hero Animations](/flutter-hero-animations) 
  * [Flutter: Packages & Plugins](/flutter-packages-plugins) 
+ * [Flutter Navigator 2: navigation and routing system (I)](/flutter-navigator-2-I) 
