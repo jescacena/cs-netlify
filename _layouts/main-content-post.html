@@ -16,7 +16,10 @@
     {% include onload-spinner.html %}
     <main>
         <section class="post-content main-content-post">
-            {{ content }}
+            <img src="{{page.icon}}" class="featured-img" alt="{{page.title}}" />
+            <h3 class="main-header">{{ page.title }}</h3>
+            <br/>
+            <br/>{{ content }}
         </section>
     </main>
 </body>
