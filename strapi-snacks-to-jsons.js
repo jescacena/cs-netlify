@@ -265,27 +265,42 @@ Promise.all(
     fsExtra.emptyDirSync("assets/jsons");
 
     data.forEach(function(item) {
-        let content = item.jsonResponse;
+      let content = item.jsonResponse;
 
-        // Persist count of quizzes per category
-        if (item.filename.indexOf(".quizzes.") !== -1) {
-            var countFilename = "assets/jsons/" + item.filename;
-            countFilename = countFilename.replace(
-                "quizzes.json",
-                "quizzes-count.json"
-            );
-            var objContent = {
-                count: JSON.parse(content).length,
-            };
-            fs.writeFile(countFilename, JSON.stringify(objContent), (err) => {
-                if (err) throw err;
-                console.log("JSON written to file for " + countFilename);
-            });
-        }
-
-        fs.writeFile("assets/jsons/" + item.filename, content, (err) => {
-            if (err) throw err;
-            console.log("JSON written to file for " + item.filename);
+      // Persist count of quizzes per category
+      if (item.filename.indexOf('.quizzes.') !== -1) {
+        var countFilename = 'assets/jsons/' + item.filename;
+        countFilename = countFilename.replace(
+          'quizzes.json',
+          'quizzes-count.json'
+        );
+        var objContent = {
+          count: JSON.parse(content).length,
+        };
+        fs.writeFile(countFilename, JSON.stringify(objContent), err => {
+          if (err) throw err;
+          console.log('JSON written to file for ' + countFilename);
         });
+      }
+      // Persist count of snacks per category
+      if (item.filename.indexOf('.snacks.') !== -1) {
+        var countFilename = 'assets/jsons/' + item.filename;
+        countFilename = countFilename.replace(
+          'snacks.json',
+          'snacks-count.json'
+        );
+        var objContent = {
+          count: JSON.parse(content).length,
+        };
+        fs.writeFile(countFilename, JSON.stringify(objContent), err => {
+          if (err) throw err;
+          console.log('JSON written to file for ' + countFilename);
+        });
+      }
+
+      fs.writeFile('assets/jsons/' + item.filename, content, err => {
+        if (err) throw err;
+        console.log('JSON written to file for ' + item.filename);
+      });
     });
 });
